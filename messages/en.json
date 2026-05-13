@@ -1,0 +1,78 @@
+{
+  "Meta": {
+    "title": "Antalya Canyon Trail",
+    "description": "Trail running through the canyons of the Taurus mountains — October 17-18-19, 2026"
+  },
+  "Nav": {
+    "dates": "17-18-19 OCT",
+    "register": "REGISTER",
+    "races": "RACES",
+    "info": "RACE INFO",
+    "media": "MEDIA",
+    "contact": "CONTACT"
+  },
+  "Hero": {
+    "kicker": "IMAGINE RUNNING",
+    "tagline": "THE CANYONS",
+    "subtitle": "ANTALYA, TAURUS MOUNTAINS",
+    "dateRange": "OCTOBER 17-18-19, 2026"
+  },
+  "Countdown": {
+    "title": "COUNTDOWN",
+    "months": "MONTHS",
+    "days": "DAYS",
+    "hours": "HOURS",
+    "minutes": "MINUTES",
+    "seconds": "SECONDS"
+  },
+  "About": {
+    "title": "ANTALYA CANYON TRAIL",
+    "p1": "This autumn, on October 17–19, the Antalya Canyon Trail pairs the raw nature of the Taurus mountains with the technical character of Antalya's canyons — built to deliver a race you won't forget.",
+    "p2": "With 70K, 42K, 30K, 16K, and 6K courses welcoming local and international athletes of every level, runners will pass through Göynük Canyon, Sapadere, Mount Tahtalı, the ancient city of Olympos, and the unique vistas of the Beydağları range — a course as rewarding as it is demanding."
+  },
+  "Races": {
+    "title": "RACES",
+    "subtitle": "Pick the distance that fits your level",
+    "details": "Details",
+    "ultra": {
+      "name": "Antalya Canyon Ultra Trail",
+      "tagline": "Ultra distance — the real ultra experience",
+      "description": "Roughly 70 km long with 3500 m of elevation gain, the Antalya Canyon Ultra Trail consists of 55% trail, 38% single track and 7% paved road."
+    },
+    "marathon": {
+      "name": "Antalya Canyon Marathon",
+      "tagline": "Classic marathon — on the trail",
+      "description": "Roughly 42 km long with 2200 m of elevation gain, the Antalya Canyon Marathon consists of 55% trail, 40% single track and 5% paved road."
+    },
+    "epic": {
+      "name": "Antalya Canyon Epic",
+      "tagline": "Tough and scenic — mid distance",
+      "description": "Roughly 30 km long with 1500 m of elevation gain, the Antalya Canyon Epic consists of 65% trail, 30% single track and 5% paved road."
+    },
+    "short": {
+      "name": "Antalya Canyon Short",
+      "tagline": "Half-trail — perfect for first-timers",
+      "description": "Roughly 16 km long with 500 m of elevation gain, the Antalya Canyon Short consists of 70% trail, 20% single track and 10% paved road."
+    },
+    "fun": {
+      "name": "Antalya Canyon Fun Run",
+      "tagline": "Short distance — for everyone",
+      "description": "Roughly 6 km long with 200 m of elevation gain, the Antalya Canyon Fun Run is ideal for families and beginners."
+    }
+  },
+  "Sponsors": {
+    "title": "TITLE SPONSOR",
+    "main": "MAIN SPONSORS",
+    "co": "CO-SPONSORS",
+    "official": "OFFICIAL SUPPORTERS",
+    "csr": "SOCIAL RESPONSIBILITY PARTNER",
+    "placeholder": "LOGO"
+  },
+  "Footer": {
+    "tagline": "A trail running experience through the canyons of the Taurus mountains.",
+    "races": "Races",
+    "contact": "Contact",
+    "email": "info@antalyacanyon.example",
+    "rights": "© 2026 Antalya Canyon Trail. All rights reserved."
+  }
+}
