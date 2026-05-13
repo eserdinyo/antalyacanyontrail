@@ -95,8 +95,8 @@ export function RaceCard({
             className={COLOR_TINT[race.color]}
           />
           <div className="pointer-events-none absolute inset-x-0 bottom-0 flex justify-between border-t border-line pt-1 label text-ink/45">
-            <span>START</span>
-            <span>FINISH</span>
+            <span>{t("start")}</span>
+            <span>{t("finish")}</span>
           </div>
         </div>
 

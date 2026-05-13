@@ -19,14 +19,12 @@ export function About() {
       <div className="relative mx-auto grid max-w-[1400px] gap-12 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-3">
           <div className="sticky top-24 space-y-4">
-            <span className="label text-ink-soft">§ 01 · THE EVENT</span>
+            <span className="label text-ink-soft">{t("sectionLabel")}</span>
             <h2 className="font-display text-3xl leading-tight tracking-tight sm:text-4xl">
               {t("title")}
             </h2>
             <div className="rule-fancy" />
-            <p className="label text-ink-soft">
-              EST. 2026 · ANTALYA · TÜRKİYE
-            </p>
+            <p className="label text-ink-soft">{t("locationLabel")}</p>
           </div>
         </div>
 
@@ -43,10 +41,10 @@ export function About() {
           </p>
 
           <div className="mt-14 grid max-w-3xl grid-cols-2 gap-x-8 gap-y-8 border-t border-line pt-10 sm:grid-cols-4">
-            <Stat label="DISTANCE" value="6 → 70" suffix="KM" />
-            <Stat label="ELEVATION" value="200 → 3,500" suffix="M+" />
-            <Stat label="LANDMARKS" value="12" />
-            <Stat label="AID STATIONS" value="24" />
+            <Stat label={t("statDistance")} value="6 → 70" suffix="KM" />
+            <Stat label={t("statElevation")} value="200 → 3,500" suffix="M+" />
+            <Stat label={t("statLandmarks")} value="12" />
+            <Stat label={t("statAidStations")} value="24" />
           </div>
         </div>
       </div>

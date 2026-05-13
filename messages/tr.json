@@ -15,10 +15,13 @@
     "kicker": "KANYONLARDA KOŞMAYI",
     "tagline": "HAYAL ET",
     "subtitle": "ANTALYA'DA, TOROSLARDA",
-    "dateRange": "17-18-19 EKİM 2026"
+    "dateRange": "17-18-19 EKİM 2026",
+    "datesLabel": "TARİHLER",
+    "register": "KAYIT OL"
   },
   "Countdown": {
     "title": "GERİ SAYIM",
+    "subtitle": "BAŞLANGIÇ ÇİZGİSİ · YEREL SAATLE 07:00",
     "months": "AY",
     "days": "GÜN",
     "hours": "SAAT",
@@ -26,13 +29,23 @@
     "seconds": "SANİYE"
   },
   "About": {
+    "sectionLabel": "§ 01 · ETKİNLİK",
     "title": "ANTALYA CANYON TRAIL",
+    "locationLabel": "EST. 2026 · ANTALYA · TÜRKİYE",
     "p1": "Bu sonbahar, 17-18-19 Ekim'de düzenlenecek Antalya Canyon Trail, Toroslar'ın muhteşem doğasını ve kanyonların teknik yapısını birleştirerek koşuculara unutamayacakları bir patika tecrübesi sunmayı amaçlıyor.",
-    "p2": "70K, 42K, 30K, 16K ve 6K etaplarıyla her seviyeden yerli ve yabancı sporcuyu ağırlayacak olan etkinlikte koşucular; Göynük Kanyonu, Sapadere, Tahtalı Dağı, Olympos Antik Kenti ve Beydağları'nın eşsiz manzaralarından geçerek hem zorlu hem de keyifli bir yarış tecrübesi yaşayacaklar."
+    "p2": "70K, 42K, 30K, 16K ve 6K etaplarıyla her seviyeden yerli ve yabancı sporcuyu ağırlayacak olan etkinlikte koşucular; Göynük Kanyonu, Sapadere, Tahtalı Dağı, Olympos Antik Kenti ve Beydağları'nın eşsiz manzaralarından geçerek hem zorlu hem de keyifli bir yarış tecrübesi yaşayacaklar.",
+    "statDistance": "MESAFE",
+    "statElevation": "YÜKSELTİ",
+    "statLandmarks": "DURAKLAR",
+    "statAidStations": "İSTASYONLAR"
   },
   "Races": {
+    "sectionLabel": "§ 02 · PARKURLAR",
     "title": "YARIŞLAR",
     "subtitle": "Seviyene uygun olanı seç",
+    "summary": "05 YARIŞ / TEK HAFTA SONU",
+    "start": "BAŞLANGIÇ",
+    "finish": "BİTİŞ",
     "details": "Detaylar",
     "ultra": {
       "name": "Antalya Canyon Ultra Trail",
@@ -61,6 +74,8 @@
     }
   },
   "Sponsors": {
+    "sectionLabel": "§ 03 · PARTNERLER",
+    "heading": "Destekçilerimizle mümkün",
     "title": "İSİM SPONSORU",
     "main": "ANA SPONSORLAR",
     "co": "CO-SPONSORLAR",
@@ -69,6 +84,10 @@
     "placeholder": "LOGO"
   },
   "Footer": {
+    "headline": "Patikada görüşmek üzere.",
+    "edition": "I. EDİSYON · ANTALYA · TÜRKİYE",
+    "social": "IG · YT · STRAVA",
+    "love": "ANTALYA'DAN SEVGİLERLE",
     "tagline": "Toroslar'ın kanyonlarında patika koşusu deneyimi.",
     "races": "Yarışlar",
     "contact": "İletişim",

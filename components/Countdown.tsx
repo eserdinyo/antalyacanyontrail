@@ -54,12 +54,8 @@ export function Countdown() {
       />
       <div className="relative mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
         <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-bone/15 pb-4">
-          <span className="label text-bone/60">
-            COUNTDOWN&nbsp;/&nbsp;{t("title")}
-          </span>
-          <span className="label text-bone/45">
-            T-MINUS · STARTING LINE 07:00 LOCAL
-          </span>
+          <span className="label text-bone/60">{t("title")}</span>
+          <span className="label text-bone/45">{t("subtitle")}</span>
         </div>
 
         <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-5">

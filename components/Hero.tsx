@@ -45,7 +45,7 @@ export function Hero() {
             </h1>
 
             <div className="reveal delay-3 mt-8 sm:mt-10">
-              <div className="label text-bone/60">DATES</div>
+              <div className="label text-bone/60">{t("datesLabel")}</div>
               <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
                 {t("dateRange")}
               </div>
@@ -59,7 +59,7 @@ export function Hero() {
                 className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:justify-start sm:py-3"
               >
                 <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
-                REGISTER
+                {t("register")}
                 <span aria-hidden className="transition-transform group-hover:translate-x-1">
                   →
                 </span>

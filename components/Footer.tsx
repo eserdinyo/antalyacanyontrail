@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { RACES, EVENT_COORDS, EDITION } from "@/lib/event";
+import { RACES, EVENT_COORDS } from "@/lib/event";
 import { Logo } from "./Logo";
 import { RidgeLine } from "./Decorations";
 
@@ -23,10 +23,10 @@ export function Footer() {
         <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
           <p className="label text-bone/60">A · C · T</p>
           <p className="mt-3 font-display text-[14vw] leading-[0.86] tracking-tight sm:text-[10vw] lg:text-[8vw]">
-            See you on the trail.
+            {t("headline")}
           </p>
           <div className="mt-6 flex flex-wrap items-end justify-between gap-4 label text-bone/60">
-            <span>EDITION {EDITION} · {EVENT_COORDS.place}</span>
+            <span>{t("edition")}</span>
             <span>
               {EVENT_COORDS.lat} · {EVENT_COORDS.lng}
             </span>
@@ -65,7 +65,7 @@ export function Footer() {
           </a>
           <div className="mt-6 flex items-center gap-3 label text-bone/55">
             <span className="block h-1 w-1 rounded-full bg-ember" />
-            IG · YT · STRAVA
+            {t("social")}
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ export function Footer() {
       <div className="border-t border-bone/10">
         <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-3 px-5 py-6 label text-bone/50 sm:px-8">
           <span>{t("rights")}</span>
-          <span>WITH ❤︎ FROM ANTALYA</span>
+          <span>{t("love")}</span>
         </div>
       </div>
     </footer>

@@ -15,10 +15,13 @@
     "kicker": "IMAGINE RUNNING",
     "tagline": "THE CANYONS",
     "subtitle": "ANTALYA, TAURUS MOUNTAINS",
-    "dateRange": "OCTOBER 17-18-19, 2026"
+    "dateRange": "OCTOBER 17-18-19, 2026",
+    "datesLabel": "DATES",
+    "register": "REGISTER"
   },
   "Countdown": {
     "title": "COUNTDOWN",
+    "subtitle": "STARTING LINE · 07:00 LOCAL TIME",
     "months": "MONTHS",
     "days": "DAYS",
     "hours": "HOURS",
@@ -26,13 +29,23 @@
     "seconds": "SECONDS"
   },
   "About": {
+    "sectionLabel": "§ 01 · THE EVENT",
     "title": "ANTALYA CANYON TRAIL",
+    "locationLabel": "EST. 2026 · ANTALYA · TÜRKİYE",
     "p1": "This autumn, on October 17–19, the Antalya Canyon Trail pairs the raw nature of the Taurus mountains with the technical character of Antalya's canyons — built to deliver a race you won't forget.",
-    "p2": "With 70K, 42K, 30K, 16K, and 6K courses welcoming local and international athletes of every level, runners will pass through Göynük Canyon, Sapadere, Mount Tahtalı, the ancient city of Olympos, and the unique vistas of the Beydağları range — a course as rewarding as it is demanding."
+    "p2": "With 70K, 42K, 30K, 16K, and 6K courses welcoming local and international athletes of every level, runners will pass through Göynük Canyon, Sapadere, Mount Tahtalı, the ancient city of Olympos, and the unique vistas of the Beydağları range — a course as rewarding as it is demanding.",
+    "statDistance": "DISTANCE",
+    "statElevation": "ELEVATION",
+    "statLandmarks": "LANDMARKS",
+    "statAidStations": "AID STATIONS"
   },
   "Races": {
+    "sectionLabel": "§ 02 · THE COURSES",
     "title": "RACES",
     "subtitle": "Pick the distance that fits your level",
+    "summary": "05 RACES / ONE WEEKEND",
+    "start": "START",
+    "finish": "FINISH",
     "details": "Details",
     "ultra": {
       "name": "Antalya Canyon Ultra Trail",
@@ -61,6 +74,8 @@
     }
   },
   "Sponsors": {
+    "sectionLabel": "§ 03 · PARTNERS",
+    "heading": "Made possible by",
     "title": "TITLE SPONSOR",
     "main": "MAIN SPONSORS",
     "co": "CO-SPONSORS",
@@ -69,6 +84,10 @@
     "placeholder": "LOGO"
   },
   "Footer": {
+    "headline": "See you on the trail.",
+    "edition": "EDITION I · ANTALYA · TÜRKİYE",
+    "social": "IG · YT · STRAVA",
+    "love": "WITH ❤︎ FROM ANTALYA",
     "tagline": "A trail running experience through the canyons of the Taurus mountains.",
     "races": "Races",
     "contact": "Contact",
