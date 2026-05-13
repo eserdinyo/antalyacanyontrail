@@ -49,14 +49,14 @@
     "finish": "FINISH",
     "details": "Details",
     "ultra": {
-      "name": "Antalya Canyon Ultra",
+      "name": "Antalya Termessos Ultra",
       "tagline": "Ultra distance — the real ultra experience",
-      "description": "Roughly 70 km long with 3500 m of elevation gain, the Antalya Canyon Ultra consists of 55% trail, 38% single track and 7% paved road."
+      "description": "Roughly 70 km long with 3500 m of elevation gain, the Antalya Termessos Ultra consists of 55% trail, 38% single track and 7% paved road."
     },
     "marathon": {
-      "name": "Antalya Güver Marathon",
+      "name": "Antalya Canyon Marathon",
       "tagline": "Classic marathon — on the trail",
-      "description": "Roughly 45 km long with 2200 m of elevation gain, the Antalya Güver Marathon consists of 55% trail, 40% single track and 5% paved road."
+      "description": "Roughly 45 km long with 2200 m of elevation gain, the Antalya Canyon Marathon consists of 55% trail, 40% single track and 5% paved road."
     },
     "epic": {
       "name": "Alageyik Trail",

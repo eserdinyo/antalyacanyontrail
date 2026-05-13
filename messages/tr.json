@@ -49,14 +49,14 @@
     "finish": "BİTİŞ",
     "details": "Detaylar",
     "ultra": {
-      "name": "Antalya Canyon Ultra",
+      "name": "Antalya Termessos Ultra",
       "tagline": "Ultra mesafe — gerçek ultra deneyim",
-      "description": "Yaklaşık 70 km uzunluğu ve 3500 m yükseklik kazanımı olan Antalya Canyon Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 70 km uzunluğu ve 3500 m yükseklik kazanımı olan Antalya Termessos Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
     },
     "marathon": {
-      "name": "Antalya Güver Marathon",
+      "name": "Antalya Canyon Marathon",
       "tagline": "Klasik maraton mesafesi — patikada",
-      "description": "Yaklaşık 45 km uzunluğu ve 2200 m yükseklik kazanımı olan Antalya Güver Marathon; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 45 km uzunluğu ve 2200 m yükseklik kazanımı olan Antalya Canyon Marathon; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
     },
     "epic": {
       "name": "Alageyik Parkuru",
