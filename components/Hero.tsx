@@ -1,15 +1,8 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import {
-  HERO_IMAGE,
-  RACES,
-  EVENT_COORDS,
-  EDITION,
-  REGISTER_URL,
-} from "@/lib/event";
+import { HERO_IMAGE, RACES, REGISTER_URL } from "@/lib/event";
 import { RaceBadge } from "./RaceBadge";
 import { ElevationProfile } from "./ElevationProfile";
-import { Compass } from "./Decorations";
 
 export function Hero() {
   const t = useTranslations("Hero");
@@ -36,57 +29,34 @@ export function Hero() {
         }}
       />
 
-      {/* top meta strip */}
-      <div className="relative border-b border-bone/15">
-        <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-5 py-3 label sm:px-8 reveal">
-          <span className="flex items-center gap-3 text-bone/75">
-            <span className="block h-1 w-1 rounded-full bg-ember" />
-            {EVENT_COORDS.place}
-          </span>
-          <span className="hidden text-bone/60 sm:inline">
-            {EVENT_COORDS.lat} &nbsp;·&nbsp; {EVENT_COORDS.lng}
-          </span>
-          <span className="text-bone/75">EDITION · {EDITION}</span>
-        </div>
-      </div>
-
       {/* headline grid */}
-      <div className="relative mx-auto flex min-h-[78vh] max-w-[1400px] flex-col justify-between px-5 pb-6 pt-14 sm:px-8 sm:pt-20">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
-          <div className="lg:col-span-8">
-            <p className="label-lg text-bone/75 reveal delay-1">
+      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[78vh] sm:px-8 sm:pt-20">
+        <div>
+          <div className="max-w-5xl">
+            <p className="label text-bone/75 reveal delay-1 sm:label-lg">
               {t("subtitle")}
             </p>
 
-            <h1 className="reveal delay-2 mt-6 font-display text-[14vw] leading-[0.86] tracking-tight sm:text-[10vw] lg:text-[8.5vw]">
-              <span className="block">{t("kicker")}</span>
+            <h1 className="reveal delay-2 mt-5 font-display leading-[0.88] tracking-tight text-[clamp(2.75rem,11vw,8.5rem)] sm:mt-6 sm:leading-[0.86]">
+              <span className="block text-white">{t("kicker")}</span>
               <span className="block font-display-wonk text-ember">
                 {t("tagline")}
               </span>
             </h1>
 
-            <div className="reveal delay-3 mt-10 flex flex-wrap items-end gap-x-10 gap-y-4">
-              <div>
-                <div className="label text-bone/60">DATES</div>
-                <div className="mt-1 font-display text-2xl tracking-tight sm:text-3xl">
-                  {t("dateRange")}
-                </div>
-              </div>
-              <div className="hidden h-8 w-px bg-bone/25 sm:block" />
-              <div>
-                <div className="label text-bone/60">FIVE RACES</div>
-                <div className="mt-1 font-mono text-base tracking-widest">
-                  70 · 42 · 30 · 16 · 6&nbsp;<span className="opacity-70">KM</span>
-                </div>
+            <div className="reveal delay-3 mt-8 sm:mt-10">
+              <div className="label text-bone/60">DATES</div>
+              <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
+                {t("dateRange")}
               </div>
             </div>
 
-            <div className="reveal delay-4 mt-10 flex flex-wrap items-center gap-3">
+            <div className="reveal delay-4 mt-8 flex flex-wrap items-center gap-3 sm:mt-10">
               <a
                 href={REGISTER_URL}
                 target="_blank"
                 rel="noopener"
-                className="group inline-flex items-center gap-3 bg-ember px-6 py-3 label-lg text-bone transition-colors hover:bg-ember-deep"
+                className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:justify-start sm:py-3"
               >
                 <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
                 REGISTER
@@ -94,34 +64,23 @@ export function Hero() {
                   →
                 </span>
               </a>
-              <a
-                href="#races"
-                className="inline-flex items-center gap-3 border border-bone/30 px-6 py-3 label-lg text-bone/90 transition-colors hover:bg-bone/5"
-              >
-                EXPLORE THE COURSE
-              </a>
             </div>
           </div>
-
-          {/* right column — compass + small marginalia */}
-          <aside className="reveal delay-3 hidden lg:col-span-4 lg:flex lg:flex-col lg:items-end lg:justify-between">
-            <div className="text-bone/80">
-              <Compass size={84} />
-            </div>
-            <div className="max-w-[260px] text-right">
-              <div className="label text-bone/60">FROM THE FIELD NOTES</div>
-              <p className="mt-3 font-display-wonk text-lg leading-snug text-bone/90">
-                “Where limestone cliffs meet the Mediterranean and pine forests
-                climb the Taurus.”
-              </p>
-            </div>
-          </aside>
         </div>
 
-        {/* badge row */}
-        <div className="reveal delay-5 mt-12 flex flex-wrap items-end justify-start gap-3 sm:gap-4">
-          {RACES.map((race) => (
-            <RaceBadge key={race.code} race={race} size="md" />
+        {/* badge row — 3+2 centered grid on mobile, single row on desktop */}
+        <div className="reveal delay-5 grid grid-cols-6 items-end gap-2 sm:flex sm:flex-row sm:gap-4">
+          {RACES.map((race, i) => (
+            <div
+              key={race.code}
+              className={`flex justify-center sm:contents ${
+                i < 3 ? "col-span-2" : ""
+              } ${i === 3 ? "col-span-2 col-start-2" : ""} ${
+                i === 4 ? "col-span-2 col-start-4" : ""
+              }`}
+            >
+              <RaceBadge race={race} size="md" />
+            </div>
           ))}
         </div>
       </div>

@@ -11,9 +11,15 @@ const PALETTE: Record<RaceColor, Palette> = {
 };
 
 const SIZE = {
-  sm: { w: 64, h: 76, dist: 22, km: 7, elev: 6.5 },
-  md: { w: 96, h: 114, dist: 33, km: 9, elev: 8.5 },
-  lg: { w: 144, h: 170, dist: 48, km: 12, elev: 11 },
+  sm: { dist: 22, km: 7, elev: 6.5 },
+  md: { dist: 33, km: 9, elev: 8.5 },
+  lg: { dist: 48, km: 12, elev: 11 },
+};
+
+const SIZE_CLASS = {
+  sm: "w-16 h-[76px]",
+  md: "w-[104px] h-[124px] sm:w-24 sm:h-[114px]",
+  lg: "w-28 h-[132px] sm:w-36 sm:h-[170px]",
 };
 
 export function RaceBadge({
@@ -30,11 +36,9 @@ export function RaceBadge({
   return (
     <svg
       viewBox="0 0 100 120"
-      width={s.w}
-      height={s.h}
       role="img"
       aria-label={`${race.distanceKm} kilometers, ${race.elevationM} meters elevation`}
-      className="drop-shadow-[0_8px_18px_rgba(27,24,23,0.32)]"
+      className={`${SIZE_CLASS[size]} shrink-0 drop-shadow-[0_8px_18px_rgba(27,24,23,0.32)]`}
     >
       <defs>
         <linearGradient id={`${id}-fill`} x1="0" y1="0" x2="0" y2="1">
