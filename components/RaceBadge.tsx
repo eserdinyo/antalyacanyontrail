@@ -11,13 +11,13 @@ const PALETTE: Record<RaceColor, Palette> = {
 };
 
 const SIZE = {
-  sm: { dist: 22, km: 7, elev: 6.5 },
+  sm: { dist: 34, km: 11, elev: 10 },
   md: { dist: 33, km: 9, elev: 8.5 },
   lg: { dist: 48, km: 12, elev: 11 },
 };
 
 const SIZE_CLASS = {
-  sm: "w-16 h-[76px]",
+  sm: "w-20 h-24",
   md: "w-[104px] h-[124px] sm:w-24 sm:h-[114px]",
   lg: "w-28 h-[132px] sm:w-36 sm:h-[170px]",
 };
@@ -81,23 +81,23 @@ export function RaceBadge({
       </g>
 
       {/* elevation chip */}
-      <g transform="translate(50 31)">
+      <g transform="translate(50 32)">
         <rect
-          x={-19}
-          y={-7}
-          width={38}
-          height={13}
-          rx={6.5}
+          x={-24}
+          y={-9}
+          width={48}
+          height={17}
+          rx={8.5}
           fill="rgba(0,0,0,0.35)"
         />
         <text
           x={0}
-          y={2.5}
+          y={3}
           textAnchor="middle"
           fontFamily="var(--font-sans), system-ui, sans-serif"
           fontWeight={600}
           fontSize={s.elev}
-          letterSpacing="0.1em"
+          letterSpacing="0.08em"
           fill={p.ink}
         >
           {race.elevationM}M+

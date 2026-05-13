@@ -15,11 +15,9 @@ const COLOR_TINT: Record<Race["color"], string> = {
 export function RaceCard({
   race,
   variant = "default",
-  index,
 }: {
   race: Race;
   variant?: "default" | "featured";
-  index: number;
 }) {
   const t = useTranslations("Races");
   const featured = variant === "featured";
@@ -30,11 +28,6 @@ export function RaceCard({
         featured ? "lg:flex-row" : ""
       }`}
     >
-      {/* index */}
-      <div className="absolute left-4 top-4 z-10 label text-ink/45">
-        {`0${index}/05`}
-      </div>
-
       <div
         className={`relative overflow-hidden ${
           featured ? "aspect-[16/12] lg:aspect-auto lg:w-1/2" : "aspect-[5/4]"
@@ -66,12 +59,9 @@ export function RaceCard({
         }`}
       >
         <div>
-          <div className="flex items-baseline justify-between gap-3">
-            <span className={`label ${COLOR_TINT[race.color]}`}>
-              {race.code}
-            </span>
-            <span className="font-mono text-[10px] tracking-widest text-ink-soft">
-              {race.elevationM}M+ &nbsp;·&nbsp; {race.distanceKm}KM
+          <div className="flex">
+            <span className="text-xs font-bold tracking-widest text-ink">
+              {race.distanceKm}KM &nbsp;·&nbsp; {race.elevationM}M+
             </span>
           </div>
           <h3
@@ -108,14 +98,13 @@ export function RaceCard({
           {t(`${race.slug}.description`)}
         </p>
 
-        <div className="mt-auto flex items-center justify-between border-t border-line pt-4">
+        <div className="mt-auto border-t border-line pt-4">
           <a
             href="#"
             className="inline-flex items-center gap-2 label hover-swell text-ink"
           >
             {t("details")} <span aria-hidden>→</span>
           </a>
-          <span className="label text-ink-soft">{race.code}</span>
         </div>
       </div>
     </article>

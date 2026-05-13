@@ -29,13 +29,13 @@ export function RaceCategories() {
 
         {/* featured ultra */}
         <div className="mt-10">
-          <RaceCard race={ultra} variant="featured" index={1} />
+          <RaceCard race={ultra} variant="featured" />
         </div>
 
         {/* grid of the rest */}
         <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {rest.map((race, i) => (
-            <RaceCard key={race.code} race={race} index={i + 2} />
+          {rest.map((race) => (
+            <RaceCard key={race.code} race={race} />
           ))}
         </div>
       </div>
