@@ -1,10 +1,10 @@
 {
   "Meta": {
     "title": "Antalya Canyon Trail",
-    "description": "Toroslar'ın kanyonlarında patika koşusu — 17-18-19 Ekim 2026"
+    "description": "Toroslar'ın kanyonlarında patika koşusu — 13-15 Kasım 2026"
   },
   "Nav": {
-    "dates": "17-18-19 EKİM",
+    "dates": "13-15 KASIM",
     "register": "KAYIT OL",
     "races": "YARIŞLAR",
     "info": "YARIŞ BİLGİSİ",
@@ -15,7 +15,8 @@
     "kicker": "KANYONLARDA KOŞMAYI",
     "tagline": "HAYAL ET",
     "subtitle": "ANTALYA'DA, TOROSLARDA",
-    "dateRange": "17-18-19 EKİM 2026",
+    "slogan": "Sonbaharın bitmediği yer.",
+    "dateRange": "13-15 KASIM 2026",
     "datesLabel": "TARİHLER",
     "register": "KAYIT OL"
   },
@@ -32,8 +33,8 @@
     "sectionLabel": "§ 01 · ETKİNLİK",
     "title": "ANTALYA CANYON TRAIL",
     "locationLabel": "EST. 2026 · ANTALYA · TÜRKİYE",
-    "p1": "Bu sonbahar, 17-18-19 Ekim'de düzenlenecek Antalya Canyon Trail, Toroslar'ın muhteşem doğasını ve kanyonların teknik yapısını birleştirerek koşuculara unutamayacakları bir patika tecrübesi sunmayı amaçlıyor.",
-    "p2": "70K, 42K, 30K, 16K ve 6K etaplarıyla her seviyeden yerli ve yabancı sporcuyu ağırlayacak olan etkinlikte koşucular; Göynük Kanyonu, Sapadere, Tahtalı Dağı, Olympos Antik Kenti ve Beydağları'nın eşsiz manzaralarından geçerek hem zorlu hem de keyifli bir yarış tecrübesi yaşayacaklar.",
+    "p1": "Bu sonbahar, 13-15 Kasım'da düzenlenecek Antalya Canyon Trail, Toroslar'ın muhteşem doğasını ve kanyonların teknik yapısını birleştirerek koşuculara unutamayacakları bir patika tecrübesi sunmayı amaçlıyor.",
+    "p2": "70K, 45K, 30K, 12K ve 5K etaplarıyla her seviyeden yerli ve yabancı sporcuyu ağırlayacak olan etkinlikte koşucular; Göynük Kanyonu, Güver Kanyonu, Sapadere, Tahtalı Dağı, Olympos Antik Kenti ve Beydağları'nın eşsiz manzaralarından geçerek hem zorlu hem de keyifli bir yarış tecrübesi yaşayacaklar.",
     "statDistance": "MESAFE",
     "statElevation": "YÜKSELTİ",
     "statLandmarks": "DURAKLAR",
@@ -48,29 +49,29 @@
     "finish": "BİTİŞ",
     "details": "Detaylar",
     "ultra": {
-      "name": "Antalya Canyon Ultra Trail",
+      "name": "Antalya Canyon Ultra",
       "tagline": "Ultra mesafe — gerçek ultra deneyim",
-      "description": "Yaklaşık 70 km uzunluğu ve 3500 m yükseklik kazanımı olan Antalya Canyon Ultra Trail; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 70 km uzunluğu ve 3500 m yükseklik kazanımı olan Antalya Canyon Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
     },
     "marathon": {
-      "name": "Antalya Canyon Marathon",
+      "name": "Antalya Güver Marathon",
       "tagline": "Klasik maraton mesafesi — patikada",
-      "description": "Yaklaşık 42 km uzunluğu ve 2200 m yükseklik kazanımı olan Antalya Canyon Marathon; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 45 km uzunluğu ve 2200 m yükseklik kazanımı olan Antalya Güver Marathon; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
     },
     "epic": {
-      "name": "Antalya Canyon Epic",
+      "name": "Antalya Canyon Challenge",
       "tagline": "Sert ve manzaralı — orta mesafe",
-      "description": "Yaklaşık 30 km uzunluğu ve 1500 m yükseklik kazanımı olan Antalya Canyon Epic; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 30 km uzunluğu ve 1500 m yükseklik kazanımı olan Antalya Canyon Challenge; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
     },
     "short": {
-      "name": "Antalya Canyon Short",
+      "name": "Güver Cliff Trail",
       "tagline": "Yarı patika — başlangıç için ideal",
-      "description": "Yaklaşık 16 km uzunluğu ve 500 m yükseklik kazanımı olan Antalya Canyon Short; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 12 km uzunluğu ve 500 m yükseklik kazanımı olan Güver Cliff Trail; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
     },
     "fun": {
-      "name": "Antalya Canyon Fun Run",
+      "name": "My Pace Run",
       "tagline": "Kısa mesafe — herkes için",
-      "description": "Yaklaşık 6 km uzunluğu ve 200 m yükseklik kazanımı olan Antalya Canyon Fun Run; aile ve yeni başlayanlar için ideal bir parkurdur."
+      "description": "Yaklaşık 5 km uzunluğu ve 200 m yükseklik kazanımı olan My Pace Run; aile ve yeni başlayanlar için ideal bir parkurdur."
     }
   },
   "Sponsors": {

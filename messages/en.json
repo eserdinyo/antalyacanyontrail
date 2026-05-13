@@ -1,10 +1,10 @@
 {
   "Meta": {
     "title": "Antalya Canyon Trail",
-    "description": "Trail running through the canyons of the Taurus mountains — October 17-18-19, 2026"
+    "description": "Trail running through the canyons of the Taurus mountains — November 13-15, 2026"
   },
   "Nav": {
-    "dates": "17-18-19 OCT",
+    "dates": "13-15 NOV",
     "register": "REGISTER",
     "races": "RACES",
     "info": "RACE INFO",
@@ -15,7 +15,8 @@
     "kicker": "IMAGINE RUNNING",
     "tagline": "THE CANYONS",
     "subtitle": "ANTALYA, TAURUS MOUNTAINS",
-    "dateRange": "OCTOBER 17-18-19, 2026",
+    "slogan": "Where autumn never ends.",
+    "dateRange": "NOVEMBER 13–15, 2026",
     "datesLabel": "DATES",
     "register": "REGISTER"
   },
@@ -32,8 +33,8 @@
     "sectionLabel": "§ 01 · THE EVENT",
     "title": "ANTALYA CANYON TRAIL",
     "locationLabel": "EST. 2026 · ANTALYA · TÜRKİYE",
-    "p1": "This autumn, on October 17–19, the Antalya Canyon Trail pairs the raw nature of the Taurus mountains with the technical character of Antalya's canyons — built to deliver a race you won't forget.",
-    "p2": "With 70K, 42K, 30K, 16K, and 6K courses welcoming local and international athletes of every level, runners will pass through Göynük Canyon, Sapadere, Mount Tahtalı, the ancient city of Olympos, and the unique vistas of the Beydağları range — a course as rewarding as it is demanding.",
+    "p1": "This autumn, on November 13–15, the Antalya Canyon Trail pairs the raw nature of the Taurus mountains with the technical character of Antalya's canyons — built to deliver a race you won't forget.",
+    "p2": "With 70K, 45K, 30K, 12K, and 5K courses welcoming local and international athletes of every level, runners will pass through Göynük Canyon, Güver Canyon, Sapadere, Mount Tahtalı, the ancient city of Olympos, and the unique vistas of the Beydağları range — a course as rewarding as it is demanding.",
     "statDistance": "DISTANCE",
     "statElevation": "ELEVATION",
     "statLandmarks": "LANDMARKS",
@@ -48,29 +49,29 @@
     "finish": "FINISH",
     "details": "Details",
     "ultra": {
-      "name": "Antalya Canyon Ultra Trail",
+      "name": "Antalya Canyon Ultra",
       "tagline": "Ultra distance — the real ultra experience",
-      "description": "Roughly 70 km long with 3500 m of elevation gain, the Antalya Canyon Ultra Trail consists of 55% trail, 38% single track and 7% paved road."
+      "description": "Roughly 70 km long with 3500 m of elevation gain, the Antalya Canyon Ultra consists of 55% trail, 38% single track and 7% paved road."
     },
     "marathon": {
-      "name": "Antalya Canyon Marathon",
+      "name": "Antalya Güver Marathon",
       "tagline": "Classic marathon — on the trail",
-      "description": "Roughly 42 km long with 2200 m of elevation gain, the Antalya Canyon Marathon consists of 55% trail, 40% single track and 5% paved road."
+      "description": "Roughly 45 km long with 2200 m of elevation gain, the Antalya Güver Marathon consists of 55% trail, 40% single track and 5% paved road."
     },
     "epic": {
-      "name": "Antalya Canyon Epic",
+      "name": "Antalya Canyon Challenge",
       "tagline": "Tough and scenic — mid distance",
-      "description": "Roughly 30 km long with 1500 m of elevation gain, the Antalya Canyon Epic consists of 65% trail, 30% single track and 5% paved road."
+      "description": "Roughly 30 km long with 1500 m of elevation gain, the Antalya Canyon Challenge consists of 65% trail, 30% single track and 5% paved road."
     },
     "short": {
-      "name": "Antalya Canyon Short",
+      "name": "Güver Cliff Trail",
       "tagline": "Half-trail — perfect for first-timers",
-      "description": "Roughly 16 km long with 500 m of elevation gain, the Antalya Canyon Short consists of 70% trail, 20% single track and 10% paved road."
+      "description": "Roughly 12 km long with 500 m of elevation gain, the Güver Cliff Trail consists of 70% trail, 20% single track and 10% paved road."
     },
     "fun": {
-      "name": "Antalya Canyon Fun Run",
+      "name": "My Pace Run",
       "tagline": "Short distance — for everyone",
-      "description": "Roughly 6 km long with 200 m of elevation gain, the Antalya Canyon Fun Run is ideal for families and beginners."
+      "description": "Roughly 5 km long with 200 m of elevation gain, the My Pace Run is ideal for families and beginners."
     }
   },
   "Sponsors": {

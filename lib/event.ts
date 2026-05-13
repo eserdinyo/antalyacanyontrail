@@ -1,4 +1,4 @@
-export const EVENT_DATE = new Date("2026-10-17T07:00:00+03:00");
+export const EVENT_DATE = new Date("2026-11-13T07:00:00+03:00");
 
 export const EVENT_COORDS = {
   lat: "36°53′29″N",
@@ -49,9 +49,9 @@ export const RACES: Race[] = [
     profile: HARD_PROFILE,
   },
   {
-    code: "ACM42",
+    code: "ACT45",
     slug: "marathon",
-    distanceKm: 42,
+    distanceKm: 45,
     elevationM: 2200,
     color: "ember",
     image:
@@ -59,7 +59,7 @@ export const RACES: Race[] = [
     profile: MED_PROFILE,
   },
   {
-    code: "ACE30",
+    code: "ACT30",
     slug: "epic",
     distanceKm: 30,
     elevationM: 1500,
@@ -69,9 +69,9 @@ export const RACES: Race[] = [
     profile: HILL_PROFILE,
   },
   {
-    code: "AC16",
+    code: "ACT12",
     slug: "short",
-    distanceKm: 16,
+    distanceKm: 12,
     elevationM: 500,
     color: "moss",
     image:
@@ -79,9 +79,9 @@ export const RACES: Race[] = [
     profile: ROLL_PROFILE,
   },
   {
-    code: "AC6",
+    code: "ACT05",
     slug: "fun",
-    distanceKm: 6,
+    distanceKm: 5,
     elevationM: 200,
     color: "shadow",
     image:

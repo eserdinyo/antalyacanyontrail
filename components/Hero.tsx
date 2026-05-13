@@ -44,7 +44,11 @@ export function Hero() {
               </span>
             </h1>
 
-            <div className="reveal delay-3 mt-8 sm:mt-10">
+            <p className="reveal delay-3 mt-6 max-w-xl font-display-wonk text-lg leading-snug text-bone/80 sm:mt-8 sm:text-2xl">
+              {t("slogan")}
+            </p>
+
+            <div className="reveal delay-3 mt-6 sm:mt-8">
               <div className="label text-bone/60">{t("datesLabel")}</div>
               <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
                 {t("dateRange")}
