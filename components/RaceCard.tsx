@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import type { Race } from "@/lib/event";
 import { RaceBadge } from "./RaceBadge";
 import { ElevationProfile } from "./ElevationProfile";
@@ -99,12 +100,12 @@ export function RaceCard({
         </p>
 
         <div className="mt-auto border-t border-line pt-4">
-          <a
-            href="#"
+          <Link
+            href={`/races/${race.slug}`}
             className="inline-flex items-center gap-2 label hover-swell text-ink"
           >
             {t("details")} <span aria-hidden>→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </article>

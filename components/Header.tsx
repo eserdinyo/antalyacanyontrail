@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { Logo } from "./Logo";
 import { LangSwitcher } from "./LangSwitcher";
 
@@ -19,10 +20,10 @@ export function Header() {
   }, []);
 
   const links = [
-    { href: "#races", label: t("races") },
-    { href: "#info", label: t("info") },
-    { href: "#sponsors", label: t("media") },
-    { href: "#footer", label: t("contact") },
+    { href: "/#races", label: t("races") },
+    { href: "/#info", label: t("info") },
+    { href: "/#sponsors", label: t("media") },
+    { href: "/#footer", label: t("contact") },
   ];
 
   return (
@@ -34,17 +35,17 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between gap-6 px-5 sm:px-8">
-        <Logo />
+        <Logo size="xl" />
 
         <nav className="hidden items-center gap-8 lg:flex">
           {links.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               className="label hover-swell text-ink/85 hover:text-ink"
             >
               {l.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -65,14 +66,14 @@ export function Header() {
         <div className="border-t border-line bg-bone px-5 py-5 lg:hidden">
           <div className="flex flex-col gap-4">
             {links.map((l) => (
-              <a
+              <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
                 className="label-lg text-ink"
               >
                 {l.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

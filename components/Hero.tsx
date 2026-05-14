@@ -33,11 +33,7 @@ export function Hero() {
       <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[78vh] sm:px-8 sm:pt-20">
         <div>
           <div className="max-w-5xl">
-            <p className="label text-bone/75 reveal delay-1 sm:label-lg">
-              {t("subtitle")}
-            </p>
-
-            <h1 className="reveal delay-2 mt-5 font-display leading-[0.88] tracking-tight text-[clamp(2.75rem,11vw,8.5rem)] sm:mt-6 sm:leading-[0.86]">
+            <h1 className="reveal delay-2 font-display leading-[0.88] tracking-tight text-[clamp(2.75rem,11vw,8.5rem)] sm:leading-[0.86]">
               <span className="block text-white">{t("kicker")}</span>
               <span className="block font-display-wonk text-ember">
                 {t("tagline")}

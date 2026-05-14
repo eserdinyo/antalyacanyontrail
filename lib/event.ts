@@ -10,31 +10,62 @@ export const EDITION = "I";
 
 export type RaceColor = "ember-deep" | "ember" | "ochre" | "moss" | "shadow";
 
+export type RaceSlug = "ultra" | "marathon" | "epic" | "short" | "fun";
+
+export type GpxTrack = {
+  /* public path served by /public */
+  file: string;
+  /* measured from GPX */
+  measuredKm: number;
+  ascentM: number;
+  minEleM: number;
+  maxEleM: number;
+};
+
 export type Race = {
   code: string;
-  slug: "ultra" | "marathon" | "epic" | "short" | "fun";
+  slug: RaceSlug;
   distanceKm: number;
   elevationM: number;
   color: RaceColor;
   image: string;
   /* relative elevation profile, 0..1 array, length ~16, for SVG decoration */
   profile: number[];
+  /* present only when a recorded GPX track is available */
+  gpx?: GpxTrack;
 };
 
-const HARD_PROFILE = [
-  0.08, 0.18, 0.3, 0.5, 0.42, 0.7, 0.82, 0.95, 0.78, 0.86, 0.62, 0.4, 0.55, 0.32, 0.2, 0.05,
-];
+export function getRace(slug: string): Race | undefined {
+  return RACES.find((r) => r.slug === slug);
+}
+
+// Placeholder shape for 45K — replace when GPX is available.
 const MED_PROFILE = [
   0.1, 0.3, 0.48, 0.4, 0.62, 0.75, 0.55, 0.7, 0.45, 0.55, 0.35, 0.25, 0.15, 0.1, 0.05, 0.02,
 ];
-const HILL_PROFILE = [
-  0.1, 0.25, 0.4, 0.55, 0.7, 0.65, 0.5, 0.45, 0.35, 0.3, 0.25, 0.2, 0.15, 0.1, 0.05, 0.02,
+
+// Measured from GPX: 70K Antalya Termessos Ultra — 71.4 km, ~3564 m gain (316–2532 m).
+const TERMESSOS_PROFILE = [
+  0.663, 0.672, 0.521, 0.416, 0.14, 0.053, 0, 0.016,
+  0.083, 0.248, 0.507, 0.728, 0.931, 1, 0.899, 0.664,
 ];
-const ROLL_PROFILE = [
-  0.1, 0.25, 0.18, 0.32, 0.42, 0.3, 0.4, 0.28, 0.32, 0.2, 0.15, 0.1, 0.08, 0.05, 0.04, 0.02,
+
+// Measured from GPX: 35K Alageyik Parkuru — 35.4 km, ~639 m gain (200–578 m).
+const ALAGEYIK_PROFILE = [
+  0.195, 0.152, 0.097, 0.15, 0.159, 0.16, 0.058, 0.165,
+  0, 0.009, 0.329, 1, 0.459, 0.504, 0.328, 0.191,
 ];
-const FLAT_PROFILE = [
-  0.05, 0.1, 0.12, 0.14, 0.18, 0.16, 0.14, 0.12, 0.1, 0.08, 0.07, 0.06, 0.05, 0.04, 0.03, 0.02,
+
+// Measured from GPX: 12K Güver Cliff Trail — 12.1 km, ~68 m gain (247–301 m).
+const GUVER_PROFILE = [
+  0.961, 0.849, 0.814, 0.677, 0.548, 0.529, 0, 0.415,
+  0.411, 0.72, 0.692, 0.679, 0.747, 0.889, 1, 0.92,
+];
+
+// Measured from GPX: 5K My Pace Run — 6.5 km recon, ~20 m gain (275–297 m).
+const PACE5K_PROFILE = [
+  1, 0.89, 0.662, 0.633, 0.566, 0.378, 0.095, 0.03,
+  0, 0.062, 0.383, 0.564, 0.639, 0.661, 0.894, 0.986,
 ];
 
 export const RACES: Race[] = [
@@ -46,7 +77,14 @@ export const RACES: Race[] = [
     color: "ember-deep",
     image:
       "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=80",
-    profile: HARD_PROFILE,
+    profile: TERMESSOS_PROFILE,
+    gpx: {
+      file: "/routes/act70-termessos-ultra.gpx",
+      measuredKm: 71.4,
+      ascentM: 3564,
+      minEleM: 316,
+      maxEleM: 2532,
+    },
   },
   {
     code: "ACT45",
@@ -66,7 +104,14 @@ export const RACES: Race[] = [
     color: "ochre",
     image:
       "https://images.unsplash.com/photo-1502904550040-7534597429ae?w=1200&q=80",
-    profile: HILL_PROFILE,
+    profile: ALAGEYIK_PROFILE,
+    gpx: {
+      file: "/routes/act30-alageyik-parkuru.gpx",
+      measuredKm: 35.4,
+      ascentM: 639,
+      minEleM: 200,
+      maxEleM: 578,
+    },
   },
   {
     code: "ACT12",
@@ -76,7 +121,14 @@ export const RACES: Race[] = [
     color: "moss",
     image:
       "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=1200&q=80",
-    profile: ROLL_PROFILE,
+    profile: GUVER_PROFILE,
+    gpx: {
+      file: "/routes/act12-guver-cliff-trail.gpx",
+      measuredKm: 12.1,
+      ascentM: 68,
+      minEleM: 247,
+      maxEleM: 301,
+    },
   },
   {
     code: "ACT05",
@@ -86,7 +138,14 @@ export const RACES: Race[] = [
     color: "shadow",
     image:
       "https://images.unsplash.com/photo-1486218119243-13883505764c?w=1200&q=80",
-    profile: FLAT_PROFILE,
+    profile: PACE5K_PROFILE,
+    gpx: {
+      file: "/routes/act05-pace-run.gpx",
+      measuredKm: 6.5,
+      ascentM: 20,
+      minEleM: 275,
+      maxEleM: 297,
+    },
   },
 ];
 

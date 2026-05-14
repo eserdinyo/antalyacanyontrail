@@ -14,7 +14,6 @@
   "Hero": {
     "kicker": "IMAGINE RUNNING",
     "tagline": "THE CANYONS",
-    "subtitle": "ANTALYA, TAURUS MOUNTAINS",
     "slogan": "Where autumn never ends.",
     "dateRange": "NOVEMBER 13–15, 2026",
     "datesLabel": "DATES",
@@ -74,6 +73,31 @@
       "description": "Roughly 5 km long with 200 m of elevation gain, the My Pace Run is ideal for families and beginners."
     }
   },
+  "RaceDetail": {
+    "back": "All races",
+    "kicker": "§ 02 · COURSE",
+    "summary": "AT A GLANCE",
+    "statDistance": "DISTANCE",
+    "statElevation": "ELEVATION GAIN",
+    "statSurface": "SURFACE",
+    "statLow": "LOWEST POINT",
+    "statHigh": "HIGHEST POINT",
+    "statMeasured": "MEASURED",
+    "profileTitle": "Elevation profile",
+    "profileNote": "Recorded from a recon run. Final markings and aid stations may shift.",
+    "profilePlaceholder": "Stylized profile — the GPX track for this course will be published closer to race day.",
+    "axisElevation": "ELEVATION · M",
+    "axisDistance": "DISTANCE · KM",
+    "courseTitle": "The course",
+    "downloadTitle": "GPX track",
+    "downloadDesc": "Pre-recorded reference track. Drop it into Garmin, Suunto or Strava to preview the route.",
+    "downloadCta": "Download GPX",
+    "downloadShort": "GPX",
+    "downloadSoon": "GPX soon",
+    "otherRaces": "Other distances",
+    "register": "Register",
+    "tba": "TBA"
+  },
   "Sponsors": {
     "sectionLabel": "§ 03 · PARTNERS",
     "heading": "Made possible by",
@@ -95,12 +119,14 @@
   "Footer": {
     "headline": "See you on the trail.",
     "edition": "EDITION I · ANTALYA · TÜRKİYE",
-    "social": "IG · YT · STRAVA",
+    "social": "@antalyacanyonultra",
+    "socialUrl": "https://instagram.com/antalyacanyonultra",
+    "socialPrefix": "INSTAGRAM",
     "love": "WITH ❤︎ FROM ANTALYA",
     "tagline": "A trail running experience through the canyons of the Taurus mountains.",
     "races": "Races",
     "contact": "Contact",
-    "email": "info@antalyacanyon.example",
+    "email": "antalyacanyonultra@gmail.com",
     "rights": "© 2026 Antalya Canyon Trail. All rights reserved."
   }
 }

@@ -14,7 +14,6 @@
   "Hero": {
     "kicker": "KANYONLARDA KOŞMAYI",
     "tagline": "HAYAL ET",
-    "subtitle": "ANTALYA'DA, TOROSLARDA",
     "slogan": "Sonbaharın bitmediği yer.",
     "dateRange": "13-15 KASIM 2026",
     "datesLabel": "TARİHLER",
@@ -74,6 +73,31 @@
       "description": "Yaklaşık 5 km uzunluğu ve 200 m yükseklik kazanımı olan My Pace Run; aile ve yeni başlayanlar için ideal bir parkurdur."
     }
   },
+  "RaceDetail": {
+    "back": "Tüm yarışlar",
+    "kicker": "§ 02 · PARKUR",
+    "summary": "ÖZET",
+    "statDistance": "MESAFE",
+    "statElevation": "YÜKSELTİ KAZANIMI",
+    "statSurface": "ZEMİN",
+    "statLow": "EN ALÇAK NOKTA",
+    "statHigh": "EN YÜKSEK NOKTA",
+    "statMeasured": "ÖLÇÜLEN",
+    "profileTitle": "Yükselti profili",
+    "profileNote": "Keşif koşusundan kayıt. Nihai işaretleme ve istasyon noktaları değişebilir.",
+    "profilePlaceholder": "Temsili profil — bu parkurun GPX kaydı yarış tarihine yakın paylaşılacaktır.",
+    "axisElevation": "YÜKSELTİ · M",
+    "axisDistance": "MESAFE · KM",
+    "courseTitle": "Parkur",
+    "downloadTitle": "GPX dosyası",
+    "downloadDesc": "Önceden kaydedilmiş referans dosyası. Garmin, Suunto veya Strava'ya yükleyerek parkuru önizleyebilirsin.",
+    "downloadCta": "GPX İndir",
+    "downloadShort": "GPX",
+    "downloadSoon": "GPX yakında",
+    "otherRaces": "Diğer mesafeler",
+    "register": "Kayıt Ol",
+    "tba": "Yakında"
+  },
   "Sponsors": {
     "sectionLabel": "§ 03 · PARTNERLER",
     "heading": "Destekçilerimizle mümkün",
@@ -95,12 +119,14 @@
   "Footer": {
     "headline": "Patikada görüşmek üzere.",
     "edition": "I. EDİSYON · ANTALYA · TÜRKİYE",
-    "social": "IG · YT · STRAVA",
+    "social": "@antalyacanyonultra",
+    "socialUrl": "https://instagram.com/antalyacanyonultra",
+    "socialPrefix": "INSTAGRAM",
     "love": "ANTALYA'DAN SEVGİLERLE",
     "tagline": "Toroslar'ın kanyonlarında patika koşusu deneyimi.",
     "races": "Yarışlar",
     "contact": "İletişim",
-    "email": "info@antalyacanyon.example",
+    "email": "antalyacanyonultra@gmail.com",
     "rights": "© 2026 Antalya Canyon Trail. Tüm hakları saklıdır."
   }
 }
