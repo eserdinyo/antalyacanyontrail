@@ -42,7 +42,7 @@ export function Header() {
             <Link
               key={l.href}
               href={l.href}
-              className="label hover-swell text-ink/85 hover:text-ink"
+              className="label text-[12px]! font-bold! text-ink/85 hover:text-ink"
             >
               {l.label}
             </Link>
@@ -70,7 +70,7 @@ export function Header() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="label-lg text-ink"
+                className="label-lg text-[12px]! font-bold! text-ink"
               >
                 {l.label}
               </Link>
