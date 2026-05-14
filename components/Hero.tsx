@@ -30,7 +30,7 @@ export function Hero() {
       />
 
       {/* headline grid */}
-      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[90vh] sm:px-8 sm:pt-20">
+      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[90vh] sm:px-8 sm:pt-[140px]">
         <div className="max-w-5xl">
           <h1 className="reveal delay-2 font-display leading-[0.88] tracking-tight text-[clamp(4rem,14vw,8.5rem)] sm:leading-[0.86]">
             <span className="block text-white">{t("kicker")}</span>
