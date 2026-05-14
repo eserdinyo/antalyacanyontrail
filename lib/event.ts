@@ -44,10 +44,10 @@ const MED_PROFILE = [
   0.1, 0.3, 0.48, 0.4, 0.62, 0.75, 0.55, 0.7, 0.45, 0.55, 0.35, 0.25, 0.15, 0.1, 0.05, 0.02,
 ];
 
-// Measured from GPX: 70K Antalya Termessos Ultra — 71.4 km, ~3564 m gain (316–2532 m).
+// Measured from GPX: 70K Antalya Termessos Ultra — 69.6 km, ~1803 m gain (176–747 m).
 const TERMESSOS_PROFILE = [
-  0.663, 0.672, 0.521, 0.416, 0.14, 0.053, 0, 0.016,
-  0.083, 0.248, 0.507, 0.728, 0.931, 1, 0.899, 0.664,
+  0.185, 0.124, 0.157, 0.122, 0, 0.201, 0.082, 0.313,
+  0.643, 1, 0.244, 0.129, 0.617, 0.383, 0.293, 0.181,
 ];
 
 // Measured from GPX: 35K Alageyik Parkuru — 35.4 km, ~639 m gain (200–578 m).
@@ -80,10 +80,10 @@ export const RACES: Race[] = [
     profile: TERMESSOS_PROFILE,
     gpx: {
       file: "/routes/act70-termessos-ultra.gpx",
-      measuredKm: 71.4,
-      ascentM: 3564,
-      minEleM: 316,
-      maxEleM: 2532,
+      measuredKm: 69.6,
+      ascentM: 1803,
+      minEleM: 176,
+      maxEleM: 747,
     },
   },
   {
