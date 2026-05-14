@@ -30,28 +30,27 @@ export function Hero() {
       />
 
       {/* headline grid */}
-      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[78vh] sm:px-8 sm:pt-20">
-        <div>
-          <div className="max-w-5xl">
-            <h1 className="reveal delay-2 font-display leading-[0.88] tracking-tight text-[clamp(2.75rem,11vw,8.5rem)] sm:leading-[0.86]">
-              <span className="block text-white">{t("kicker")}</span>
-              <span className="block font-display-wonk text-ember">
-                {t("tagline")}
-              </span>
-            </h1>
+      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[90vh] sm:px-8 sm:pt-20">
+        <div className="max-w-5xl">
+          <h1 className="reveal delay-2 font-display leading-[0.88] tracking-tight text-[clamp(4rem,14vw,8.5rem)] sm:leading-[0.86]">
+            <span className="block text-white">{t("kicker")}</span>
+            <span className="block font-display-wonk text-ember">
+              {t("tagline")}
+            </span>
+          </h1>
+        </div>
 
-            <p className="reveal delay-3 mt-6 max-w-xl font-display-wonk text-lg leading-snug text-bone/80 sm:mt-8 sm:text-2xl">
-              {t("slogan")}
-            </p>
-
-            <div className="reveal delay-3 mt-6 sm:mt-8">
+        {/* bottom row — dates + CTA on left, race badges on right */}
+        <div className="flex flex-col gap-10 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
+          <div className="reveal delay-3 flex flex-col gap-6 sm:gap-8">
+            <div>
               <div className="label text-bone/60">{t("datesLabel")}</div>
               <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
                 {t("dateRange")}
               </div>
             </div>
 
-            <div className="reveal delay-4 mt-8 flex flex-wrap items-center gap-3 sm:mt-10">
+            <div className="flex flex-wrap items-center gap-3">
               <a
                 href={REGISTER_URL}
                 target="_blank"
@@ -66,22 +65,22 @@ export function Hero() {
               </a>
             </div>
           </div>
-        </div>
 
-        {/* badge row — 3+2 centered grid on mobile, single row on desktop */}
-        <div className="reveal delay-5 grid grid-cols-6 items-end gap-2 sm:flex sm:flex-row sm:gap-4">
-          {RACES.map((race, i) => (
-            <div
-              key={race.code}
-              className={`flex justify-center sm:contents ${
-                i < 3 ? "col-span-2" : ""
-              } ${i === 3 ? "col-span-2 col-start-2" : ""} ${
-                i === 4 ? "col-span-2 col-start-4" : ""
-              }`}
-            >
-              <RaceBadge race={race} size="md" />
-            </div>
-          ))}
+          {/* badge row — 3+2 centered grid on mobile, right-anchored row on desktop */}
+          <div className="reveal delay-5 grid grid-cols-6 items-end gap-2 sm:flex sm:flex-row sm:justify-end sm:gap-4">
+            {RACES.map((race, i) => (
+              <div
+                key={race.code}
+                className={`flex justify-center sm:contents ${
+                  i < 3 ? "col-span-2" : ""
+                } ${i === 3 ? "col-span-2 col-start-2" : ""} ${
+                  i === 4 ? "col-span-2 col-start-4" : ""
+                }`}
+              >
+                <RaceBadge race={race} size="md" />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
