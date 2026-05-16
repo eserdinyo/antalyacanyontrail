@@ -62,22 +62,49 @@ export function Header() {
         </div>
       </div>
 
-      {open && (
-        <div className="border-t border-line bg-bone px-5 py-5 lg:hidden">
-          <div className="flex flex-col gap-4">
+      {/* Mobile fullscreen overlay */}
+      <div
+        className={`fixed inset-0 z-50 lg:hidden transition-opacity duration-300 ${
+          open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
+      >
+        <div
+          className="absolute inset-0 bg-shadow/60"
+          onClick={() => setOpen(false)}
+        />
+        <div
+          className={`absolute right-0 top-0 h-full w-full max-w-sm bg-bone border-l border-line flex flex-col transition-transform duration-300 ease-out ${
+            open ? "translate-x-0" : "translate-x-full"
+          }`}
+        >
+          <div className="flex items-center justify-between px-5 h-16 border-b border-line">
+            <Logo size="xl" />
+            <button
+              type="button"
+              className="rounded-md p-2 text-ink"
+              aria-label="Close menu"
+              onClick={() => setOpen(false)}
+            >
+              <X size={20} />
+            </button>
+          </div>
+          <nav className="flex flex-col gap-6 px-8 py-10 flex-1">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="label-lg text-[12px]! font-bold! text-ink"
+                className="label-lg text-[12px]! font-bold! text-ink tracking-widest uppercase"
               >
                 {l.label}
               </Link>
             ))}
+          </nav>
+          <div className="px-8 pb-8">
+            <LangSwitcher />
           </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }
