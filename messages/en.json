@@ -8,6 +8,7 @@
     "register": "REGISTER",
     "races": "RACES",
     "info": "RACE INFO",
+    "rules": "RACE RULES",
     "media": "MEDIA",
     "contact": "CONTACT"
   },
@@ -97,6 +98,15 @@
     "register": "Register",
     "tba": "TBA"
   },
+  "RaceRules": {
+    "eyebrow": "OFFICIAL DOCUMENT",
+    "title": "Race Rules and Competition Status",
+    "description": "Antalya Canyon Ultra race rules and competition status.",
+    "lede": "Participation, safety, course, aid station, disqualification, and waiver terms for Antalya Canyon Ultra.",
+    "dateRange": "November 13-15, 2026",
+    "toc": "CONTENTS",
+    "sectionCount": "SECTIONS"
+  },
   "Sponsors": {
     "sectionLabel": "§ 03 · PARTNERS",
     "heading": "Made possible by",
@@ -124,6 +134,7 @@
     "love": "WITH ❤︎ FROM ANTALYA",
     "tagline": "A trail running experience through the canyons of the Taurus mountains.",
     "races": "Races",
+    "rules": "Race Rules",
     "contact": "Contact",
     "email": "antalyacanyonultra@gmail.com",
     "rights": "© 2026 Antalya Canyon Trail. All rights reserved."

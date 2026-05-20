@@ -8,6 +8,7 @@
     "register": "KAYIT OL",
     "races": "YARIŞLAR",
     "info": "YARIŞ BİLGİSİ",
+    "rules": "YARIŞ KURALLARI",
     "media": "MEDYA",
     "contact": "İLETİŞİM"
   },
@@ -97,6 +98,15 @@
     "register": "Kayıt Ol",
     "tba": "Yakında"
   },
+  "RaceRules": {
+    "eyebrow": "RESMİ DOKÜMAN",
+    "title": "Yarış Kuralları ve Yarışma Statüsü",
+    "description": "Antalya Canyon Ultra yarış kuralları ve yarışma statüsü.",
+    "lede": "Antalya Canyon Ultra için katılım, güvenlik, parkur, destek noktaları, diskalifikasyon ve feragatname koşulları.",
+    "dateRange": "13 – 15 Kasım 2026",
+    "toc": "İÇİNDEKİLER",
+    "sectionCount": "BÖLÜM"
+  },
   "Sponsors": {
     "sectionLabel": "§ 03 · PARTNERLER",
     "heading": "Destekçilerimizle mümkün",
@@ -124,6 +134,7 @@
     "love": "ANTALYA'DAN SEVGİLERLE",
     "tagline": "Toroslar'ın kanyonlarında patika koşusu deneyimi.",
     "races": "Yarışlar",
+    "rules": "Yarış Kuralları",
     "contact": "İletişim",
     "email": "antalyacanyonultra@gmail.com",
     "rights": "© 2026 Antalya Canyon Trail. Tüm hakları saklıdır."

@@ -67,6 +67,12 @@ export function Footer() {
           >
             {t("email")}
           </a>
+          <Link
+            href="/race-rules"
+            className="mt-6 block font-display text-lg hover-swell text-bone/85 hover:text-bone"
+          >
+            {t("rules")}
+          </Link>
           <a
             href={t("socialUrl")}
             target="_blank"

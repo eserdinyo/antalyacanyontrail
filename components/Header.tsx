@@ -22,6 +22,7 @@ export function Header() {
   const links = [
     { href: "/#races", label: t("races") },
     { href: "/#info", label: t("info") },
+    { href: "/race-rules", label: t("rules") },
     { href: "/#sponsors", label: t("media") },
     { href: "/#footer", label: t("contact") },
   ];
