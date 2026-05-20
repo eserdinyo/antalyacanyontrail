@@ -39,9 +39,10 @@ export function getRace(slug: string): Race | undefined {
   return RACES.find((r) => r.slug === slug);
 }
 
-// Placeholder shape for 45K — replace when GPX is available.
-const MED_PROFILE = [
-  0.1, 0.3, 0.48, 0.4, 0.62, 0.75, 0.55, 0.7, 0.45, 0.55, 0.35, 0.25, 0.15, 0.1, 0.05, 0.02,
+// Measured from GPX: 45K Antalya Canyon Marathon — 46.5 km, ~876 m gain (195–580 m).
+const CANYON_MARATHON_PROFILE = [
+  0.266, 0.22, 0.191, 0.232, 0.223, 0.241, 0.036, 0.024,
+  0.252, 0.193, 0.834, 0.499, 0.527, 0.39, 0.327, 0.262,
 ];
 
 // Measured from GPX: 70K Antalya Termessos Ultra — 69.6 km, ~1803 m gain (176–747 m).
@@ -89,10 +90,17 @@ export const RACES: Race[] = [
     code: "ACT45",
     slug: "marathon",
     distanceKm: 45,
-    elevationM: 2200,
+    elevationM: 880,
     color: "ember",
     image: "/races/marathon.jpeg",
-    profile: MED_PROFILE,
+    profile: CANYON_MARATHON_PROFILE,
+    gpx: {
+      file: "/routes/act45-canyon-ultra.gpx",
+      measuredKm: 46.5,
+      ascentM: 876,
+      minEleM: 195,
+      maxEleM: 580,
+    },
   },
   {
     code: "ACT30",
