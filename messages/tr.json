@@ -5,11 +5,24 @@
   },
   "Nav": {
     "dates": "13-15 KASIM",
+    "datesNav": "Tarih",
     "register": "KAYIT OL",
     "races": "YARIŞLAR",
+    "courses": "Parkurlar",
+    "course7": "7K My Pace Run",
+    "course13": "13.5K Güver Cliff Trail",
+    "course35": "35K Alageyik Parkuru",
+    "course45": "45K Antalya Goat Ultra",
+    "course70": "70K Antalya Termessos Ultra",
     "info": "YARIŞ BİLGİSİ",
+    "raceInfo": "Yarış Bilgisi",
     "rules": "YARIŞ KURALLARI",
+    "program": "Etkinlik Programı",
+    "transport": "Ulaşım",
     "media": "MEDYA",
+    "video": "Video",
+    "press": "Basın",
+    "results": "Sonuçlar",
     "contact": "İLETİŞİM"
   },
   "Hero": {
@@ -70,7 +83,7 @@
     "fun": {
       "name": "My Pace Run",
       "tagline": "Kısa mesafe — herkes için",
-      "description": "Yaklaşık 5 km uzunluğu ve 200 m yükseklik kazanımı olan My Pace Run; aile ve yeni başlayanlar için ideal bir parkurdur."
+      "description": "Yaklaşık 7 km uzunluğu ve 30 m+ tırmanışı olan My Pace Run; aileler, genç sporcular ve yeni başlayanlar için ideal bir parkurdur."
     }
   },
   "RaceDetail": {
@@ -89,6 +102,8 @@
     "axisElevation": "YÜKSELTİ · M",
     "axisDistance": "MESAFE · KM",
     "courseTitle": "Parkur",
+    "routeRulesLabel": "PARKUR DOKÜMANI",
+    "routeRulesTitle": "Parkur detayları",
     "downloadTitle": "GPX dosyası",
     "downloadDesc": "Önceden kaydedilmiş referans dosyası. Garmin, Suunto veya Strava'ya yükleyerek parkuru önizleyebilirsin.",
     "downloadCta": "GPX İndir",

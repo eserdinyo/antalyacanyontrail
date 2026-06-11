@@ -144,9 +144,9 @@ export const RACES: Race[] = [
     profile: PACE5K_PROFILE,
     gpx: {
       file: "/routes/act05-pace-run.gpx",
-      measuredKm: 6.5,
-      ascentM: 25,
-      minEleM: 275,
+      measuredKm: 7,
+      ascentM: 38,
+      minEleM: 274,
       maxEleM: 297,
     },
   },

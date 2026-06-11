@@ -10,6 +10,7 @@ import { RouteProfile } from "@/components/RouteProfile";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { RACES, REGISTER_URL, getRace, type Race, type RaceColor } from "@/lib/event";
+import { ROUTE_RULES, type RouteRuleContent, type RouteRules } from "@/lib/route-rules";
 
 const COLOR_TINT: Record<RaceColor, string> = {
   "ember-deep": "text-ember-deep",
@@ -68,6 +69,7 @@ export default async function RaceDetailPage({
   const td = await getTranslations("RaceDetail");
 
   const others = RACES.filter((r) => r.slug !== race.slug);
+  const routeRules = locale === "tr" ? ROUTE_RULES[race.slug] : undefined;
 
   return (
     <>
@@ -77,6 +79,7 @@ export default async function RaceDetailPage({
         <RaceStats race={race} td={td} />
         <RouteProfileBlock race={race} td={td} />
         <RaceBody race={race} t={t} td={td} />
+        {routeRules && <RouteRulesBlock routeRules={routeRules} td={td} />}
         {race.gpx && <GpxDownload race={race} td={td} />}
         <OtherRaces others={others} t={t} td={td} />
       </main>
@@ -308,6 +311,71 @@ function RaceBody({
         </div>
       </div>
     </section>
+  );
+}
+
+function RouteRulesBlock({
+  routeRules,
+  td,
+}: {
+  routeRules: RouteRules;
+  td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
+}) {
+  return (
+    <section className="border-b border-line bg-bone-deep/60">
+      <div className="mx-auto grid max-w-[1400px] gap-10 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[320px_1fr]">
+        <aside>
+          <div className="sticky top-24 border-t border-line pt-5">
+            <p className="label text-ink-soft">{td("routeRulesLabel")}</p>
+            <h2 className="mt-4 font-display text-4xl leading-none tracking-tight sm:text-5xl">
+              {td("routeRulesTitle")}
+            </h2>
+            <p className="mt-5 text-sm leading-relaxed text-ink-soft">
+              {routeRules.title}
+            </p>
+            <p className="mt-2 label text-ember">{routeRules.subtitle}</p>
+          </div>
+        </aside>
+
+        <article className="divide-y divide-line bg-bone px-5 sm:px-8">
+          {routeRules.sections.map((section) => (
+            <section
+              key={section.id}
+              className="py-9 first:pt-8 last:pb-8 sm:py-11"
+            >
+              <h3 className="font-display text-2xl leading-tight tracking-tight sm:text-3xl">
+                {section.title}
+              </h3>
+              <div className="mt-5 space-y-4 text-base leading-relaxed text-ink-soft">
+                {section.content.map((block, index) => (
+                  <RouteRuleBlock key={`${section.id}-${index}`} block={block} />
+                ))}
+              </div>
+            </section>
+          ))}
+        </article>
+      </div>
+    </section>
+  );
+}
+
+function RouteRuleBlock({ block }: { block: RouteRuleContent }) {
+  if (block.type === "paragraph") {
+    return <p>{block.text}</p>;
+  }
+
+  return (
+    <ul className="grid gap-3">
+      {block.items.map((item) => (
+        <li key={item} className="grid grid-cols-[14px_1fr] gap-3">
+          <span
+            aria-hidden
+            className="mt-[0.72em] h-1.5 w-1.5 rounded-full bg-ember"
+          />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
   );
 }
 

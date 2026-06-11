@@ -46,7 +46,7 @@ export function Countdown() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-shadow-deep text-bone">
+    <section id="dates" className="relative scroll-mt-16 overflow-hidden bg-shadow-deep text-bone">
       {/* topographic dot pattern overlay */}
       <div
         aria-hidden

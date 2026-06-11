@@ -5,11 +5,24 @@
   },
   "Nav": {
     "dates": "13-15 NOV",
+    "datesNav": "Date",
     "register": "REGISTER",
     "races": "RACES",
+    "courses": "Courses",
+    "course7": "7K My Pace Run",
+    "course13": "13.5K Güver Cliff Trail",
+    "course35": "35K Alageyik Trail",
+    "course45": "45K Antalya Goat Ultra",
+    "course70": "70K Antalya Termessos Ultra",
     "info": "RACE INFO",
+    "raceInfo": "Race Info",
     "rules": "RACE RULES",
+    "program": "Event Program",
+    "transport": "Transportation",
     "media": "MEDIA",
+    "video": "Video",
+    "press": "Press",
+    "results": "Results",
     "contact": "CONTACT"
   },
   "Hero": {
@@ -70,7 +83,7 @@
     "fun": {
       "name": "My Pace Run",
       "tagline": "Short distance — for everyone",
-      "description": "Roughly 5 km long with 200 m of elevation gain, the My Pace Run is ideal for families and beginners."
+      "description": "Roughly 7 km long with 30 m+ of climbing, the My Pace Run is ideal for families, young athletes and beginners."
     }
   },
   "RaceDetail": {
@@ -89,6 +102,8 @@
     "axisElevation": "ELEVATION · M",
     "axisDistance": "DISTANCE · KM",
     "courseTitle": "The course",
+    "routeRulesLabel": "COURSE DOCUMENT",
+    "routeRulesTitle": "Course details",
     "downloadTitle": "GPX track",
     "downloadDesc": "Pre-recorded reference track. Drop it into Garmin, Suunto or Strava to preview the route.",
     "downloadCta": "Download GPX",
