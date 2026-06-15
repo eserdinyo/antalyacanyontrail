@@ -8,6 +8,9 @@ import { Logo } from "./Logo";
 import { LangSwitcher } from "./LangSwitcher";
 import { REGISTER_URL } from "@/lib/event";
 
+const VOLUNTEER_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSd-NoaQh_s7cwPzwmL8eAlw_CiBxKVolxMpjs7g3YFHhEMKew/viewform?usp=publish-editor";
+
 type NavLink = {
   label: string;
   href?: string;
@@ -32,47 +35,60 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    if (!open) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [open]);
+
   const nav: NavItem[] = [
     { href: "/#dates", label: t("dates"), tone: "outline" },
     { href: REGISTER_URL, label: t("register"), external: true, tone: "solid" },
     {
       label: t("courses"),
       items: [
-        { href: "/races/fun", label: t("course7") },
-        { href: "/races/short", label: t("course13") },
-        { href: "/races/epic", label: t("course35") },
-        { href: "/races/marathon", label: t("course45") },
-        { href: "/races/ultra", label: t("course70") },
+        { href: "/races/my-pace-run", label: t("course7") },
+        { href: "/races/guver-cliff-trail", label: t("course13") },
+        { href: "/races/alageyik-trail", label: t("course35") },
+        { href: "/races/antalya-goat-ultra", label: t("course45") },
+        { href: "/races/antalya-termessos-ultra", label: t("course70") },
       ],
     },
     {
       label: t("raceInfo"),
       items: [
-        { href: REGISTER_URL, label: t("register"), external: true },
-        { label: t("program"), disabled: true },
-        { href: "/race-rules", label: t("rules") },
+        { href: REGISTER_URL, label: t("registerMenu"), external: true },
+        { href: "/event-program", label: t("program") },
+        { href: "/race-rules", label: t("rulesMenu") },
         { label: t("transport"), disabled: true },
+        { label: t("results"), disabled: true },
       ],
     },
     {
       label: t("media"),
       items: [
-        { label: t("video"), disabled: true },
+        { label: t("photos"), disabled: true },
+        { label: t("videos"), disabled: true },
         { label: t("press"), disabled: true },
       ],
     },
-    { label: t("results"), disabled: true },
+    { href: VOLUNTEER_URL, label: t("volunteer"), external: true },
   ];
 
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-line bg-bone/95 backdrop-blur"
-          : "border-b border-transparent bg-transparent"
+          ? "border-b border-line bg-[#F8F2EC]/95 backdrop-blur"
+          : "border-b border-transparent bg-[#F8F2EC]"
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between gap-6 px-5 sm:px-8">
+      <div className="mx-auto flex h-[100px] max-w-[1400px] items-center justify-between gap-6 px-5 sm:px-8">
         <Logo size="xl" />
 
         <nav className="hidden items-center gap-2 lg:flex">
@@ -96,7 +112,7 @@ export function Header() {
 
       {/* Mobile fullscreen overlay */}
       <div
-        className={`fixed inset-0 z-50 lg:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 z-[60] min-h-dvh overflow-hidden lg:hidden transition-opacity duration-300 ${
           open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
@@ -105,11 +121,11 @@ export function Header() {
           onClick={() => setOpen(false)}
         />
         <div
-          className={`absolute right-0 top-0 h-full w-full max-w-sm bg-bone border-l border-line flex flex-col transition-transform duration-300 ease-out ${
+          className={`fixed inset-y-0 right-0 flex h-dvh w-full max-w-sm flex-col overflow-y-auto overscroll-contain border-l border-line bg-[#F8F2EC] transition-transform duration-300 ease-out ${
             open ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="flex items-center justify-between px-5 h-16 border-b border-line">
+          <div className="flex h-[100px] items-center justify-between border-b border-line px-5">
             <Logo size="xl" />
             <button
               type="button"

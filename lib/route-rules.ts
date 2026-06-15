@@ -23,7 +23,7 @@ export type RouteRules = {
 };
 
 export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
-  ultra: {
+  "antalya-termessos-ultra": {
     title: "ANTALYA CANYON ULTRA - 70K ANTALYA TERMESSOS ULTRA",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
@@ -138,7 +138,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
       },
     ],
   },
-  marathon: {
+  "antalya-goat-ultra": {
     title: "ANTALYA CANYON ULTRA - 45K ANTALYA GOAT ULTRA",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
@@ -252,7 +252,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
       },
     ],
   },
-  epic: {
+  "alageyik-trail": {
     title: "ANTALYA CANYON ULTRA - 35K ALAGEYİK PARKURU",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
@@ -262,7 +262,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 35K Alageyik Parkuru, yaklaşık 35 km uzunluğunda ve 670m+ tırmanış içeren bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 35K Alageyik Trail, yaklaşık 35 km uzunluğunda ve 670m+ tırmanış içeren bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -272,7 +272,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "35K Alageyik Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "35K Alageyik Trail'e katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -366,7 +366,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
       },
     ],
   },
-  short: {
+  "guver-cliff-trail": {
     title: "ANTALYA CANYON ULTRA - 13K GÜVER CLIFF TRAIL",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
@@ -376,7 +376,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -466,7 +466,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
       },
     ],
   },
-  fun: {
+  "my-pace-run": {
     title: "ANTALYA CANYON ULTRA - 7K MY PACE RUN",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [

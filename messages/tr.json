@@ -7,22 +7,26 @@
     "dates": "13-15 KASIM",
     "datesNav": "Tarih",
     "register": "KAYIT OL",
+    "registerMenu": "Kayıt Ol",
     "races": "YARIŞLAR",
     "courses": "Parkurlar",
     "course7": "7K My Pace Run",
-    "course13": "13.5K Güver Cliff Trail",
-    "course35": "35K Alageyik Parkuru",
+    "course13": "13K Güver Cliff Trail",
+    "course35": "35K Alageyik Trail",
     "course45": "45K Antalya Goat Ultra",
     "course70": "70K Antalya Termessos Ultra",
     "info": "YARIŞ BİLGİSİ",
     "raceInfo": "Yarış Bilgisi",
     "rules": "YARIŞ KURALLARI",
+    "rulesMenu": "Yarış Kuralları",
     "program": "Etkinlik Programı",
     "transport": "Ulaşım",
     "media": "MEDYA",
-    "video": "Video",
+    "photos": "Fotoğraflar",
+    "videos": "Videolar",
     "press": "Basın",
     "results": "Sonuçlar",
+    "volunteer": "Gonullu Ol",
     "contact": "İLETİŞİM"
   },
   "Hero": {
@@ -60,27 +64,27 @@
     "start": "BAŞLANGIÇ",
     "finish": "BİTİŞ",
     "details": "Detaylar",
-    "ultra": {
+    "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",
       "tagline": "Ultra mesafe — gerçek ultra deneyim",
       "description": "Yaklaşık 70 km uzunluğu ve 3500 m yükseklik kazanımı olan Antalya Termessos Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
     },
-    "marathon": {
-      "name": "Antalya Canyon Marathon",
+    "antalya-goat-ultra": {
+      "name": "Antalya Goat Ultra",
       "tagline": "Klasik maraton mesafesi — patikada",
-      "description": "Yaklaşık 46,5 km uzunluğu ve 880 m yükseklik kazanımı olan Antalya Canyon Marathon; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 46,5 km uzunluğu ve 880 m yükseklik kazanımı olan Antalya Goat Ultra; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
     },
-    "epic": {
-      "name": "Alageyik Parkuru",
+    "alageyik-trail": {
+      "name": "Alageyik Trail",
       "tagline": "Sert ve manzaralı — orta mesafe",
-      "description": "Yaklaşık 30 km uzunluğu ve 1500 m yükseklik kazanımı olan Alageyik Parkuru; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 30 km uzunluğu ve 1500 m yükseklik kazanımı olan Alageyik Trail; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
     },
-    "short": {
+    "guver-cliff-trail": {
       "name": "Güver Cliff Trail",
       "tagline": "Yarı patika — başlangıç için ideal",
-      "description": "Yaklaşık 12 km uzunluğu ve 500 m yükseklik kazanımı olan Güver Cliff Trail; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 13 km uzunluğu ve 100 m+ yükseklik kazanımı olan Güver Cliff Trail; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
     },
-    "fun": {
+    "my-pace-run": {
       "name": "My Pace Run",
       "tagline": "Kısa mesafe — herkes için",
       "description": "Yaklaşık 7 km uzunluğu ve 30 m+ tırmanışı olan My Pace Run; aileler, genç sporcular ve yeni başlayanlar için ideal bir parkurdur."
