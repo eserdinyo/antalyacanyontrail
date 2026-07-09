@@ -31,7 +31,7 @@ export function Hero() {
 
       {/* headline grid */}
       <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[90vh] sm:px-8 sm:pt-[140px]">
-        <div className="max-w-5xl">
+        <div className="flex flex-1 items-center max-w-5xl sm:flex-none sm:items-start">
           <h1 className="reveal delay-2 font-display leading-[0.88] tracking-tight text-[clamp(4rem,14vw,8.5rem)] sm:leading-[0.86]">
             <span className="block text-white">{t("kicker")}</span>
             <span className="block font-display-wonk text-ember">
@@ -43,6 +43,13 @@ export function Hero() {
         {/* bottom row — dates + CTA on left, race badges on right */}
         <div className="flex flex-col gap-10 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
           <div className="reveal delay-3 flex flex-col gap-6 sm:gap-8">
+            <Image
+              src="/logos/utmb.png"
+              alt="UTMB Index"
+              width={905}
+              height={217}
+              className="h-10 w-auto self-start"
+            />
             <div>
               <div className="label text-bone/60">{t("datesLabel")}</div>
               <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
@@ -59,26 +66,20 @@ export function Hero() {
               >
                 <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
                 {t("register")}
-                <span aria-hidden className="transition-transform group-hover:translate-x-1">
+                <span
+                  aria-hidden
+                  className="transition-transform group-hover:translate-x-1"
+                >
                   →
                 </span>
               </a>
             </div>
           </div>
 
-          {/* badge row — 3+2 centered grid on mobile, right-anchored row on desktop */}
-          <div className="reveal delay-5 grid grid-cols-6 items-end gap-2 sm:flex sm:flex-row sm:justify-end sm:gap-4">
-            {RACES.map((race, i) => (
-              <div
-                key={race.code}
-                className={`flex justify-center sm:contents ${
-                  i < 3 ? "col-span-2" : ""
-                } ${i === 3 ? "col-span-2 col-start-2" : ""} ${
-                  i === 4 ? "col-span-2 col-start-4" : ""
-                }`}
-              >
-                <RaceBadge race={race} size="md" />
-              </div>
+          {/* race badges — desktop only */}
+          <div className="reveal delay-5 hidden sm:flex sm:flex-row sm:items-end sm:justify-end sm:gap-4">
+            {RACES.map((race) => (
+              <RaceBadge key={race.code} race={race} size="md" />
             ))}
           </div>
         </div>
