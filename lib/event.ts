@@ -38,6 +38,8 @@ export type Race = {
   profile: number[];
   /* present only when a recorded GPX track is available */
   gpx?: GpxTrack;
+  /* Trace de Trail iframe id — embeds the interactive course map when set */
+  traceDeTrailId?: number;
 };
 
 export function getRace(slug: string): Race | undefined {
@@ -131,6 +133,7 @@ export const RACES: Race[] = [
     color: "moss",
     image: "/races/short.jpeg",
     profile: GUVER_PROFILE,
+    traceDeTrailId: 10356,
     gpx: {
       file: "/routes/act12-guver-cliff-trail.gpx",
       measuredKm: 13,

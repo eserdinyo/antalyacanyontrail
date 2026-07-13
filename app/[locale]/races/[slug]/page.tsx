@@ -78,6 +78,9 @@ export default async function RaceDetailPage({
         <RaceHero race={race} t={t} td={td} />
         <RaceStats race={race} td={td} />
         <RouteProfileBlock race={race} td={td} />
+        {race.traceDeTrailId != null && (
+          <TraceDeTrailBlock race={race} td={td} />
+        )}
         <RaceBody race={race} t={t} td={td} />
         {routeRules && <RouteRulesBlock routeRules={routeRules} td={td} />}
         {race.gpx && <GpxDownload race={race} td={td} />}
@@ -265,6 +268,41 @@ function RouteProfileBlock({
                   }
                 : undefined
             }
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function TraceDeTrailBlock({
+  race,
+  td,
+}: {
+  race: Race;
+  td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
+}) {
+  if (race.traceDeTrailId == null) return null;
+
+  return (
+    <section className="border-b border-line bg-bone">
+      <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
+        <div className="flex flex-wrap items-end justify-between gap-4 border-b border-line pb-6">
+          <h2 className="font-display text-3xl tracking-tight sm:text-4xl">
+            {td("mapTitle")}
+          </h2>
+          <p className="max-w-md text-sm leading-relaxed text-ink-soft">
+            {td("mapNote")}
+          </p>
+        </div>
+
+        <div className="mt-8 surface-paper p-2 sm:p-4">
+          <iframe
+            src={`https://tracedetrail.fr/en/iframe/${race.traceDeTrailId}`}
+            title={td("mapTitle")}
+            allowFullScreen
+            scrolling="no"
+            className="block h-[800px] w-full border-0"
           />
         </div>
       </div>

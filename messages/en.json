@@ -103,6 +103,8 @@
     "profileTitle": "Elevation profile",
     "profileNote": "Recorded from a recon run. Final markings and aid stations may shift.",
     "profilePlaceholder": "Stylized profile — the GPX track for this course will be published closer to race day.",
+    "mapTitle": "Interactive course map",
+    "mapNote": "Explore the full route with elevation and terrain, powered by Trace de Trail.",
     "axisElevation": "ELEVATION · M",
     "axisDistance": "DISTANCE · KM",
     "courseTitle": "The course",
