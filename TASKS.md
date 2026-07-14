@@ -19,9 +19,10 @@ Durumlar: `[ ]` todo · `[x]` done · `[B]` blocked (müşteriden bilgi bekleniy
   - 7K My Pace (10357): 7.5 km, 38 m+, 272–303 m
 - [x] **8. Su Taşıma Sistemi "en az 1 litre" oldu** — 70K ve 45K zorunlu malzeme listesinde güncellendi (33K zaten 1 litre).
 - [x] **9. 70K diskalifikasyon: "dışarıdan destek almak" çıkarıldı** — Sadece 70K'dan; diğer parkurlarda madde duruyor.
+- [x] **10. Parkur kuralları İngilizceye çevrildi** — 5 yarışın tüm kural metinleri `lib/route-rules-en.ts` olarak çevrildi; EN yarış sayfaları artık TR ile aynı kural bölümünü (İngilizce) gösteriyor.
 
 ## Bekleyen (müşteriden bilgi gerekiyor)
 
 - [B] **B1. Yeni kayıt tarihleri güncellenecek** — Yeni tarihler müşteriden gelmedi. (Mevcut: 21 Haziran – 18 Ekim 2026, `lib/route-rules.ts` "a) Kayıt Şekli" paragrafları.)
 - [B] **B2. Start saatleri güncellenecek** — Yeni saatler müşteriden gelmedi. (Mevcut: 14–15 Kasım 08:00, `lib/route-rules.ts` "Genel Bilgi" paragrafları + `lib/event.ts` `EVENT_DATE` + Countdown alt yazısı.)
-- [B] **B3. "İsimler ultra ve canyon aynı sayfayı açmalı"** — Ne kastedildiği müşteriyle netleştirilecek; sitede "Ultra" ve "Canyon" adında ayrı iki link yok.
+- [x] **B3. "İsimler ultra ve canyon aynı sayfayı açmalı"** — Çözüldü: antalyacanyonultra.com ve antalyacanyontrail.com aynı Vercel projesinde, birebir aynı içeriği sunuyor (doğrulandı). Görülen fark domain değil dil farkıydı (TR sayfalarda olup EN'de olmayan kurallar bölümü) — görev 10 ile giderildi.

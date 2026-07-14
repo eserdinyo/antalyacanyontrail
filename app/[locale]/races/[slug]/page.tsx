@@ -11,6 +11,7 @@ import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { RACES, REGISTER_URL, getRace, type Race, type RaceColor } from "@/lib/event";
 import { ROUTE_RULES, type RouteRuleContent, type RouteRules } from "@/lib/route-rules";
+import { ROUTE_RULES_EN } from "@/lib/route-rules-en";
 
 const COLOR_TINT: Record<RaceColor, string> = {
   "ember-deep": "text-ember-deep",
@@ -69,7 +70,7 @@ export default async function RaceDetailPage({
   const td = await getTranslations("RaceDetail");
 
   const others = RACES.filter((r) => r.slug !== race.slug);
-  const routeRules = locale === "tr" ? ROUTE_RULES[race.slug] : undefined;
+  const routeRules = (locale === "en" ? ROUTE_RULES_EN : ROUTE_RULES)[race.slug];
 
   return (
     <>
