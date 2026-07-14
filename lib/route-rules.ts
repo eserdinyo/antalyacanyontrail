@@ -53,15 +53,15 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 21 Haziran 2026 tarihinde başlayacak ve 18 Ekim 2026 günü saat 23:59 itibarıyla kapatılacaktır. Katılımcı sayısı 200 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 200 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 5.000 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 5.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 6.500 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 4.500 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 5.000 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 5.750 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -148,7 +148,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 45 km uzunluğunda ve 1037m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 46 km uzunluğunda ve 1037m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -168,15 +168,15 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 21 Haziran 2026 tarihinde başlayacak ve 18 Ekim 2026 günü saat 23:59 itibarıyla kapatılacaktır. Katılımcı sayısı 300 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 300 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 4.000 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 4.500 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 5.000 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 3.750 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 4.250 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 4.850 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -262,7 +262,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 33K Alageyik Trail, yaklaşık 33 km uzunluğunda ve 704m+ tırmanış içeren bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 33K Alageyik Parkuru, yaklaşık 33.5 km uzunluğunda ve 704m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -272,7 +272,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "33K Alageyik Trail'e katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "33K Alageyik Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -282,15 +282,15 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 21 Haziran 2026 tarihinde başlayacak ve 18 Ekim 2026 günü saat 23:59 itibarıyla kapatılacaktır. Katılımcı sayısı 400 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 400 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 3.250 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 3.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 4.250 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 3.150 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 3.650 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 4.150 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -376,7 +376,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 112m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -396,15 +396,15 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 21 Haziran 2026 tarihinde başlayacak ve 18 Ekim 2026 günü saat 23:59 itibarıyla kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 2.250 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 2.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 3.000 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 2.250 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 2.750 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 3.000 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -476,7 +476,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 7K My Pace Run, yaklaşık 7.5 km uzunluğunda ve 38m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 2 saat (Zaman sınırı: 10:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 7K My Pace Run, yaklaşık 7.5 km uzunluğunda ve 30m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 2 saat (Zaman sınırı: 10:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -496,15 +496,15 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 21 Haziran 2026 tarihinde başlayacak ve 18 Ekim 2026 günü saat 23:59 itibarıyla kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır. Yapılan her kayıt kişiye özeldir.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır. Yapılan her kayıt kişiye özeldir.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 1.400 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 1.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 2.000 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 1.400 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 1.750 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 2.000 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Keyfi iptal taleplerinde tam ücret iadesi yapılmaz. Son kısmi iptal tarihi olan 1 Ekim 2026 saat 23:59'ya kadar yapılacak başvurularda, net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. 1 Ekim 2026'dan sonra standart paket iadesi yapılmaz. İlk kayıt esnasında %15 ek bedelle 'Kayıt Sigortası' satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 kesintisiz iade alabilirler. 13 Ekim 2026 günü saat 23:59'a kadar %50 devir hizmet kesintisi uygulanarak başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Keyfi iptal taleplerinde tam ücret iadesi yapılmaz. Son kısmi iptal tarihi olan 1 Ekim 2026 saat 23:59'ya kadar yapılacak başvurularda, net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. 1 Ekim 2026'dan sonra standart paket iadesi yapılmaz. İlk kayıt esnasında %15 ek bedelle 'Kayıt Sigortası' satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 kesintisiz iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 günü saat 23:59'a kadar %50 devir hizmet kesintisi uygulanarak başka bir sporcuya devir yapılabilir.",
           },
           {
             type: "paragraph",

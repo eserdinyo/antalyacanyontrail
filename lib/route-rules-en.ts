@@ -32,15 +32,15 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 21 June 2026 and closes on 18 October 2026 at 23:59. The number of participants is limited to 200.",
+            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 20 July 2026 and closes on 25 October 2026 at 23:59 (or earlier if the course quota is filled). The number of participants is limited to 200.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (21 Jun - 15 Aug): 5,000 ₺ | Regular Registration (16 Aug - 20 Sep): 5,750 ₺ | Late Registration (21 Sep - 18 Oct): 6,500 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 4,500 ₺ | Regular Registration (16 Aug - 24 Sep): 5,000 ₺ | Late Registration (24 Sep - 25 Oct): 5,750 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -127,7 +127,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 45K Antalya Goat Ultra, run as part of Antalya Canyon Ultra, is an advanced-level ultra-marathon trail race approximately 45 km long with 1037m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 12 hours (time limit: 20:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 45K Antalya Goat Ultra, run as part of Antalya Canyon Ultra, is an advanced-level ultra-marathon trail race approximately 46 km long with 1037m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 12 hours (time limit: 20:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -147,15 +147,15 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 21 June 2026 and closes on 18 October 2026 at 23:59. The number of participants is limited to 300.",
+            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 20 July 2026 and closes on 25 October 2026 at 23:59 (or earlier if the course quota is filled). The number of participants is limited to 300.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (21 Jun - 15 Aug): 4,000 ₺ | Regular Registration (16 Aug - 20 Sep): 4,500 ₺ | Late Registration (21 Sep - 18 Oct): 5,000 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 3,750 ₺ | Regular Registration (16 Aug - 24 Sep): 4,250 ₺ | Late Registration (24 Sep - 25 Oct): 4,850 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -241,7 +241,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 33K Alageyik Trail, run as part of Antalya Canyon Ultra, is an ultra-marathon trail race approximately 33 km long with 704m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 9 hours (time limit: 17:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 33K Alageyik Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 33.5 km long with 704m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 9 hours (time limit: 17:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -261,15 +261,15 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 21 June 2026 and closes on 18 October 2026 at 23:59. The number of participants is limited to 400.",
+            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 20 July 2026 and closes on 25 October 2026 at 23:59 (or earlier if the course quota is filled). The number of participants is limited to 400.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (21 Jun - 15 Aug): 3,250 ₺ | Regular Registration (16 Aug - 20 Sep): 3,750 ₺ | Late Registration (21 Sep - 18 Oct): 4,250 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 3,150 ₺ | Regular Registration (16 Aug - 24 Sep): 3,650 ₺ | Late Registration (24 Sep - 25 Oct): 4,150 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -355,7 +355,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 13K Güver Cliff Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 13.5 km long with 112m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 3 hours (time limit: 11:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 13K Güver Cliff Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 13.5 km long with 105m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 3 hours (time limit: 11:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -375,15 +375,15 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 21 June 2026 and closes on 18 October 2026 at 23:59. The maximum number of participants is limited to 500.",
+            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 20 July 2026 and closes on 25 October 2026 at 23:59 (or earlier if the course quota is filled). The maximum number of participants is limited to 500.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (21 Jun - 15 Aug): 2,250 ₺ | Regular Registration (16 Aug - 20 Sep): 2,750 ₺ | Late Registration (21 Sep - 18 Oct): 3,000 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 2,250 ₺ | Regular Registration (16 Aug - 24 Sep): 2,750 ₺ | Late Registration (24 Sep - 25 Oct): 3,000 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -455,7 +455,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 7K My Pace Run, run as part of Antalya Canyon Ultra, is a trail race approximately 7.5 km long with 38m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 2 hours (time limit: 10:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 7K My Pace Run, run as part of Antalya Canyon Ultra, is a trail race approximately 7.5 km long with 30m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 2 hours (time limit: 10:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -475,15 +475,15 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 21 June 2026 and closes on 18 October 2026 at 23:59. The maximum number of participants is limited to 500. Every registration is personal.",
+            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 20 July 2026 and closes on 25 October 2026 at 23:59 (or earlier if the course quota is filled). The maximum number of participants is limited to 500. Every registration is personal.",
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (21 Jun - 15 Aug): 1,400 ₺ | Regular Registration (16 Aug - 20 Sep): 1,750 ₺ | Late Registration (21 Sep - 18 Oct): 2,000 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 1,400 ₺ | Regular Registration (16 Aug - 24 Sep): 1,750 ₺ | Late Registration (24 Sep - 25 Oct): 2,000 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations. Applications submitted by the final partial-cancellation date of 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. No standard package refunds are issued after 1 October 2026. Athletes who purchase 'Registration Insurance' for an additional 15% at initial registration may receive a full 100% refund without justification until 1 October 2026. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations. Applications submitted by the final partial-cancellation date of 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. No standard package refunds are issued after 1 October 2026. Athletes who purchase 'Registration Insurance' for an additional 15% at initial registration may receive a full 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
           {
             type: "paragraph",
