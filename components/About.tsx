@@ -10,7 +10,7 @@ export function About() {
       className="relative isolate overflow-hidden border-y border-line bg-bone"
     >
       <Image
-        src="/races/about-background.png"
+        src="/races/about-background.jpeg"
         alt=""
         fill
         sizes="100vw"

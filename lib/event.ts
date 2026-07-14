@@ -164,7 +164,6 @@ export const RACES: Race[] = [
   },
 ];
 
-export const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=2400&q=85";
+export const HERO_IMAGE = "/races/hero.jpeg";
 
 export const REGISTER_URL = "https://example.com/register";

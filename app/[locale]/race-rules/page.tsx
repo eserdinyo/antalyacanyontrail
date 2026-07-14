@@ -37,7 +37,7 @@ export default async function RaceRulesPage({
       <main>
         <section className="relative isolate overflow-hidden border-b border-line bg-shadow text-bone">
           <Image
-            src="/races/race-rules-hero.png"
+            src="/races/race-rules-hero.jpeg"
             alt=""
             fill
             priority
