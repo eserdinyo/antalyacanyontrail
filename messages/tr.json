@@ -1,6 +1,6 @@
 {
   "Meta": {
-    "title": "Antalya Canyon Trail",
+    "title": "Antalya Canyon Ultra",
     "description": "Toroslar'ın kanyonlarında patika koşusu — 13-15 Kasım 2026"
   },
   "Nav": {
@@ -12,7 +12,7 @@
     "courses": "Parkurlar",
     "course7": "7K My Pace Run",
     "course13": "13K Güver Cliff Trail",
-    "course35": "35K Alageyik Trail",
+    "course33": "33K Alageyik Trail",
     "course45": "45K Antalya Goat Ultra",
     "course70": "70K Antalya Termessos Ultra",
     "info": "YARIŞ BİLGİSİ",
@@ -67,27 +67,27 @@
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",
       "tagline": "Ultra mesafe — gerçek ultra deneyim",
-      "description": "Yaklaşık 70 km uzunluğu ve 3500 m yükseklik kazanımı olan Antalya Termessos Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 70 km uzunluğu ve 1935 m yükseklik kazanımı olan Antalya Termessos Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
     },
     "antalya-goat-ultra": {
       "name": "Antalya Goat Ultra",
       "tagline": "Klasik maraton mesafesi — patikada",
-      "description": "Yaklaşık 46,5 km uzunluğu ve 880 m yükseklik kazanımı olan Antalya Goat Ultra; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 46,7 km uzunluğu ve 1037 m yükseklik kazanımı olan Antalya Goat Ultra; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
     },
     "alageyik-trail": {
       "name": "Alageyik Trail",
       "tagline": "Sert ve manzaralı — orta mesafe",
-      "description": "Yaklaşık 30 km uzunluğu ve 1500 m yükseklik kazanımı olan Alageyik Trail; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 33 km uzunluğu ve 704 m yükseklik kazanımı olan Alageyik Trail; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
     },
     "guver-cliff-trail": {
       "name": "Güver Cliff Trail",
       "tagline": "Yarı patika — başlangıç için ideal",
-      "description": "Yaklaşık 13 km uzunluğu ve 100 m+ yükseklik kazanımı olan Güver Cliff Trail; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 13,5 km uzunluğu ve 112 m+ yükseklik kazanımı olan Güver Cliff Trail; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
     },
     "my-pace-run": {
       "name": "My Pace Run",
       "tagline": "Kısa mesafe — herkes için",
-      "description": "Yaklaşık 7 km uzunluğu ve 30 m+ tırmanışı olan My Pace Run; aileler, genç sporcular ve yeni başlayanlar için ideal bir parkurdur."
+      "description": "Yaklaşık 7,5 km uzunluğu ve 38 m+ tırmanışı olan My Pace Run; aileler, genç sporcular ve yeni başlayanlar için ideal bir parkurdur."
     }
   },
   "RaceDetail": {
@@ -158,6 +158,6 @@
     "rules": "Yarış Kuralları",
     "contact": "İletişim",
     "email": "antalyacanyonultra@gmail.com",
-    "rights": "© 2026 Antalya Canyon Trail. Tüm hakları saklıdır."
+    "rights": "© 2026 Antalya Canyon Ultra. Tüm hakları saklıdır."
   }
 }

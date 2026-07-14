@@ -20,12 +20,12 @@ export function Logo({ inverted = false, size = "md" }: Props) {
         className={`group relative block h-full w-[100px] shrink-0 ${
           inverted ? "text-bone" : "text-ink"
         }`}
-        aria-label="Antalya Canyon Trail"
+        aria-label="Antalya Canyon Ultra"
       >
         <span className="relative block h-full w-full overflow-hidden">
           <Image
             src="/logo.webp"
-            alt="Antalya Canyon Trail"
+            alt="Antalya Canyon Ultra"
             fill
             sizes="100px"
             priority
@@ -44,12 +44,12 @@ export function Logo({ inverted = false, size = "md" }: Props) {
       className={`group inline-flex items-center ${
         inverted ? "text-bone" : "text-ink"
       }`}
-      aria-label="Antalya Canyon Trail"
+      aria-label="Antalya Canyon Ultra"
     >
       <span className={`relative block shrink-0 ${d.box}`}>
         <Image
           src="/logo.webp"
-          alt="Antalya Canyon Trail"
+          alt="Antalya Canyon Ultra"
           fill
           sizes={`${d.px}px`}
           priority

@@ -1,6 +1,6 @@
 {
   "Meta": {
-    "title": "Antalya Canyon Trail",
+    "title": "Antalya Canyon Ultra",
     "description": "Trail running through the canyons of the Taurus mountains — November 13-15, 2026"
   },
   "Nav": {
@@ -12,7 +12,7 @@
     "courses": "Courses",
     "course7": "7K My Pace Run",
     "course13": "13K Güver Cliff Trail",
-    "course35": "35K Alageyik Trail",
+    "course33": "33K Alageyik Trail",
     "course45": "45K Antalya Goat Ultra",
     "course70": "70K Antalya Termessos Ultra",
     "info": "RACE INFO",
@@ -67,27 +67,27 @@
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",
       "tagline": "Ultra distance — the real ultra experience",
-      "description": "Roughly 70 km long with 3500 m of elevation gain, the Antalya Termessos Ultra consists of 55% trail, 38% single track and 7% paved road."
+      "description": "Roughly 70 km long with 1935 m of elevation gain, the Antalya Termessos Ultra consists of 55% trail, 38% single track and 7% paved road."
     },
     "antalya-goat-ultra": {
       "name": "Antalya Goat Ultra",
       "tagline": "Classic marathon — on the trail",
-      "description": "Roughly 46.5 km long with 880 m of elevation gain, the Antalya Goat Ultra consists of 55% trail, 40% single track and 5% paved road."
+      "description": "Roughly 46.7 km long with 1037 m of elevation gain, the Antalya Goat Ultra consists of 55% trail, 40% single track and 5% paved road."
     },
     "alageyik-trail": {
       "name": "Alageyik Trail",
       "tagline": "Tough and scenic — mid distance",
-      "description": "Roughly 30 km long with 1500 m of elevation gain, the Alageyik Trail consists of 65% trail, 30% single track and 5% paved road."
+      "description": "Roughly 33 km long with 704 m of elevation gain, the Alageyik Trail consists of 65% trail, 30% single track and 5% paved road."
     },
     "guver-cliff-trail": {
       "name": "Güver Cliff Trail",
       "tagline": "Half-trail — perfect for first-timers",
-      "description": "Roughly 13 km long with 100 m+ of elevation gain, the Güver Cliff Trail consists of 70% trail, 20% single track and 10% paved road."
+      "description": "Roughly 13.5 km long with 112 m+ of elevation gain, the Güver Cliff Trail consists of 70% trail, 20% single track and 10% paved road."
     },
     "my-pace-run": {
       "name": "My Pace Run",
       "tagline": "Short distance — for everyone",
-      "description": "Roughly 7 km long with 30 m+ of climbing, the My Pace Run is ideal for families, young athletes and beginners."
+      "description": "Roughly 7.5 km long with 38 m+ of climbing, the My Pace Run is ideal for families, young athletes and beginners."
     }
   },
   "RaceDetail": {
@@ -158,6 +158,6 @@
     "rules": "Race Rules",
     "contact": "Contact",
     "email": "antalyacanyonultra@gmail.com",
-    "rights": "© 2026 Antalya Canyon Trail. All rights reserved."
+    "rights": "© 2026 Antalya Canyon Ultra. All rights reserved."
   }
 }

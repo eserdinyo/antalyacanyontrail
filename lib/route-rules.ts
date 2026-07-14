@@ -33,7 +33,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 1900m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23:45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 1935m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23:45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -57,7 +57,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) Kayıt Ücreti Tarifesi: Erken Kayıt (21 Haz - 15 Ağus): 5.000 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 5.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 6.500 ₺",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 5.000 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 5.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 6.500 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -94,7 +94,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
             items: [
               "Sağlık Raporu veya Geçerli Lisans: Kit dağıtım masasında ibraz edilecektir.",
               "Cep Telefonu: Bataryası tam dolu, organizasyon acil durum numaraları kayıtlı.",
-              "Su Taşıma Sistemi: En az 1.5 - 2 litre kapasiteli su torbası veya soft flask/matara.",
+              "Su Taşıma Sistemi: En az 1 litre kapasiteli su torbası veya soft flask/matara.",
               "Bardak veya Soft Flask: İstasyonlarda plastik bardak bulunmayacaktır.",
               "Yağmurluk / Rüzgarlık: Kapüşonlu, dikişleri kaynaklı ve su/rüzgar geçirmez özellikte.",
               "Acil Durum Battaniyesi (Termal): En az 1.40m x 2m ölçülerinde.",
@@ -111,7 +111,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, izin verilen kontrol noktaları (CP) dışında dışarıdan destek almak, zorunlu malzemeleri bulundurmamak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını bırakmaları halinde ek 1 saat zaman cezası uygulanır. Kayıtsız koşma veya başkasının göğüs numarasıyla yarışma durumlarında sporcular diskalifiye edilir.",
+            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, zorunlu malzemeleri bulundurmamak, çalışan, görevli ve gönüllülere saygısızlık yapmak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını bırakmaları halinde ek 1 saat zaman cezası uygulanır. Kayıtsız koşma veya başkasının göğüs numarasıyla yarışma durumlarında sporcular diskalifiye edilir.",
           },
         ],
       },
@@ -148,7 +148,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 45 km uzunluğunda ve 900m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 45 km uzunluğunda ve 1037m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -172,7 +172,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) Kayıt Ücreti Tarifesi: Erken Kayıt (21 Haz - 15 Ağus): 4.000 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 4.500 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 5.000 ₺",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 4.000 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 4.500 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 5.000 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -209,7 +209,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
             items: [
               "Sağlık Raporu veya Geçerli Lisans: Kit dağıtım masasında ibraz edilecektir.",
               "Cep Telefonu: Bataryası tam dolu, organizasyon acil durum numaraları kayıtlı.",
-              "Su Taşıma Sistemi: En az 1.5 litre kapasiteli su torbası veya soft flask/matara.",
+              "Su Taşıma Sistemi: En az 1 litre kapasiteli su torbası veya soft flask/matara.",
               "Bardak veya Soft Flask: İstasyonlarda plastik bardak bulunmayacaktır.",
               "Yağmurluk / Rüzgarlık: Kapüşonlu ve su/rüzgar geçirmez özellikte.",
               "Acil Durum Battaniyesi (Termal): En az 1.40m x 2m ölçülerinde.",
@@ -225,7 +225,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, izin verilen kontrol noktaları (CP) dışında dışarıdan destek almak, zorunlu malzemeleri bulundurmamak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını bırakmaları halinde ek 1 saat zaman cezası uygulanır. Kayıtsız koşma veya başkasının göğüs numarasıyla yarışma durumlarında sporcular diskalifiye edilir.",
+            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, izin verilen kontrol noktaları (CP) dışında dışarıdan destek almak, zorunlu malzemeleri bulundurmamak, çalışan, görevli ve gönüllülere saygısızlık yapmak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını bırakmaları halinde ek 1 saat zaman cezası uygulanır. Kayıtsız koşma veya başkasının göğüs numarasıyla yarışma durumlarında sporcular diskalifiye edilir.",
           },
         ],
       },
@@ -253,7 +253,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
     ],
   },
   "alageyik-trail": {
-    title: "ANTALYA CANYON ULTRA - 35K ALAGEYİK PARKURU",
+    title: "ANTALYA CANYON ULTRA - 33K ALAGEYİK PARKURU",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
       {
@@ -262,7 +262,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 35K Alageyik Trail, yaklaşık 35 km uzunluğunda ve 670m+ tırmanış içeren bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 33K Alageyik Trail, yaklaşık 33 km uzunluğunda ve 704m+ tırmanış içeren bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -272,7 +272,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "35K Alageyik Trail'e katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "33K Alageyik Trail'e katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -286,7 +286,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) Kayıt Ücreti Tarifesi: Erken Kayıt (21 Haz - 15 Ağus): 3.250 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 3.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 4.250 ₺",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 3.250 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 3.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 4.250 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -339,7 +339,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, izin verilen alanlar dışında dışarıdan destek almak, zorunlu malzemeleri bulundurmamak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını bırakmaları halinde ek 1 saat zaman cezası uygulanır. Kayıtsız koşma veya başkasının göğüs numarasıyla yarışma durumlarında sporcular diskalifiye edilir ve organizasyonun yasal sorumluluk sınırları dışında kalırlar.",
+            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, izin verilen alanlar dışında dışarıdan destek almak, zorunlu malzemeleri bulundurmamak, çalışan, görevli ve gönüllülere saygısızlık yapmak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını bırakmaları halinde ek 1 saat zaman cezası uygulanır. Kayıtsız koşma veya başkasının göğüs numarasıyla yarışma durumlarında sporcular diskalifiye edilir ve organizasyonun yasal sorumluluk sınırları dışında kalırlar.",
           },
         ],
       },
@@ -376,7 +376,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 112m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -400,7 +400,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) Kayıt Ücreti Tarifesi: Erken Kayıt (21 Haz - 15 Ağus): 2.250 ₺, Normal Kayıt (16 Ağus - 20 Eyl): 2.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 3.000 ₺",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 2.250 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 2.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 3.000 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -439,7 +439,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Kontrol noktalarından geçmemek, 200 m den fazla kestirme yol kullanmak, izin verilen alanlar dışında dışarıdan destek almak. Batonlu başlayan koşucuların finişten önce batonlarını herhangi bir yere bırakmaları halinde ek 1 saat zaman cezası uygulanır.",
+            text: "Kontrol noktalarından geçmemek, 200 m den fazla kestirme yol kullanmak, izin verilen alanlar dışında dışarıdan destek almak, çalışan, görevli ve gönüllülere saygısızlık yapmak doğrudan diskalifiye sebebidir. Batonlu başlayan koşucuların finişten önce batonlarını herhangi bir yere bırakmaları halinde ek 1 saat zaman cezası uygulanır.",
           },
         ],
       },
@@ -476,7 +476,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 7K My Pace Run, yaklaşık 7 km uzunluğunda ve 30m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 2 saat (Zaman sınırı: 10:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 7K My Pace Run, yaklaşık 7.5 km uzunluğunda ve 38m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 2 saat (Zaman sınırı: 10:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -500,7 +500,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti Tarifesi: Erken Kayıt (21 Haz - 15 Ağus): 1.400 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 1.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 2.000 ₺",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (21 Haz - 15 Ağus): 1.400 ₺ | Normal Kayıt (16 Ağus - 20 Eyl): 1.750 ₺ | Geç Kayıt (21 Eyl - 18 Eki): 2.000 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -553,7 +553,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, doğaya çöp atmak, sportmenlik dışı davranışlar sergilemek doğrudan diskalifiye sebebidir.",
+            text: "Kontrol noktalarından geçmemek, 200m den fazla kestirme yol kullanmak, doğaya çöp atmak, sportmenlik dışı davranışlar sergilemek, çalışan, görevli ve gönüllülere saygısızlık yapmak doğrudan diskalifiye sebebidir.",
           },
         ],
       },

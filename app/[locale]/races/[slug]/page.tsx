@@ -151,6 +151,13 @@ function RaceHero({
             <p className="mt-5 max-w-xl font-display-wonk text-xl leading-snug text-bone/85 sm:text-2xl">
               {t(`${race.slug}.tagline`)}
             </p>
+            <Image
+              src="/logos/itra.svg"
+              alt="ITRA"
+              width={216}
+              height={40}
+              className="mt-8 h-8 w-auto"
+            />
           </div>
 
           <div className="shrink-0">

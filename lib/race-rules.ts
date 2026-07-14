@@ -193,7 +193,7 @@ export const RACE_RULES: RuleSection[] = [
           "Zorunlu malzeme kontrolünü reddetmek",
           "Doğaya çöp atmak",
           "Yardıma ihtiyacı olan sporcuya yardım etmemek",
-          "Organizasyon görevlilerine uygunsuz davranış",
+          "Çalışan, görevli ve gönüllülere saygısızlık yapmak",
           "Göğüs numarasını görünür taşımamak",
           "Doping veya yasaklı madde kullanımı",
           "Trafik kurallarını ihlal ederek tehlike oluşturmak",
