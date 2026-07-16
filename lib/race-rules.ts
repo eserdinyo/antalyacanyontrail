@@ -42,7 +42,7 @@ export const RACE_RULES: RuleSection[] = [
         items: [
           "Yarışma, 7K parkuru hariç, 18 yaş ve üzerindeki tüm katılımcılara açıktır. 7K parkuru ise kendi içinde 12-17 yaş grubu ve 18+ yaş grubu olmak üzere iki ayrı kategori olarak değerlendirilecek ve bu gruplar için ayrı kürsü törenleri icra edilecektir.",
           "7K parkurunda 12-17 yaşındaki sporcular veli izin dilekçesi ile yarışabilir.",
-          "33K, 45K ve 70K parkurlarında yarışacak sporcuların; son 6 ay içerisinde alınmış sağlık raporuna veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları zorunludur. (7K ve 13K parkurları için sağlık raporu veya lisans zorunluluğu bulunmamaktadır.)",
+          "33K, 45K ve 70K parkurlarında yarışacak sporcuların; son 6 ay içerisinde alınmış sağlık raporuna veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları zorunludur. (7K ve 13K parkurları için sağlık raporu veya lisans zorunluluğu bulunmamaktadır.)",
           "Organizasyon gerekli gördüğü durumlarda sağlık raporu talep etme hakkına sahiptir.",
           "Katılımcılar kayıt yaptırarak yarışın fiziksel ve mental risklerini kabul etmiş sayılır.",
         ],
@@ -55,7 +55,7 @@ export const RACE_RULES: RuleSection[] = [
     content: [
       {
         type: "paragraph",
-        text: "Organizasyon kapsamında koşulacak 5 farklı parkur için kayıt dönemlerine göre kademeli fiyat politikası uygulanacaktır. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanlarının dolması durumunda daha erken) kapatılacaktır.",
+        text: "Organizasyon kapsamında koşulacak 5 farklı parkur için kayıt dönemlerine göre kademeli fiyat politikası uygulanacaktır. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla (veya parkur kontenjanlarının dolması durumunda daha erken) kapatılacaktır.",
       },
       {
         type: "paragraph",
@@ -79,7 +79,7 @@ export const RACE_RULES: RuleSection[] = [
         type: "list",
         items: [
           "Standart kayıt paketi tercih eden sporcuların keyfi iptal taleplerinde tam ücret iadesi yapılmaz.",
-          "Tüketici hukuku ve sporcu hakları dengesi gözetilerek; resmi olarak ilan edilen son kısmi iptal tarihi olan 1 Ekim 2026 günü saat 23:59’a kadar organizasyona yazılı (e-posta) yapılacak başvurularda, banka ve sistem altyapı işletim kesintileri düşüldükten sonra net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır.",
+          "Tüketici hukuku ve sporcu hakları dengesi gözetilerek; resmi olarak ilan edilen son kısmi iptal tarihi olan 1 Ekim 2026 günü saat 23.59’a kadar organizasyona yazılı (e-posta) yapılacak başvurularda, banka ve sistem altyapı işletim kesintileri düşüldükten sonra net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır.",
           "1 Ekim 2026 tarihinden sonra yapılacak standart paket iptallerinde kesinlikle ücret iadesi yapılmayacaktır.",
         ],
       },
@@ -102,7 +102,7 @@ export const RACE_RULES: RuleSection[] = [
       {
         type: "list",
         items: [
-          "Yarışma start tarihinden önce gelen 13 Ekim 2026 günü saat 23:59'a kadar organizasyon komitesine yazılı (e-posta yoluyla) başvuran sporcular, mevcut kayıt haklarını istedikleri başka bir sporcuya devredebilirler.",
+          "Yarışma start tarihinden önce gelen 13 Ekim 2026 günü saat 23.59'a kadar organizasyon komitesine yazılı (e-posta yoluyla) başvuran sporcular, mevcut kayıt haklarını istedikleri başka bir sporcuya devredebilirler.",
           "Kayıt devir işlemlerinde, devrin yapıldığı tarihteki güncel dönem fiyatı üzerinden %50 oranında bir devir/hizmet kesintisi uygulanır. Devralan sporcu, ilgili parkurun tüm katılım şartlarını (sağlık raporu, lisans, zorunlu malzemeler vb.) taşımak ve ibraz etmekle yükümlüdür.",
           "13 Ekim 2026 tarihinden sonra operasyonel süreçlerin tamamlanması nedeniyle hiçbir şekilde devir ve isim değişikliği işlemi yapılmayacaktır.",
         ],

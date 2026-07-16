@@ -33,7 +33,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 1935m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23:45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 1935m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23.45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -43,7 +43,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "70K Antalya Termessos Ultra parkuruna katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "70K Antalya Termessos Ultra parkuruna katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -53,7 +53,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 200 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 200 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
@@ -61,7 +61,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -71,7 +71,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen resmi saatlerde 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır. 70K Antalya Termessos Ultra sporcuları için ara nokta destek çantası (Drop Bag) teslim etme hakkı bulunmaktadır. Drop bag çantaları 14 Kasım sabahı 06:00 - 07:20 saatleri arasında teslim alınacaktır.",
+            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen resmi saatlerde 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır. 70K Antalya Termessos Ultra sporcuları için ara nokta destek çantası (Drop Bag) teslim etme hakkı bulunmaktadır. Drop Bag çantaları 14 Kasım sabahı 06.00 - 07.20 saatleri arasında teslim alınacaktır.",
           },
         ],
       },
@@ -148,7 +148,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 46 km uzunluğunda ve 1037m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 46 km uzunluğunda ve 1037m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -158,7 +158,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "45K Antalya Goat Ultra parkuruna katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "45K Antalya Goat Ultra parkuruna katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -168,7 +168,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 300 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 300 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
@@ -176,7 +176,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -186,7 +186,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen resmi saatlerde 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır. 45K Antalya Goat Ultra sporcuları için ara nokta destek çantası (Drop Bag) teslim etme hakkı bulunmaktadır. Drop bag çantaları 14 Kasım sabahı 06:00 - 07:20 saatleri arasında teslim alınacaktır.",
+            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen resmi saatlerde 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır. 45K Antalya Goat Ultra sporcuları için ara nokta destek çantası (Drop Bag) teslim etme hakkı bulunmaktadır. Drop Bag çantaları 14 Kasım sabahı 06.00 - 07.20 saatleri arasında teslim alınacaktır.",
           },
         ],
       },
@@ -262,7 +262,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 33K Alageyik Parkuru, yaklaşık 33.5 km uzunluğunda ve 704m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 33K Alageyik Parkuru, yaklaşık 33.5 km uzunluğunda ve 704m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -272,7 +272,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "33K Alageyik Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "33K Alageyik Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -282,7 +282,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 400 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Katılımcı sayısı 400 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
@@ -290,7 +290,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -376,7 +376,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -396,7 +396,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır.",
           },
           {
             type: "paragraph",
@@ -404,7 +404,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23:59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23:59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -476,7 +476,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 7K My Pace Run, yaklaşık 7.5 km uzunluğunda ve 30m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08:00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 2 saat (Zaman sınırı: 10:00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 7K My Pace Run, yaklaşık 7.5 km uzunluğunda ve 30m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 2 saat (Zaman sınırı: 10.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -496,7 +496,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23:59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır. Yapılan her kayıt kişiye özeldir.",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 20 Temmuz 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla (veya parkur kontenjanının dolması durumunda daha erken) kapatılacaktır. Maksimum katılımcı sayısı 500 kişi ile sınırlandırılmıştır. Yapılan her kayıt kişiye özeldir.",
           },
           {
             type: "paragraph",
@@ -504,7 +504,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Keyfi iptal taleplerinde tam ücret iadesi yapılmaz. Son kısmi iptal tarihi olan 1 Ekim 2026 saat 23:59'ya kadar yapılacak başvurularda, net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. 1 Ekim 2026'dan sonra standart paket iadesi yapılmaz. İlk kayıt esnasında %15 ek bedelle 'Kayıt Sigortası' satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 kesintisiz iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 günü saat 23:59'a kadar %50 devir hizmet kesintisi uygulanarak başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Keyfi iptal taleplerinde tam ücret iadesi yapılmaz. Son kısmi iptal tarihi olan 1 Ekim 2026 saat 23.59'ya kadar yapılacak başvurularda, net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. 1 Ekim 2026'dan sonra standart paket iadesi yapılmaz. İlk kayıt esnasında %15 ek bedelle 'Kayıt Sigortası' satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 kesintisiz iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 günü saat 23.59'a kadar %50 devir hizmet kesintisi uygulanarak başka bir sporcuya devir yapılabilir.",
           },
           {
             type: "paragraph",
@@ -528,7 +528,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Katılımcıların start saatinden en az 30 dakika önce başlangıç alanında hazır bulunmaları gerekmektedir. Start alanı saat 08:00'de toplu olarak başlar. Başlangıç alanında emanet çanta teslim bölgesi yer alacaktır. Katılımcılar teslim ettikleri çantalarını göğüs numaralarını göstermek şartıyla koşu sonunda geri alabilirler.",
+            text: "Katılımcıların start saatinden en az 30 dakika önce başlangıç alanında hazır bulunmaları gerekmektedir. Start alanı saat 08.00'de toplu olarak başlar. Başlangıç alanında emanet çanta teslim bölgesi yer alacaktır. Katılımcılar teslim ettikleri çantalarını göğüs numaralarını göstermek şartıyla koşu sonunda geri alabilirler.",
           },
         ],
       },

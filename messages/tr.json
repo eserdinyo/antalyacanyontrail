@@ -26,7 +26,7 @@
     "videos": "Videolar",
     "press": "Basın",
     "results": "Sonuçlar",
-    "volunteer": "Gonullu Ol",
+    "volunteer": "Gönüllü Ol",
     "contact": "İLETİŞİM"
   },
   "Hero": {
@@ -38,7 +38,7 @@
   },
   "Countdown": {
     "title": "GERİ SAYIM",
-    "subtitle": "BAŞLANGIÇ ÇİZGİSİ · YEREL SAATLE 07:00",
+    "subtitle": "BAŞLANGIÇ ÇİZGİSİ · YEREL SAATLE 07.00",
     "months": "AY",
     "days": "GÜN",
     "hours": "SAAT",
@@ -111,7 +111,7 @@
     "routeRulesLabel": "PARKUR DOKÜMANI",
     "routeRulesTitle": "Parkur detayları",
     "downloadTitle": "GPX dosyası",
-    "downloadDesc": "Önceden kaydedilmiş referans dosyası. Garmin, Suunto veya Strava'ya yükleyerek parkuru önizleyebilirsin.",
+    "downloadDesc": "Önceden kaydedilmiş referans dosyası. Garmin, Suunto veya Strava'ya yükleyerek parkuru ön izleyebilirsin.",
     "downloadCta": "GPX İndir",
     "downloadShort": "GPX",
     "downloadSoon": "GPX yakında",

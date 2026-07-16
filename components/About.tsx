@@ -28,10 +28,7 @@ export function About() {
       <div className="relative mx-auto max-w-[1400px] px-5 py-20 sm:px-8 sm:py-28">
         <div className="max-w-3xl">
           <p className="font-display text-2xl leading-snug text-ink sm:text-3xl">
-            <span className="float-left mr-3 mt-1 font-display text-7xl leading-none text-ember">
-              {t("p1").slice(0, 1)}
-            </span>
-            {t("p1").slice(1)}
+            {t("p1")}
           </p>
 
           <p className="mt-10 text-base leading-relaxed text-ink-soft sm:text-lg">
