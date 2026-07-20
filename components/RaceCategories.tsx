@@ -5,6 +5,7 @@ import type { CSSProperties } from "react";
 import { Link } from "@/i18n/navigation";
 import { RACES, type Race } from "@/lib/event";
 import { ElevationProfile } from "./ElevationProfile";
+import { ItraPoints } from "./ItraPoints";
 
 const PANEL_TINT: Record<
   Race["color"],
@@ -152,6 +153,9 @@ function RacePanel({ race }: { race: Race }) {
             <p className="mt-5 text-sm font-black tracking-[0.22em] text-bone">
               {race.elevationM}M+
             </p>
+            <div className="mt-5 flex justify-center">
+              <ItraPoints race={race} size="sm" />
+            </div>
           </div>
         </div>
 
