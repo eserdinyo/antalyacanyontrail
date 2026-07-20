@@ -1,17 +1,9 @@
 import { useTranslations } from "next-intl";
 import { Marquee } from "./Marquee";
 
-const SPONSOR_NAMES = [
-  "ANTALYA",
-  "ASICS",
-  "GARMIN",
-  "HERBALIFE",
-  "POWER·APP",
-  "SEGWAY",
-  "SWISSÔTEL",
-  "ANADOLU",
-  "ALMIRA",
-];
+/* Placeholder until real partners are confirmed. Reads the same in TR and EN,
+   so it needs no message key. */
+const SPONSOR_NAMES = Array.from({ length: 9 }, () => "SPONSOR");
 
 function Tier({
   label,
