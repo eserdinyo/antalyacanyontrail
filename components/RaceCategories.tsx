@@ -153,7 +153,7 @@ function RacePanel({ race }: { race: Race }) {
             <p className="mt-5 text-sm font-black tracking-[0.22em] text-bone">
               {race.elevationM}M+
             </p>
-            <div className="mt-5 flex justify-center">
+            <div className="mt-5 flex h-[45px] justify-center">
               <ItraPoints race={race} size="sm" />
             </div>
           </div>

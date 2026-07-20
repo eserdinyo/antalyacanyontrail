@@ -12,7 +12,8 @@ const BADGE: Record<NonNullable<Race["itraPoints"]>, string> = {
 };
 
 /* Intrinsic artwork is 77x45. The lg figure is a quarter of the area of
-   RaceBadge size="lg" (w-36 h-[170px]), kept at the same 77:45 ratio. */
+   RaceBadge size="lg" at its sm: breakpoint and above (sm:w-36 sm:h-[170px]),
+   kept at the same 77:45 ratio. */
 const SIZE = {
   sm: { width: 77, height: 45 },
   lg: { width: 102, height: 60 },
@@ -38,6 +39,7 @@ export function ItraPoints({
       alt={`ITRA ${race.itraPoints} ${t("itraPoints")}`}
       width={s.width}
       height={s.height}
+      loading={size === "lg" ? "eager" : "lazy"}
       className="h-auto shrink-0 drop-shadow-[0_8px_18px_rgba(27,24,23,0.32)]"
     />
   );
