@@ -99,9 +99,13 @@ therefore does not import `PALETTE`.
 "INTERNATIONAL / TRAIL RUNNING / ASSOCIATION" — with hardcoded white fills. It is
 unusable below ~120px wide and invisible on light card surfaces.
 
-`itra-mark.svg` is the wordmark alone, cropped from that file, with fills replaced by
-`currentColor` so both variants inherit their surrounding palette. Rendered as an inline
-SVG (not `next/image`) so `currentColor` resolves.
+`itra-mark.svg` is the wordmark alone — the first five paths of the lockup, viewBox
+`0 0 107 40`. The white letterforms become `currentColor` so both variants inherit their
+surrounding palette; the "A" triangle keeps ITRA's brand green `#8CD346`. The dot over the
+"i" is green in the source but becomes `currentColor` here — at 10–12px tall an isolated
+green dot on a dark wash reads as a rendering artifact.
+
+Rendered as an inline SVG in the component (not `next/image`) so `currentColor` resolves.
 
 ## Accessibility
 
