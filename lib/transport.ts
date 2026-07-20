@@ -1,5 +1,13 @@
+export type TransportSectionId =
+  | "airport"
+  | "city-center"
+  | "group-transfers"
+  | "private-vehicle"
+  | "transfer-service"
+  | "navigation";
+
 export type TransportSection = {
-  id: string;
+  id: TransportSectionId;
   title: string;
   body: string[];
 };

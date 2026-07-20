@@ -13,9 +13,13 @@ import {
 
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { getTransport, type TransportSection } from "@/lib/transport";
+import {
+  getTransport,
+  type TransportSection,
+  type TransportSectionId,
+} from "@/lib/transport";
 
-const SECTION_ICONS: Record<string, LucideIcon> = {
+const SECTION_ICONS: Record<TransportSectionId, LucideIcon> = {
   airport: Plane,
   "city-center": Building2,
   "group-transfers": Users,
@@ -74,7 +78,10 @@ export default async function TransportPage({
           <div className="relative mx-auto max-w-[1400px] px-5 pt-20 pb-16 sm:px-8 sm:pt-28 sm:pb-24">
             <div className="max-w-5xl">
               <p className="label text-bone/65">{transport.eyebrow}</p>
-              <h1 className="mt-5 font-display text-[14vw] leading-[0.84] tracking-tight sm:text-7xl lg:text-[8rem]">
+              {/* 12vw, not the 14vw used by sibling heroes: the EN title
+                  "Transportation" is a single unbreakable word and overflows
+                  the hero at 14vw on phones. */}
+              <h1 className="mt-5 font-display text-[12vw] leading-[0.84] tracking-tight sm:text-7xl lg:text-[8rem]">
                 {transport.title}
               </h1>
               <p className="mt-8 max-w-2xl border-t border-bone/20 pt-6 font-display-wonk text-xl leading-snug text-bone/85 sm:text-2xl">
@@ -110,9 +117,9 @@ export default async function TransportPage({
                     </h2>
                   </div>
                   <ul className="mt-5 grid gap-3">
-                    {transport.note.items.map((item) => (
+                    {transport.note.items.map((item, index) => (
                       <li
-                        key={item}
+                        key={index}
                         className="grid grid-cols-[10px_1fr] gap-3 text-base leading-relaxed text-ink-soft"
                       >
                         <span
@@ -146,30 +153,28 @@ function TransportSectionBlock({
   return (
     <section
       id={section.id}
-      className="scroll-mt-24 border-b border-line py-10 first:pt-0 last:border-b-0 sm:py-14"
+      className="scroll-mt-24 border-b border-line py-10 first:pt-0 sm:py-14"
     >
       <div className="grid gap-6 lg:grid-cols-[90px_1fr] lg:gap-8">
         <p className="label text-ember">{String(index + 1).padStart(2, "0")}</p>
 
         <div className="max-w-3xl">
           <div className="flex items-center gap-3">
-            {Icon ? (
-              <Icon
-                size={22}
-                strokeWidth={2}
-                aria-hidden
-                className="shrink-0 text-ink-soft"
-              />
-            ) : null}
+            <Icon
+              size={22}
+              strokeWidth={2}
+              aria-hidden
+              className="shrink-0 text-ink-soft"
+            />
             <h2 className="font-display text-3xl leading-none tracking-tight sm:text-4xl">
               {section.title}
             </h2>
           </div>
 
           <div className="mt-5 grid gap-4">
-            {section.body.map((paragraph) => (
+            {section.body.map((paragraph, index) => (
               <p
-                key={paragraph}
+                key={index}
                 className="text-base leading-relaxed text-ink-soft sm:text-lg"
               >
                 {paragraph}
