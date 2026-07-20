@@ -68,27 +68,27 @@
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",
       "tagline": "Ultra distance — the real ultra experience",
-      "description": "Roughly 70 km long with 1935 m of elevation gain, the Antalya Termessos Ultra consists of 55% trail, 38% single track and 7% paved road."
+      "description": "Roughly 70 km long with 1935 m of elevation gain, the Antalya Termessos Ultra consists of 15% paths, 84% tracks and 1% roads."
     },
     "antalya-goat-ultra": {
       "name": "Antalya Goat Ultra",
       "tagline": "Classic marathon — on the trail",
-      "description": "Roughly 46.7 km long with 1037 m of elevation gain, the Antalya Goat Ultra consists of 55% trail, 40% single track and 5% paved road."
+      "description": "Roughly 46.7 km long with 1037 m of elevation gain, the Antalya Goat Ultra consists of 8% paths, 91% tracks and 1% roads."
     },
     "alageyik-trail": {
       "name": "Alageyik Trail",
       "tagline": "Tough and scenic — mid distance",
-      "description": "Roughly 33 km long with 704 m of elevation gain, the Alageyik Trail consists of 65% trail, 30% single track and 5% paved road."
+      "description": "Roughly 33 km long with 704 m of elevation gain, the Alageyik Trail consists of 5% paths, 94% tracks and 1% roads."
     },
     "guver-cliff-trail": {
       "name": "Güver Cliff Trail",
       "tagline": "Half-trail — perfect for first-timers",
-      "description": "Roughly 13.5 km long with 112 m+ of elevation gain, the Güver Cliff Trail consists of 70% trail, 20% single track and 10% paved road."
+      "description": "Roughly 13.5 km long with 112 m+ of elevation gain, the Güver Cliff Trail consists of 3% paths, 96% tracks and 1% roads."
     },
     "my-pace-run": {
       "name": "My Pace Run",
       "tagline": "Short distance — for everyone",
-      "description": "Roughly 7.5 km long with 38 m+ of climbing, the My Pace Run is ideal for families, young athletes and beginners."
+      "description": "Roughly 7.5 km long with 38 m+ of climbing, the My Pace Run consists of 6% paths, 90% tracks and 4% roads — ideal for families, young athletes and beginners."
     }
   },
   "RaceDetail": {

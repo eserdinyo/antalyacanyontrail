@@ -68,27 +68,27 @@
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",
       "tagline": "Ultra mesafe — gerçek ultra deneyim",
-      "description": "Yaklaşık 70 km uzunluğu ve 1935 m yükseklik kazanımı olan Antalya Termessos Ultra; %55 patika, %38 single track ve %7 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 70 km uzunluğu ve 1935 m yükseklik kazanımı olan Antalya Termessos Ultra; %15 paths, %84 tracks ve %1 roads'tan oluşmaktadır."
     },
     "antalya-goat-ultra": {
       "name": "Antalya Goat Ultra",
       "tagline": "Klasik maraton mesafesi — patikada",
-      "description": "Yaklaşık 46,7 km uzunluğu ve 1037 m yükseklik kazanımı olan Antalya Goat Ultra; %55 patika, %40 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 46,7 km uzunluğu ve 1037 m yükseklik kazanımı olan Antalya Goat Ultra; %8 paths, %91 tracks ve %1 roads'tan oluşmaktadır."
     },
     "alageyik-trail": {
       "name": "Alageyik Trail",
       "tagline": "Sert ve manzaralı — orta mesafe",
-      "description": "Yaklaşık 33 km uzunluğu ve 704 m yükseklik kazanımı olan Alageyik Trail; %65 patika, %30 single track ve %5 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 33 km uzunluğu ve 704 m yükseklik kazanımı olan Alageyik Trail; %5 paths, %94 tracks ve %1 roads'tan oluşmaktadır."
     },
     "guver-cliff-trail": {
       "name": "Güver Cliff Trail",
       "tagline": "Yarı patika — başlangıç için ideal",
-      "description": "Yaklaşık 13,5 km uzunluğu ve 112 m+ yükseklik kazanımı olan Güver Cliff Trail; %70 patika, %20 single track ve %10 asfalt yoldan oluşmaktadır."
+      "description": "Yaklaşık 13,5 km uzunluğu ve 112 m+ yükseklik kazanımı olan Güver Cliff Trail; %3 paths, %96 tracks ve %1 roads'tan oluşmaktadır."
     },
     "my-pace-run": {
       "name": "My Pace Run",
       "tagline": "Kısa mesafe — herkes için",
-      "description": "Yaklaşık 7,5 km uzunluğu ve 38 m+ tırmanışı olan My Pace Run; aileler, genç sporcular ve yeni başlayanlar için ideal bir parkurdur."
+      "description": "Yaklaşık 7,5 km uzunluğu ve 38 m+ tırmanışı olan My Pace Run; %6 paths, %90 tracks ve %4 roads'tan oluşan, aileler, genç sporcular ve yeni başlayanlar için ideal bir parkurdur."
     }
   },
   "RaceDetail": {
