@@ -63,6 +63,7 @@
     "summary": "05 RACES / ONE WEEKEND",
     "start": "START",
     "finish": "FINISH",
+    "itraPoints": "POINTS",
     "details": "Details",
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",

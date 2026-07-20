@@ -63,6 +63,7 @@
     "summary": "05 YARIŞ / TEK HAFTA SONU",
     "start": "BAŞLANGIÇ",
     "finish": "BİTİŞ",
+    "itraPoints": "PUAN",
     "details": "Detaylar",
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",

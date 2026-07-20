@@ -40,6 +40,10 @@ export type Race = {
   gpx?: GpxTrack;
   /* Trace de Trail iframe id — embeds the interactive course map when set */
   traceDeTrailId?: number;
+  /* ITRA performance points — set only for ITRA-scored courses.
+     Absent (not 0) for courses that do not score: ACT13, ACT05.
+     Closed union: one badge asset exists per tier in public/logos/. */
+  itraPoints?: 1 | 2 | 3;
 };
 
 export function getRace(slug: string): Race | undefined {
@@ -82,6 +86,7 @@ export const RACES: Race[] = [
     slug: "antalya-termessos-ultra",
     distanceKm: 70,
     elevationM: 1935,
+    itraPoints: 3,
     color: "ember-deep",
     image: "/races/ultra.jpeg",
     profile: TERMESSOS_PROFILE,
@@ -99,6 +104,7 @@ export const RACES: Race[] = [
     slug: "antalya-goat-ultra",
     distanceKm: 45,
     elevationM: 1037,
+    itraPoints: 2,
     color: "ember",
     image: "/races/marathon.jpeg",
     profile: CANYON_MARATHON_PROFILE,
@@ -116,6 +122,7 @@ export const RACES: Race[] = [
     slug: "alageyik-trail",
     distanceKm: 33,
     elevationM: 704,
+    itraPoints: 1,
     color: "ochre",
     image: "/races/epic.jpeg",
     profile: ALAGEYIK_PROFILE,
