@@ -75,7 +75,7 @@ Two bands, following `app/[locale]/event-program/page.tsx`:
 1. **Hero** — `bg-shadow` / `text-bone`, the same radial-gradient + `bg-topo` overlay and
    decorative circles. Eyebrow, display `h1`, lede on a top-bordered block.
 
-   The eyebrow is `ULAŞIM & TRANSFER` / `GETTING THERE` — unnumbered. `event-program` is
+   The eyebrow is `ULAŞIM & TRANSFER` / `TRANSPORT & TRANSFERS` — unnumbered. `event-program` is
    the only page using a `§ NN ·` eyebrow (`§ 03 · PROGRAM`); `race-rules` uses
    `RESMİ DOKÜMAN`. With no coherent sequence across the site, any number here would be
    arbitrary.
@@ -105,6 +105,9 @@ short prose, not a long scannable timetable.
 Full translation of every section, matching the register of the existing EN pages
 (`lib/route-rules-en.ts`, the `en` object in `lib/event-program.ts`). HAVAŞ keeps its
 proper name; "servis" renders as "shuttle".
+
+The EN page title is **"Transportation"**, matching the existing `Nav.transport` value in
+`messages/en.json:23`. The message files are not edited.
 
 ## Verification
 
