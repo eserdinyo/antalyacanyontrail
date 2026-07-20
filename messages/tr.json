@@ -139,14 +139,6 @@
     "csr": "SOSYAL SORUMLULUK PARTNERİ",
     "placeholder": "LOGO"
   },
-  "Unlock": {
-    "eyebrow": "ÖZEL ERİŞİM",
-    "title": "Şifre gerekli",
-    "subtitle": "Bu site şu an davetli erişime açık. Devam etmek için şifrenizi girin.",
-    "placeholder": "Şifre",
-    "submit": "GİRİŞ",
-    "error": "Hatalı şifre. Tekrar deneyin."
-  },
   "Footer": {
     "headline": "Patikada görüşmek üzere.",
     "edition": "I. EDİSYON · ANTALYA · TÜRKİYE",

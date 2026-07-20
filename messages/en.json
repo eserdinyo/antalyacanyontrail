@@ -139,14 +139,6 @@
     "csr": "SOCIAL RESPONSIBILITY PARTNER",
     "placeholder": "LOGO"
   },
-  "Unlock": {
-    "eyebrow": "PRIVATE ACCESS",
-    "title": "Password required",
-    "subtitle": "This site is currently invite-only. Enter the password to continue.",
-    "placeholder": "Password",
-    "submit": "UNLOCK",
-    "error": "Incorrect password. Try again."
-  },
   "Footer": {
     "headline": "See you on the trail.",
     "edition": "EDITION I · ANTALYA · TÜRKİYE",
