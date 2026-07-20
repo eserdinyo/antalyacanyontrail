@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RaceBadge } from "@/components/RaceBadge";
+import { ItraPoints } from "@/components/ItraPoints";
 import { RouteProfile } from "@/components/RouteProfile";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -161,8 +162,9 @@ function RaceHero({
             />
           </div>
 
-          <div className="shrink-0">
+          <div className="flex shrink-0 items-center gap-4">
             <RaceBadge race={race} size="lg" />
+            <ItraPoints race={race} size="lg" />
           </div>
         </div>
       </div>
