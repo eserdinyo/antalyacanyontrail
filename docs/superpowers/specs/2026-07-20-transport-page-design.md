@@ -24,12 +24,17 @@ slugs under `/tr` as well.
 ## Content model
 
 ```ts
+type TransportSectionId =
+  | "airport" | "city-center" | "group-transfers"
+  | "private-vehicle" | "transfer-service" | "navigation";
+
 type TransportSection = {
-  id: string;
-  icon: LucideIcon;
+  id: TransportSectionId;
   title: string;
   body: string[];      // paragraphs
 };
+// Icons are NOT on this type — lib/transport.ts stays pure data.
+// The page maps SECTION_ICONS: Record<TransportSectionId, LucideIcon>.
 
 type TransportNote = {
   title: string;
