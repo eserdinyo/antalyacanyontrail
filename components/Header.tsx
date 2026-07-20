@@ -65,7 +65,7 @@ export function Header() {
         { href: REGISTER_URL, label: t("registerMenu"), external: true },
         { href: "/event-program", label: t("program") },
         { href: "/race-rules", label: t("rulesMenu") },
-        { label: t("transport"), disabled: true },
+        { href: "/transport", label: t("transport") },
         { label: t("results"), disabled: true },
       ],
     },
