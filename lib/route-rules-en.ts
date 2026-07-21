@@ -479,7 +479,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 1,400 ₺ | Regular Registration (16 Aug - 24 Sep): 1,750 ₺ | Late Registration (24 Sep - 25 Oct): 2,000 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 1,650 ₺ | Regular Registration (16 Aug - 24 Sep): 2,000 ₺ | Late Registration (24 Sep - 25 Oct): 2,250 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",

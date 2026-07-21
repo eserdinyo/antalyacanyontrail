@@ -500,7 +500,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 1.400 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 1.750 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 2.000 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 1.650 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 2.000 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 2.250 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
