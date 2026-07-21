@@ -7,28 +7,11 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RaceBadge } from "@/components/RaceBadge";
 import { ItraPoints } from "@/components/ItraPoints";
-import { RouteProfile } from "@/components/RouteProfile";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { RACES, REGISTER_URL, getRace, type Race, type RaceColor } from "@/lib/event";
+import { RACES, REGISTER_URL, getRace, type Race } from "@/lib/event";
 import { ROUTE_RULES, type RouteRuleContent, type RouteRules } from "@/lib/route-rules";
 import { ROUTE_RULES_EN } from "@/lib/route-rules-en";
-
-const COLOR_TINT: Record<RaceColor, string> = {
-  "ember-deep": "text-ember-deep",
-  ember: "text-ember",
-  ochre: "text-ochre",
-  moss: "text-moss",
-  shadow: "text-shadow",
-};
-
-const FILL_TINT: Record<RaceColor, string> = {
-  "ember-deep": "rgba(122,29,18,0.14)",
-  ember: "rgba(218,64,50,0.14)",
-  ochre: "rgba(198,140,60,0.18)",
-  moss: "rgba(92,107,67,0.18)",
-  shadow: "rgba(45,39,36,0.16)",
-};
 
 export function generateStaticParams() {
   const out: { locale: string; slug: string }[] = [];
@@ -79,13 +62,12 @@ export default async function RaceDetailPage({
       <main>
         <RaceHero race={race} t={t} td={td} />
         <RaceStats race={race} td={td} />
-        <RouteProfileBlock race={race} td={td} />
         {race.traceDeTrailId != null && (
           <TraceDeTrailBlock race={race} td={td} />
         )}
+        {race.gpx && <GpxDownload race={race} td={td} />}
         <RaceBody race={race} t={t} td={td} />
         {routeRules && <RouteRulesBlock routeRules={routeRules} td={td} />}
-        {race.gpx && <GpxDownload race={race} td={td} />}
         <OtherRaces others={others} t={t} td={td} />
       </main>
       <Footer />
@@ -127,19 +109,6 @@ function RaceHero({
           >
             <span aria-hidden>←</span> {td("back")}
           </Link>
-          {race.gpx ? (
-            <a
-              href={race.gpx.file}
-              download
-              className="group inline-flex items-center gap-2 border border-bone/40 px-4 py-2 label text-bone transition-colors hover:border-bone hover:bg-bone/10"
-            >
-              <span aria-hidden>↓</span> {td("downloadCta")}
-            </a>
-          ) : (
-            <span className="inline-flex items-center gap-2 border border-bone/20 px-4 py-2 label text-bone/45">
-              {td("downloadSoon")}
-            </span>
-          )}
         </div>
 
         <div className="mt-10 flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
@@ -219,66 +188,6 @@ function RaceStats({
               )}
             </div>
           ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function RouteProfileBlock({
-  race,
-  td,
-}: {
-  race: Race;
-  td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
-}) {
-  const distanceForAxis = race.gpx?.measuredKm ?? race.distanceKm;
-  const min = race.gpx?.minEleM;
-  const max = race.gpx?.maxEleM;
-  const hasAxes = race.gpx != null;
-
-  return (
-    <section className="border-b border-line bg-bone-deep/60">
-      <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
-        <div className="flex flex-wrap items-end justify-between gap-4 border-b border-line pb-6">
-          <h2 className="font-display text-3xl tracking-tight sm:text-4xl">
-            {td("profileTitle")}
-          </h2>
-          <div className="flex flex-wrap items-center gap-5">
-            <p className="max-w-md text-sm leading-relaxed text-ink-soft">
-              {race.gpx ? td("profileNote") : td("profilePlaceholder")}
-            </p>
-            {race.gpx && (
-              <a
-                href={race.gpx.file}
-                download
-                className="group inline-flex shrink-0 items-center gap-2 border border-ink px-4 py-2 label text-ink transition-colors hover:bg-ink hover:text-bone"
-              >
-                <span aria-hidden>↓</span> {td("downloadCta")}
-              </a>
-            )}
-          </div>
-        </div>
-
-        <div className="mt-8 surface-paper p-4 sm:p-8">
-          <RouteProfile
-            profile={race.profile}
-            distanceKm={distanceForAxis}
-            minEleM={min}
-            maxEleM={max}
-            stroke="var(--ink)"
-            fill={FILL_TINT[race.color]}
-            showAxes={hasAxes}
-            className={COLOR_TINT[race.color]}
-            labels={
-              hasAxes
-                ? {
-                    elevation: td("axisElevation"),
-                    distance: td("axisDistance"),
-                  }
-                : undefined
-            }
-          />
         </div>
       </div>
     </section>
@@ -448,7 +357,7 @@ function GpxDownload({
         <a
           href={race.gpx.file}
           download
-          className="group inline-flex items-center gap-3 self-start border border-bone/40 px-6 py-4 label-lg text-bone transition-colors hover:bg-ember hover:border-ember sm:self-auto"
+          className="group flex w-full items-center justify-center gap-3 border border-bone/40 px-6 py-4 label-lg text-bone transition-colors hover:bg-ember hover:border-ember sm:inline-flex sm:w-auto sm:self-auto sm:justify-start"
         >
           {td("downloadCta")}
           <span aria-hidden className="transition-transform group-hover:translate-x-1">
