@@ -44,6 +44,8 @@ export type Race = {
      Absent (not 0) for courses that do not score: ACT13, ACT05.
      Closed union: one badge asset exists per tier in public/logos/. */
   itraPoints?: 1 | 2 | 3;
+  /* TAF (kosu.taf.org.tr) registration page for this course */
+  registerUrl: string;
 };
 
 export function getRace(slug: string): Race | undefined {
@@ -87,6 +89,7 @@ export const RACES: Race[] = [
     distanceKm: 70,
     elevationM: 1935,
     itraPoints: 3,
+    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=122",
     color: "ember-deep",
     image: "/races/ultra.jpeg",
     profile: TERMESSOS_PROFILE,
@@ -105,6 +108,7 @@ export const RACES: Race[] = [
     distanceKm: 45,
     elevationM: 1037,
     itraPoints: 2,
+    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=121",
     color: "ember",
     image: "/races/marathon.jpeg",
     profile: CANYON_MARATHON_PROFILE,
@@ -123,6 +127,7 @@ export const RACES: Race[] = [
     distanceKm: 33,
     elevationM: 704,
     itraPoints: 1,
+    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=120",
     color: "ochre",
     image: "/races/epic.jpeg",
     profile: ALAGEYIK_PROFILE,
@@ -140,6 +145,7 @@ export const RACES: Race[] = [
     slug: "guver-cliff-trail",
     distanceKm: 13,
     elevationM: 100,
+    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=119",
     color: "moss",
     image: "/races/short.jpeg",
     profile: GUVER_PROFILE,
@@ -157,6 +163,7 @@ export const RACES: Race[] = [
     slug: "my-pace-run",
     distanceKm: 7,
     elevationM: 38,
+    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=118",
     color: "shadow",
     image: "/races/fun.jpeg",
     profile: PACE5K_PROFILE,
@@ -173,4 +180,6 @@ export const RACES: Race[] = [
 
 export const HERO_IMAGE = "/races/hero.jpeg";
 
-export const REGISTER_URL = "https://example.com/register";
+/* Site-wide "Register" buttons send users to the races section, where each
+   course page carries its own TAF registration link (Race.registerUrl). */
+export const REGISTER_URL = "/#races";

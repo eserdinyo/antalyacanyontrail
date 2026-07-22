@@ -48,7 +48,7 @@ export function Header() {
 
   const nav: NavItem[] = [
     { href: "/#dates", label: t("dates"), tone: "outline" },
-    { href: REGISTER_URL, label: t("register"), external: true, tone: "solid" },
+    { href: REGISTER_URL, label: t("register"), tone: "solid" },
     {
       label: t("courses"),
       items: [
@@ -62,7 +62,7 @@ export function Header() {
     {
       label: t("raceInfo"),
       items: [
-        { href: REGISTER_URL, label: t("registerMenu"), external: true },
+        { href: REGISTER_URL, label: t("registerMenu") },
         { href: "/event-program", label: t("program") },
         { href: "/race-rules", label: t("rulesMenu") },
         { href: "/transport", label: t("transport") },

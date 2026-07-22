@@ -9,7 +9,7 @@ import { RaceBadge } from "@/components/RaceBadge";
 import { ItraPoints } from "@/components/ItraPoints";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { RACES, REGISTER_URL, getRace, type Race } from "@/lib/event";
+import { RACES, getRace, type Race } from "@/lib/event";
 import { ROUTE_RULES, type RouteRuleContent, type RouteRules } from "@/lib/route-rules";
 import { ROUTE_RULES_EN } from "@/lib/route-rules-en";
 
@@ -254,7 +254,9 @@ function RaceBody({
             {t(`${race.slug}.name`)}
           </p>
           <a
-            href={REGISTER_URL}
+            href={race.registerUrl}
+            target="_blank"
+            rel="noopener"
             className="group mt-2 inline-flex items-center justify-between gap-3 bg-ink px-5 py-4 label-lg text-bone transition-colors hover:bg-ember"
           >
             {td("register")}

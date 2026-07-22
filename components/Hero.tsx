@@ -60,8 +60,6 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-3">
               <a
                 href={REGISTER_URL}
-                target="_blank"
-                rel="noopener"
                 className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:justify-start sm:py-3"
               >
                 <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
