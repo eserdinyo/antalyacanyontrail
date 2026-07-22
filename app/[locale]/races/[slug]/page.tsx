@@ -172,8 +172,23 @@ function RaceStats({
   return (
     <section className="border-b border-line bg-bone">
       <div className="mx-auto max-w-[1400px] px-5 py-10 sm:px-8 sm:py-14">
-        <div className="flex items-end justify-between gap-4 border-b border-line pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line pb-4">
           <span className="label text-ink-soft">{td("summary")}</span>
+          <a
+            href={race.registerUrl}
+            target="_blank"
+            rel="noopener"
+            className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:justify-start sm:py-3"
+          >
+            <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
+            {td("register")}
+            <span
+              aria-hidden
+              className="transition-transform group-hover:translate-x-1"
+            >
+              →
+            </span>
+          </a>
         </div>
         <div className="grid grid-cols-2 gap-px bg-line/60 lg:grid-cols-4">
           {items.map((it) => (
