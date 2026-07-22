@@ -106,8 +106,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
             type: "list",
             items: [
               "Overall Classification Men / Women",
-              "Age Category 18-29",
-              "Age Category 30-39",
+              "Age Category Under 40",
               "Age Category 40-49",
               "Age Category 50-59",
               "Age Category 60+",
@@ -220,8 +219,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
             type: "list",
             items: [
               "Overall Classification Men / Women",
-              "Age Category 18-29",
-              "Age Category 30-39",
+              "Age Category Under 40",
               "Age Category 40-49",
               "Age Category 50-59",
               "Age Category 60+",

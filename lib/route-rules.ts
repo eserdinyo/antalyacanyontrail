@@ -127,8 +127,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
             type: "list",
             items: [
               "Genel Klasman Erkek / Kadın",
-              "18-29 Yaş Kategorisi",
-              "30-39 Yaş Kategorisi",
+              "40 Yaş Altı Kategorisi",
               "40-49 Yaş Kategorisi",
               "50-59 Yaş Kategorisi",
               "60+ Yaş Kategorisi",
@@ -241,8 +240,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
             type: "list",
             items: [
               "Genel Klasman Erkek / Kadın",
-              "18-29 Yaş Kategorisi",
-              "30-39 Yaş Kategorisi",
+              "40 Yaş Altı Kategorisi",
               "40-49 Yaş Kategorisi",
               "50-59 Yaş Kategorisi",
               "60+ Yaş Kategorisi",
