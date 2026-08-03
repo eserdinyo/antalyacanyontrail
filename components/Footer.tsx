@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { RACES, EVENT_COORDS } from "@/lib/event";
@@ -41,6 +42,20 @@ export function Footer() {
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-bone/70">
             {t("tagline")}
           </p>
+          <div className="mt-10">
+            <h4 className="label text-bone/60">{t("organizedBy")}</h4>
+            <a
+              href="mailto:mazorganizasyon@gmail.com"
+              className="mt-5 inline-block opacity-80 transition-opacity hover:opacity-100"
+            >
+              <Image
+                src="/logos/maz.webp"
+                alt="MAZ Organizasyon"
+                width={150}
+                height={61}
+              />
+            </a>
+          </div>
         </div>
 
         <div>
