@@ -57,7 +57,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 4.500 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 5.000 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 5.750 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 31 Tem): 4.500 ₺ | Normal Kayıt (1 Ağus - 24 Eyl): 5.000 ₺ | Geç Kayıt (25 Eyl - 25 Eki): 5.750 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -171,7 +171,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 3.750 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 4.250 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 4.850 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 31 Tem): 3.750 ₺ | Normal Kayıt (1 Ağus - 24 Eyl): 4.250 ₺ | Geç Kayıt (25 Eyl - 25 Eki): 4.850 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -284,7 +284,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 3.150 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 3.650 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 4.150 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 31 Tem): 3.150 ₺ | Normal Kayıt (1 Ağus - 24 Eyl): 3.650 ₺ | Geç Kayıt (25 Eyl - 25 Eki): 4.150 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -398,7 +398,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 2.250 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 2.750 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 3.000 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 31 Tem): 2.250 ₺ | Normal Kayıt (1 Ağus - 24 Eyl): 2.750 ₺ | Geç Kayıt (25 Eyl - 25 Eki): 3.000 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",
@@ -498,7 +498,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 15 Ağus): 1.650 ₺ | Normal Kayıt (16 Ağus - 24 Eyl): 2.000 ₺ | Geç Kayıt (24 Eyl - 25 Eki): 2.250 ₺ (+200 TL TAF bedeli)",
+            text: "b) 2026 Kayıt Ücreti: Erken Kayıt (20 Tem - 31 Tem): 1.650 ₺ | Normal Kayıt (1 Ağus - 24 Eyl): 2.000 ₺ | Geç Kayıt (25 Eyl - 25 Eki): 2.250 ₺ (+200 TL TAF bedeli)",
           },
           {
             type: "paragraph",

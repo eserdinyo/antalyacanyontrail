@@ -64,11 +64,11 @@ export const RACE_RULES: RuleSection[] = [
       {
         type: "list",
         items: [
-          "7K My Pace Run: Erken Kayıt (20 Temmuz - 15 Ağustos): 1.650 ₺ | Normal Kayıt (16 Ağustos - 24 Eylül): 2.000 ₺ | Geç Kayıt (24 Eylül - 25 Ekim): 2.250 ₺",
-          "13K Güver Cliff Trail: Erken Kayıt (20 Temmuz - 15 Ağustos): 2.250 ₺ | Normal Kayıt (16 Ağustos - 24 Eylül): 2.750 ₺ | Geç Kayıt (24 Eylül - 25 Ekim): 3.000 ₺",
-          "33K Alageyik Trail: Erken Kayıt (20 Temmuz - 15 Ağustos): 3.150 ₺ | Normal Kayıt (16 Ağustos - 24 Eylül): 3.650 ₺ | Geç Kayıt (24 Eylül - 25 Ekim): 4.150 ₺",
-          "45K Antalya Goat Ultra: Erken Kayıt (20 Temmuz - 15 Ağustos): 3.750 ₺ | Normal Kayıt (16 Ağustos - 24 Eylül): 4.250 ₺ | Geç Kayıt (24 Eylül - 25 Ekim): 4.850 ₺",
-          "70K Antalya Termessos Ultra: Erken Kayıt (20 Temmuz - 15 Ağustos): 4.500 ₺ | Normal Kayıt (16 Ağustos - 24 Eylül): 5.000 ₺ | Geç Kayıt (24 Eylül - 25 Ekim): 5.750 ₺",
+          "7K My Pace Run: Erken Kayıt (20 Temmuz - 31 Temmuz): 1.650 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 2.000 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 2.250 ₺",
+          "13K Güver Cliff Trail: Erken Kayıt (20 Temmuz - 31 Temmuz): 2.250 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 2.750 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 3.000 ₺",
+          "33K Alageyik Trail: Erken Kayıt (20 Temmuz - 31 Temmuz): 3.150 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 3.650 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 4.150 ₺",
+          "45K Antalya Goat Ultra: Erken Kayıt (20 Temmuz - 31 Temmuz): 3.750 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 4.250 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 4.850 ₺",
+          "70K Antalya Termessos Ultra: Erken Kayıt (20 Temmuz - 31 Temmuz): 4.500 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 5.000 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 5.750 ₺",
         ],
       },
       {

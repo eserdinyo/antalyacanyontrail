@@ -36,7 +36,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 4,500 ₺ | Regular Registration (16 Aug - 24 Sep): 5,000 ₺ | Late Registration (24 Sep - 25 Oct): 5,750 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 31 Jul): 4,500 ₺ | Regular Registration (1 Aug - 24 Sep): 5,000 ₺ | Late Registration (25 Sep - 25 Oct): 5,750 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
@@ -150,7 +150,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 3,750 ₺ | Regular Registration (16 Aug - 24 Sep): 4,250 ₺ | Late Registration (24 Sep - 25 Oct): 4,850 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 31 Jul): 3,750 ₺ | Regular Registration (1 Aug - 24 Sep): 4,250 ₺ | Late Registration (25 Sep - 25 Oct): 4,850 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
@@ -263,7 +263,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 3,150 ₺ | Regular Registration (16 Aug - 24 Sep): 3,650 ₺ | Late Registration (24 Sep - 25 Oct): 4,150 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 31 Jul): 3,150 ₺ | Regular Registration (1 Aug - 24 Sep): 3,650 ₺ | Late Registration (25 Sep - 25 Oct): 4,150 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
@@ -377,7 +377,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 2,250 ₺ | Regular Registration (16 Aug - 24 Sep): 2,750 ₺ | Late Registration (24 Sep - 25 Oct): 3,000 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 31 Jul): 2,250 ₺ | Regular Registration (1 Aug - 24 Sep): 2,750 ₺ | Late Registration (25 Sep - 25 Oct): 3,000 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
@@ -477,7 +477,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 15 Aug): 1,650 ₺ | Regular Registration (16 Aug - 24 Sep): 2,000 ₺ | Late Registration (24 Sep - 25 Oct): 2,250 ₺ (+200 TL TAF fee)",
+            text: "b) 2026 Entry Fee: Early Registration (20 Jul - 31 Jul): 1,650 ₺ | Regular Registration (1 Aug - 24 Sep): 2,000 ₺ | Late Registration (25 Sep - 25 Oct): 2,250 ₺ (+200 TL TAF fee)",
           },
           {
             type: "paragraph",
