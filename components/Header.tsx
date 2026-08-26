@@ -9,7 +9,7 @@ import { LangSwitcher } from "./LangSwitcher";
 import { REGISTER_URL } from "@/lib/event";
 
 const VOLUNTEER_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSd-NoaQh_s7cwPzwmL8eAlw_CiBxKVolxMpjs7g3YFHhEMKew/viewform?usp=publish-editor";
+  "https://docs.google.com/forms/d/e/1FAIpQLSeOUMau4GsTvlkUHe8w7rXRsSs0Lfm5WjQmaN4ZZJKWPArWsA/viewform";
 
 type NavLink = {
   label: string;
