@@ -364,6 +364,154 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
       },
     ],
   },
+  "forest-trail": {
+    title: "ANTALYA CANYON ULTRA - 22K FOREST TRAIL PARKURU",
+    subtitle: "Katılım Koşulları ve Yarışma Kuralları",
+    sections: [
+      {
+        id: "genel-bilgi",
+        title: "1. Genel Bilgi",
+        content: [
+          {
+            type: "paragraph",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 22K Forest Trail Parkuru, yaklaşık 22 km uzunluğunda ve 400m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların parkuru, organizasyon tarafından ilan edilen zaman sınırı içerisinde tamamlamaları gereklidir. Bu parkurda kısmi yeterlilik esas alınır. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+          },
+        ],
+      },
+      {
+        id: "katilim-sartlari",
+        title: "2. Katılım Şartları",
+        content: [
+          {
+            type: "paragraph",
+            text: "22K Forest Trail Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Triatlon, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+          },
+        ],
+      },
+      {
+        id: "kayit-iptal-iade",
+        title: "3. Kayıt, İptal ve İade Koşulları",
+        content: [
+          {
+            type: "paragraph",
+            text: "a) Kayıt Şekli: Koşuya sadece kayıtlı sporcular katılabilir. Kayıtlar resmi internet sitesi üzerinden gerçekleştirilecektir. Online kayıtlar 28 Ağustos 2026 tarihinde başlayacak ve 25 Ekim 2026 günü saat 23.59 itibarıyla kapatılacaktır. Katılımcı sayısı organizasyon tarafından belirlenen kontenjan ile sınırlandırılmıştır.",
+          },
+          {
+            type: "paragraph",
+            text: "b) 2026 Kayıt Ücreti: Normal Kayıt (28 Ağus - 25 Eki): 3.550 ₺ (+200 TL TAF bedeli)",
+          },
+          {
+            type: "paragraph",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026 tarihine kadar gerekçesiz %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar, organizasyonun belirlediği devir hizmet kesintisi uygulanarak başka bir sporcuya kayıt devri yapılabilir.",
+          },
+        ],
+      },
+      {
+        id: "kit-randevu",
+        title: "4. Yarış Kiti Teslimi ve Randevu Sistemi",
+        content: [
+          {
+            type: "paragraph",
+            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında kimlik kontrolü, sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır.",
+          },
+        ],
+      },
+      {
+        id: "parkur-cevre",
+        title: "5. Parkur Güzergahı ve Çevre Duyarlılığı",
+        content: [
+          {
+            type: "paragraph",
+            text: "Yarış parkuru şeritler ve yön okları ile işaretlenecektir. Belirlenmiş olan güzergahın dışına çıkmak ve kestirme yol kullanmak doğrudan diskalifiye sebebidir. 'Leave No Trace' (İz Bırakma) ilkesi gereği doğaya çöp atan sporcular anında diskalifiye edilir. İstasyonlarda plastik bardak bulunmayacaktır; her sporcu kendi bardağını/su kabını taşımalıdır.",
+          },
+        ],
+      },
+      {
+        id: "zorunlu-malzemeler",
+        title: "6. Zorunlu Malzemeler",
+        content: [
+          {
+            type: "list",
+            items: [
+              "Sağlık Raporu veya Geçerli Lisans: Kit dağıtım masasında ibraz edilecektir.",
+              "Cep Telefonu: Bataryası tam dolu, organizasyon acil durum numaraları kayıtlı olmalıdır.",
+              "Su Taşıma Sistemi: En az 1 litre kapasiteli su torbası veya soft flask/matara.",
+              "Bardak veya Soft Flask: İstasyonlarda plastik bardak bulunmayacaktır.",
+              "Düdük: Kolay ulaşılabilecek bir yerde taşınmalıdır.",
+              "İlk Yardım Seti: Elastik bandaj, yara bandı ve gazlı bez içermelidir.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Organizasyon, hava koşullarına göre yarış öncesinde zorunlu malzeme listesinde değişiklik yapma hakkını saklı tutar.",
+          },
+        ],
+      },
+      {
+        id: "diskalifikasyon-ceza",
+        title: "7. Diskalifikasyon ve Ceza Şartları",
+        content: [
+          {
+            type: "list",
+            items: [
+              "Kontrol noktalarından geçmemek",
+              "200 metreden fazla kestirme yol kullanmak",
+              "İzin verilen alanlar dışında dışarıdan destek almak",
+              "Zorunlu malzemeleri bulundurmamak",
+              "Çevreye çöp atmak",
+              "Kayıtsız koşmak veya başka bir sporcunun göğüs numarasıyla yarışmak",
+              "Çalışan, görevli ve gönüllülere saygısızlık yapmak",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Batonlu başlayan koşucuların, finişten önce batonlarını bırakmaları halinde organizasyonun belirleyeceği zaman cezası uygulanabilir.",
+          },
+        ],
+      },
+      {
+        id: "sonuclar-oduller",
+        title: "8. Sonuçlar ve Ödüller",
+        content: [
+          {
+            type: "paragraph",
+            text: "Değerlendirmeler Erkek/Kadın Genel Klasman (18+) ve organizasyon şemasındaki yaş kategorileri üzerinden yapılacaktır. Kurallara uygun olarak zaman bariyerleri içerisinde yarışı tamamlayan tüm sporculara bitiren (finisher) madalyası takdim edilecektir.",
+          },
+          {
+            type: "list",
+            items: [
+              "Genel Klasman Erkek / Kadın",
+              "18-29 Yaş Kategorisi",
+              "30-39 Yaş Kategorisi",
+              "40-49 Yaş Kategorisi",
+              "50-59 Yaş Kategorisi",
+              "60+ Yaş Kategorisi",
+            ],
+          },
+        ],
+      },
+      {
+        id: "organizasyon-yetkisi",
+        title: "9. Organizasyonun Yetkisi",
+        content: [
+          {
+            type: "paragraph",
+            text: "Organizasyon komitesi; parkur, zaman limitleri, zorunlu malzemeler, istasyon içerikleri, start saatleri ve yarış güvenliğine ilişkin diğer konularda değişiklik yapma hakkını saklı tutar. Hava koşulları, doğal afet, resmi makam kararları veya güvenlik gerekçeleri doğrultusunda yarışın kısmen ya da tamamen iptal edilmesi durumunda organizasyonun güncel kuralları esas alınır.",
+          },
+        ],
+      },
+      {
+        id: "son-hukum",
+        title: "10. Son Hüküm",
+        content: [
+          {
+            type: "paragraph",
+            text: "22K Forest Trail Parkuru'na kayıt yaptıran her sporcu, bu yarışma kurallarını okumuş, anlamış ve kabul etmiş sayılır.",
+          },
+        ],
+      },
+    ],
+  },
   "guver-cliff-trail": {
     title: "ANTALYA CANYON ULTRA - 13K GÜVER CLIFF TRAIL",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",

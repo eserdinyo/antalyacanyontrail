@@ -8,12 +8,19 @@ export const EVENT_COORDS = {
 
 export const EDITION = "I";
 
-export type RaceColor = "ember-deep" | "ember" | "ochre" | "moss" | "shadow";
+export type RaceColor =
+  | "ember-deep"
+  | "ember"
+  | "ochre"
+  | "pine"
+  | "moss"
+  | "shadow";
 
 export type RaceSlug =
   | "antalya-termessos-ultra"
   | "antalya-goat-ultra"
   | "alageyik-trail"
+  | "forest-trail"
   | "guver-cliff-trail"
   | "my-pace-run";
 
@@ -68,6 +75,12 @@ const TERMESSOS_PROFILE = [
 const ALAGEYIK_PROFILE = [
   0.195, 0.152, 0.097, 0.15, 0.159, 0.16, 0.058, 0.165,
   0, 0.009, 0.329, 1, 0.459, 0.504, 0.328, 0.191,
+];
+
+// Values measured from the Garmin GPX: 22K Forest Trail — 22.1 km, ~295 m gain (230–380 m).
+const FOREST_PROFILE = [
+  0.419, 0.367, 0.287, 0, 0.202, 0.348, 0.329, 0.347,
+  0.624, 1, 0.836, 0.794, 0.805, 0.614, 0.482, 0.459,
 ];
 
 // Values from Trace de Trail (id 10356): 13K Güver Cliff Trail — 13.5 km, ~112 m gain (236–303 m).
@@ -138,6 +151,24 @@ export const RACES: Race[] = [
       ascentM: 704,
       minEleM: 196,
       maxEleM: 587,
+    },
+  },
+  {
+    code: "ACT22",
+    slug: "forest-trail",
+    distanceKm: 22,
+    /* official figure from the course document; GPX measures ~295 m */
+    elevationM: 400,
+    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=224",
+    color: "pine",
+    image: "/races/forest.jpeg",
+    profile: FOREST_PROFILE,
+    gpx: {
+      file: "/routes/act22-forest-trail.gpx",
+      measuredKm: 22.1,
+      ascentM: 295,
+      minEleM: 230,
+      maxEleM: 380,
     },
   },
   {

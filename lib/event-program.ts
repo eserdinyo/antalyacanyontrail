@@ -74,7 +74,7 @@ const tr: EventProgramContent = {
         { time: "16.30", title: "Basın / medya buluşması" },
         { time: "18.00", title: "70K teknik toplantı" },
         { time: "18.30", title: "45K teknik toplantı" },
-        { time: "19.00", title: "33K teknik toplantı" },
+        { time: "19.00", title: "33K / 22K teknik toplantı" },
         { time: "19.30", title: "13.5K / 7K bilgilendirme" },
         { time: "20.00", title: "Expo kapanışı" },
       ],
@@ -85,7 +85,7 @@ const tr: EventProgramContent = {
       title: "Ultra Günü",
       date: "14 Kasım 2026",
       summary:
-        "70K, 45K ve 33K parkurları aynı start çizgisinden güne başlar.",
+        "70K, 45K, 33K ve 22K parkurları aynı start çizgisinden güne başlar.",
       courses: [
         {
           name: "Antalya Termessos Ultra",
@@ -105,6 +105,12 @@ const tr: EventProgramContent = {
           start: "08.00",
           cutoff: "17.00",
         },
+        {
+          name: "Forest Trail",
+          distanceElevation: "22K / 400m+",
+          start: "08.00",
+          cutoff: "Duyurulacak",
+        },
       ],
       items: [
         { time: "05.30", title: "Ultra alanı açılışı" },
@@ -115,7 +121,7 @@ const tr: EventProgramContent = {
         { time: "06.00 - 07.20", title: "Drop Bag teslimi" },
         { time: "07.30", title: "Start seremonisi" },
         { time: "07.45", title: "Elite sporcu çağrısı" },
-        { time: "08.00", title: "Tüm ultra parkurlar start" },
+        { time: "08.00", title: "Tüm ultra parkurlar ve 22K start" },
         { time: "10.15", title: "İlk 33K finisher tahmini" },
         { time: "11.30", title: "İlk 45K finisher tahmini" },
         { time: "14.00", title: "İlk 70K finisher tahmini" },
@@ -206,7 +212,7 @@ const en: EventProgramContent = {
         { time: "16:30", title: "Press / media meet-up" },
         { time: "18:00", title: "70K technical briefing" },
         { time: "18:30", title: "45K technical briefing" },
-        { time: "19:00", title: "33K technical briefing" },
+        { time: "19:00", title: "33K / 22K technical briefing" },
         { time: "19:30", title: "13.5K / 7K briefing" },
         { time: "20:00", title: "Expo closes" },
       ],
@@ -217,7 +223,7 @@ const en: EventProgramContent = {
       title: "Ultra Day",
       date: "November 14, 2026",
       summary:
-        "The 70K, 45K, and 33K courses begin from the same start line.",
+        "The 70K, 45K, 33K, and 22K courses begin from the same start line.",
       courses: [
         {
           name: "Antalya Termessos Ultra",
@@ -237,6 +243,12 @@ const en: EventProgramContent = {
           start: "08:00",
           cutoff: "17:00",
         },
+        {
+          name: "Forest Trail",
+          distanceElevation: "22K / 400m+",
+          start: "08:00",
+          cutoff: "TBA",
+        },
       ],
       items: [
         { time: "05:30", title: "Ultra area opens" },
@@ -247,7 +259,7 @@ const en: EventProgramContent = {
         { time: "06:00 - 07:20", title: "Drop bag handover" },
         { time: "07:30", title: "Start ceremony" },
         { time: "07:45", title: "Elite athlete call" },
-        { time: "08:00", title: "All ultra courses start" },
+        { time: "08:00", title: "All ultra courses & 22K start" },
         { time: "10:15", title: "Estimated first 33K finisher" },
         { time: "11:30", title: "Estimated first 45K finisher" },
         { time: "14:00", title: "Estimated first 70K finisher" },

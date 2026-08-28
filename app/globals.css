@@ -10,6 +10,7 @@
   --ember: #da4032;
   --ember-deep: #7a1d12;
   --ochre: #c68c3c;
+  --pine: #2f5d4e;
   --moss: #5c6b43;
   --shadow: #2d2724;
   --shadow-deep: #1a1614;
@@ -26,6 +27,7 @@
   --color-ember: var(--ember);
   --color-ember-deep: var(--ember-deep);
   --color-ochre: var(--ochre);
+  --color-pine: var(--pine);
   --color-moss: var(--moss);
   --color-shadow: var(--shadow);
   --color-shadow-deep: var(--shadow-deep);

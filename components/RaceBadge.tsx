@@ -42,6 +42,16 @@ const PALETTE: Record<RaceColor, Palette> = {
     ink: "#fff2c9",
     outline: "#ffc65b",
   },
+  pine: {
+    from: "#5fbf9c",
+    mid: "#2e6b58",
+    to: "#0d2420",
+    glow: "#a8f0d0",
+    ridgeA: "#245a49",
+    ridgeB: "#081a16",
+    ink: "#e4f7ee",
+    outline: "#7ddbb6",
+  },
   moss: {
     from: "#99b95d",
     mid: "#55783f",

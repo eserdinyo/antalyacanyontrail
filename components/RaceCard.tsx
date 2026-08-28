@@ -9,6 +9,7 @@ const COLOR_TINT: Record<Race["color"], string> = {
   "ember-deep": "text-ember-deep",
   ember: "text-ember",
   ochre: "text-ochre",
+  pine: "text-pine",
   moss: "text-moss",
   shadow: "text-shadow",
 };

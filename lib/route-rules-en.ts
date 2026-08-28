@@ -343,6 +343,154 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
       },
     ],
   },
+  "forest-trail": {
+    title: "ANTALYA CANYON ULTRA - 22K FOREST TRAIL",
+    subtitle: "Participation Terms and Race Rules",
+    sections: [
+      {
+        id: "genel-bilgi",
+        title: "1. General Information",
+        content: [
+          {
+            type: "paragraph",
+            text: "The 22K Forest Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 22 km long with 400m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Participants must complete the course within the time limit announced by the organisation. This course is run under the principle of partial self-sufficiency, which means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+          },
+        ],
+      },
+      {
+        id: "katilim-sartlari",
+        title: "2. Participation Requirements",
+        content: [
+          {
+            type: "paragraph",
+            text: "All athletes taking part in the 22K Forest Trail must hold either a valid medical certificate issued within the last 6 months (stating that there is no objection to practising athletics, triathlon, running or mountaineering) or a valid (non-expired) athlete licence from the Athletics, Triathlon, Mountaineering, Orienteering or Cycling federations, and must present it at kit collection. The race is open to all participants aged 18 and over.",
+          },
+        ],
+      },
+      {
+        id: "kayit-iptal-iade",
+        title: "3. Registration, Cancellation and Refund Terms",
+        content: [
+          {
+            type: "paragraph",
+            text: "a) Registration: Only registered athletes may take part in the race. Registration is completed via the official website. Online registration opens on 28 August 2026 and closes on 25 October 2026 at 23:59. The number of participants is limited to the quota set by the organisation.",
+          },
+          {
+            type: "paragraph",
+            text: "b) 2026 Entry Fee: Regular Registration (28 Aug - 25 Oct): 3,550 ₺ (+200 TL TAF fee)",
+          },
+          {
+            type: "paragraph",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional fee at the time of registration may receive a 100% refund without justification until 1 October 2026. Until 13 October 2026, 23:59, the entry may be transferred to another athlete subject to the transfer service deduction set by the organisation.",
+          },
+        ],
+      },
+      {
+        id: "kit-randevu",
+        title: "4. Race Kit Collection and Appointment System",
+        content: [
+          {
+            type: "paragraph",
+            text: "Participants must collect their race packages containing bib number, timing chips and materials from the announced 'Race Office'. Identity checks, medical certificate/licence checks and mandatory equipment checks are carried out in full during kit collection.",
+          },
+        ],
+      },
+      {
+        id: "parkur-cevre",
+        title: "5. Course Route and Environmental Responsibility",
+        content: [
+          {
+            type: "paragraph",
+            text: "The race course will be marked with tape and direction arrows. Leaving the marked route or taking shortcuts is grounds for immediate disqualification. In line with the 'Leave No Trace' principle, athletes who litter in nature are disqualified on the spot. No plastic cups will be available at aid stations; every athlete must carry their own cup/water container.",
+          },
+        ],
+      },
+      {
+        id: "zorunlu-malzemeler",
+        title: "6. Mandatory Equipment",
+        content: [
+          {
+            type: "list",
+            items: [
+              "Medical Certificate or Valid Licence: To be presented at the kit collection desk.",
+              "Mobile Phone: Fully charged, with the organisation's emergency numbers saved.",
+              "Hydration System: Bladder or soft flask/bottle with at least 1 litre capacity.",
+              "Cup or Soft Flask: No plastic cups will be available at aid stations.",
+              "Whistle: Must be carried somewhere easily accessible.",
+              "First Aid Kit: Must include an elastic bandage, plasters and gauze.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "The organisation reserves the right to change the mandatory equipment list before the race according to weather conditions.",
+          },
+        ],
+      },
+      {
+        id: "diskalifikasyon-ceza",
+        title: "7. Disqualification and Penalties",
+        content: [
+          {
+            type: "list",
+            items: [
+              "Missing control points",
+              "Taking shortcuts longer than 200 metres",
+              "Receiving outside assistance outside the permitted areas",
+              "Not carrying the mandatory equipment",
+              "Littering",
+              "Running unregistered or racing with another athlete's bib number",
+              "Disrespecting staff, officials or volunteers",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Runners who start with poles and leave them before the finish may receive a time penalty determined by the organisation.",
+          },
+        ],
+      },
+      {
+        id: "sonuclar-oduller",
+        title: "8. Results and Awards",
+        content: [
+          {
+            type: "paragraph",
+            text: "Rankings are evaluated in the Men's/Women's Overall Classification (18+) and the age categories in the organisation chart. All athletes who complete the race within the time barriers in accordance with the rules will receive a finisher medal.",
+          },
+          {
+            type: "list",
+            items: [
+              "Overall Classification Men / Women",
+              "Age Category 18-29",
+              "Age Category 30-39",
+              "Age Category 40-49",
+              "Age Category 50-59",
+              "Age Category 60+",
+            ],
+          },
+        ],
+      },
+      {
+        id: "organizasyon-yetkisi",
+        title: "9. Authority of the Organisation",
+        content: [
+          {
+            type: "paragraph",
+            text: "The organising committee reserves the right to make changes to the course, time limits, mandatory equipment, aid station contents, start times and other matters relating to race safety. If the race is partially or fully cancelled due to weather conditions, natural disaster, decisions of official authorities or safety reasons, the organisation's current rules apply.",
+          },
+        ],
+      },
+      {
+        id: "son-hukum",
+        title: "10. Final Provision",
+        content: [
+          {
+            type: "paragraph",
+            text: "Every athlete who registers for the 22K Forest Trail is deemed to have read, understood and accepted these race rules.",
+          },
+        ],
+      },
+    ],
+  },
   "guver-cliff-trail": {
     title: "ANTALYA CANYON ULTRA - 13K GÜVER CLIFF TRAIL",
     subtitle: "Participation Terms and Race Rules",

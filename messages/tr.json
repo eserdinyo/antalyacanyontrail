@@ -12,6 +12,7 @@
     "courses": "Parkurlar",
     "course7": "7K My Pace Run",
     "course13": "13K Güver Cliff Trail",
+    "course22": "22K Forest Trail",
     "course33": "33K Alageyik Trail",
     "course45": "45K Antalya Goat Ultra",
     "course70": "70K Antalya Termessos Ultra",
@@ -51,7 +52,7 @@
     "sectionLabel": "§ 01 · ETKİNLİK",
     "title": "ANTALYA CANYON TRAIL",
     "locationLabel": "EST. 2026 · ANTALYA · TÜRKİYE",
-    "p1": "70K, 45K, 33K, 13K ve 7K etaplarıyla düzenlenecek olan Antalya Canyon Ultra, her seviyeden yerli ve yabancı sporcuyu Antalya'nın eşsiz doğasında buluşturuyor.",
+    "p1": "70K, 45K, 33K, 22K, 13K ve 7K etaplarıyla düzenlenecek olan Antalya Canyon Ultra, her seviyeden yerli ve yabancı sporcuyu Antalya'nın eşsiz doğasında buluşturuyor.",
     "p2": "Parkurlar; Güver Uçurumu, Güver Kanyonu, Kapuz Kanyonu, Karaman Çayı, Cennet Vadisi ve Doyran Göleti çevresindeki büyüleyici doğal güzelliklerden geçerken, sporculara teknik ve unutulmaz bir trail deneyimi sunuyor. Koşucular, Likya Yolu'nun tarihi patikalarında ilerleyerek Doyran Manastırı ve Neapolis Antik Kenti çevresindeki kültürel mirası keşfetme fırsatı bulacak. Beydağları'nın etkileyici manzarası eşliğinde gerçekleşecek bu özel organizasyon; doğa, tarih ve macerayı aynı parkurda bir araya getiriyor. Likya patikaları, antik kalıntılar ve Torosların derin kanyonları arasında uzanan bu parkurlar; yalnızca doğaseverleri değil, yıllar boyunca Yeşilçam'ın efsane sahnelerine ev sahipliği yapan benzersiz bir coğrafyayı da keşfe çıkarıyor. Antalya Canyon Ultra, sporcuları Güver Uçurumu'ndan Kapuz Kanyonu'na uzanan unutulmaz bir maceranın parçası olmaya davet ediyor.",
     "statDistance": "MESAFE",
     "statElevation": "YÜKSELTİ",
@@ -62,7 +63,7 @@
     "sectionLabel": "§ 02 · PARKURLAR",
     "title": "YARIŞLAR",
     "subtitle": "Seviyene uygun olanı seç",
-    "summary": "05 YARIŞ / TEK HAFTA SONU",
+    "summary": "06 YARIŞ / TEK HAFTA SONU",
     "start": "BAŞLANGIÇ",
     "finish": "BİTİŞ",
     "itraPoints": "Puan",
@@ -81,6 +82,11 @@
       "name": "Alageyik Trail",
       "tagline": "Sert ve manzaralı — orta mesafe",
       "description": "Yaklaşık 33 km uzunluğu ve 704 m yükseklik kazanımı olan Alageyik Trail; %5 paths, %94 tracks ve %1 roads'tan oluşmaktadır."
+    },
+    "forest-trail": {
+      "name": "Forest Trail",
+      "tagline": "Orman patikaları — yeni orta mesafe",
+      "description": "Yaklaşık 22 km uzunluğu ve 400 m+ tırmanışı olan Forest Trail; Güver Uçurumu çevresindeki çam ormanlarının gölgeli patikalarında ilerleyen, 13K'dan bir adım öteye geçmek isteyen koşucular için ideal bir parkurdur."
     },
     "guver-cliff-trail": {
       "name": "Güver Cliff Trail",

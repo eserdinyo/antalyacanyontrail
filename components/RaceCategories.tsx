@@ -30,6 +30,11 @@ const PANEL_TINT: Record<
     wash: "rgba(166, 103, 24, 0.66)",
     glow: "rgba(255, 208, 91, 0.34)",
   },
+  pine: {
+    accent: "#5fc9a6",
+    wash: "rgba(30, 78, 66, 0.72)",
+    glow: "rgba(112, 224, 184, 0.3)",
+  },
   moss: {
     accent: "#9fc267",
     wash: "rgba(70, 94, 48, 0.7)",
@@ -75,7 +80,7 @@ export function RaceCategories() {
           </div>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-px bg-bone/12 md:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-10 grid grid-cols-1 gap-px bg-bone/12 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-6">
           {RACES.map((race) => (
             <RacePanel key={race.code} race={race} />
           ))}
