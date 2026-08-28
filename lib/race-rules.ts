@@ -286,6 +286,7 @@ export const RACE_RULES: RuleSection[] = [
           "Genel klasmanda dereceye giren sporcular yaş kategorisinde ayrıca ödül alamaz.",
           "Dereceye giren sporculara sponsor ödülleri ve kürsü kupası verilecektir.",
           "Tüm finisher sporculara bitiren madalyası verilir.",
+          "7K ve 13K parkurlarında ayrıca Takım Kategorisi düzenlenir: en az 5 sporcudan (18+) oluşan takımlar, en hızlı 3 sporcunun toplam süresine göre sıralanır ve her iki mesafede ilk 3 takım ödül alır. Takım sporcuları aynı yarışın bireysel sıralamasına dahil edilmez. Detaylar ilgili parkur sayfalarındadır.",
         ],
       },
     ],

@@ -610,6 +610,41 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
         ],
       },
+      {
+        id: "takim-kategorisi",
+        title: "9. Takım Kategorisi",
+        content: [
+          {
+            type: "paragraph",
+            text: "Antalya Canyon Ultra kapsamında 13K Güver Cliff Trail parkurunda Takım Kategorisi düzenlenmektedir. Takım Kategorisi'ne katılım için herhangi bir şirket, kulüp, kurum veya derneğe bağlı olma zorunluluğu bulunmamaktadır. Şirket çalışanları, spor kulüpleri, koşu grupları, arkadaş grupları veya yarış için bir araya gelen sporcular kendi takımlarını oluşturabilir. Takım Kategorisi yarışları, 13K Güver Cliff Trail bireysel yarışıyla aynı parkurda ve aynı start içerisinde gerçekleştirilir; ancak sonuç ve tasnifleri ayrı olarak yapılır.",
+          },
+          { type: "paragraph", text: "Katılım Şartları:" },
+          {
+            type: "list",
+            items: [
+              "Takım Kategorisi yalnızca 18 yaş ve üzeri sporculara açıktır.",
+              "Bir takım en az 5 sporcudan oluşmalıdır; azami sporcu sayısı bulunmamaktadır.",
+              "Takımlar kadın, erkek veya kadın-erkek karma olarak oluşturulabilir; kadın veya erkek sporcu sayısına ilişkin bir zorunluluk yoktur.",
+              "7K ve 13K Takım Kategorileri birbirinden bağımsız olarak değerlendirilir.",
+              "Bir sporcu aynı parkurda yalnızca bireysel veya takım kategorilerinden birinde değerlendirmeye alınabilir. Takım Kategorisi'nde yarışan sporcular, aynı yarışın bireysel genel klasman veya yaş kategorisi sıralamasına dahil edilmez.",
+              "Cumartesi günü bireysel olarak yarışan bir sporcu, Pazar günü düzenlenen 7K veya 13K yarışına tercihe bağlı olarak bireysel veya takım kategorisinde yeniden katılabilir.",
+            ],
+          },
+          { type: "paragraph", text: "Takım Sıralaması:" },
+          {
+            type: "list",
+            items: [
+              "Takım derecesi, takımın yarışı geçerli şekilde tamamlayan en hızlı 3 sporcusunun toplam süresi esas alınarak belirlenir; en düşük toplam süreye sahip takım üst sırada yer alır.",
+              "Eşitlik durumunda takımların 4. sporcularının, eşitliğin devamı halinde 5. ve sonraki sporcularının dereceleri karşılaştırılır.",
+              "Takımın sıralamaya dahil olabilmesi için en az 5 sporcunun start alması ve takım derecesinin oluşabilmesi için en az 3 sporcunun yarışı geçerli şekilde tamamlaması gerekmektedir.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Ödüllendirme: 7K ve 13K Takım Kategorileri ayrı ayrı değerlendirilir; her iki mesafede de sıralamada yer alan en hızlı ilk 3 takım ödül almaya hak kazanır.",
+          },
+        ],
+      },
     ],
   },
   "my-pace-run": {
@@ -717,6 +752,41 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
               "12-17 yaş Genel Klasman Kadın / Erkek",
               "18+ yaş Genel Klasman Kadın / Erkek",
             ],
+          },
+        ],
+      },
+      {
+        id: "takim-kategorisi",
+        title: "10. Takım Kategorisi",
+        content: [
+          {
+            type: "paragraph",
+            text: "Antalya Canyon Ultra kapsamında 7K My Pace Run parkurunda Takım Kategorisi düzenlenmektedir. Takım Kategorisi'ne katılım için herhangi bir şirket, kulüp, kurum veya derneğe bağlı olma zorunluluğu bulunmamaktadır. Şirket çalışanları, spor kulüpleri, koşu grupları, arkadaş grupları veya yarış için bir araya gelen sporcular kendi takımlarını oluşturabilir. Takım Kategorisi yarışları, 7K My Pace Run bireysel yarışıyla aynı parkurda ve aynı start içerisinde gerçekleştirilir; ancak sonuç ve tasnifleri ayrı olarak yapılır.",
+          },
+          { type: "paragraph", text: "Katılım Şartları:" },
+          {
+            type: "list",
+            items: [
+              "Takım Kategorisi yalnızca 18 yaş ve üzeri sporculara açıktır.",
+              "Bir takım en az 5 sporcudan oluşmalıdır; azami sporcu sayısı bulunmamaktadır.",
+              "Takımlar kadın, erkek veya kadın-erkek karma olarak oluşturulabilir; kadın veya erkek sporcu sayısına ilişkin bir zorunluluk yoktur.",
+              "7K ve 13K Takım Kategorileri birbirinden bağımsız olarak değerlendirilir.",
+              "Bir sporcu aynı parkurda yalnızca bireysel veya takım kategorilerinden birinde değerlendirmeye alınabilir. Takım Kategorisi'nde yarışan sporcular, aynı yarışın bireysel genel klasman veya yaş kategorisi sıralamasına dahil edilmez.",
+              "Cumartesi günü bireysel olarak yarışan bir sporcu, Pazar günü düzenlenen 7K veya 13K yarışına tercihe bağlı olarak bireysel veya takım kategorisinde yeniden katılabilir.",
+            ],
+          },
+          { type: "paragraph", text: "Takım Sıralaması:" },
+          {
+            type: "list",
+            items: [
+              "Takım derecesi, takımın yarışı geçerli şekilde tamamlayan en hızlı 3 sporcusunun toplam süresi esas alınarak belirlenir; en düşük toplam süreye sahip takım üst sırada yer alır.",
+              "Eşitlik durumunda takımların 4. sporcularının, eşitliğin devamı halinde 5. ve sonraki sporcularının dereceleri karşılaştırılır.",
+              "Takımın sıralamaya dahil olabilmesi için en az 5 sporcunun start alması ve takım derecesinin oluşabilmesi için en az 3 sporcunun yarışı geçerli şekilde tamamlaması gerekmektedir.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Ödüllendirme: 7K ve 13K Takım Kategorileri ayrı ayrı değerlendirilir; her iki mesafede de sıralamada yer alan en hızlı ilk 3 takım ödül almaya hak kazanır.",
           },
         ],
       },
