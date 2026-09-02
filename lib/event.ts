@@ -163,6 +163,7 @@ export const RACES: Race[] = [
     color: "pine",
     image: "/races/forest.jpeg",
     profile: FOREST_PROFILE,
+    traceDeTrailId: 10582,
     gpx: {
       file: "/routes/act22-forest-trail.gpx",
       measuredKm: 22.1,
