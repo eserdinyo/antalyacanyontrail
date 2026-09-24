@@ -123,20 +123,22 @@ function RaceHero({
             <p className="mt-5 max-w-xl font-display-wonk text-xl leading-snug text-bone/85 sm:text-2xl">
               {t(`${race.slug}.tagline`)}
             </p>
-            <Image
-              src="/logos/itra.svg"
-              alt="ITRA"
-              width={216}
-              height={40}
-              className="mt-8 h-8 w-auto"
-            />
+            {/* Sanctioning row: ITRA wordmark plus the course's UTMB Index
+                and ITRA points badges, all 36px tall on one baseline. */}
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <Image
+                src="/logos/itra.svg"
+                alt="ITRA"
+                width={216}
+                height={40}
+                className="h-9 w-auto"
+              />
+              <UtmbCategory race={race} size="sm" />
+              <ItraPoints race={race} size="sm" />
+            </div>
           </div>
 
-          <div className="flex shrink-0 flex-wrap items-center gap-4">
-            <RaceBadge race={race} size="lg" />
-            <UtmbCategory race={race} size="lg" />
-            <ItraPoints race={race} size="lg" />
-          </div>
+          <RaceBadge race={race} size="lg" />
         </div>
       </div>
     </section>
