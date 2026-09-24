@@ -145,7 +145,14 @@
     "co": "CO-SPONSORS",
     "official": "OFFICIAL SUPPORTERS",
     "csr": "SOCIAL RESPONSIBILITY PARTNER",
-    "placeholder": "LOGO"
+    "placeholder": "LOGO",
+    "institutions": {
+      "gsb": "Ministry of Youth and Sports",
+      "valilik": "Governorship of Antalya",
+      "taf": "Turkish Athletics Federation",
+      "ktb": "Antalya Provincial Directorate of Culture and Tourism",
+      "obm": "Antalya Regional Directorate of Forestry"
+    }
   },
   "Footer": {
     "headline": "See you on the trail.",

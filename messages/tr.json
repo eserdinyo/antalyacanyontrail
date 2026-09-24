@@ -145,7 +145,14 @@
     "co": "CO-SPONSORLAR",
     "official": "RESMİ DESTEKÇİLER",
     "csr": "SOSYAL SORUMLULUK PARTNERİ",
-    "placeholder": "LOGO"
+    "placeholder": "LOGO",
+    "institutions": {
+      "gsb": "T.C. Gençlik ve Spor Bakanlığı",
+      "valilik": "Antalya Valiliği",
+      "taf": "Türkiye Atletizm Federasyonu",
+      "ktb": "Antalya İl Kültür ve Turizm Müdürlüğü",
+      "obm": "Antalya Orman Bölge Müdürlüğü"
+    }
   },
   "Footer": {
     "headline": "Patikada görüşmek üzere.",

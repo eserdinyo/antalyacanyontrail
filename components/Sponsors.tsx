@@ -1,9 +1,32 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Marquee } from "./Marquee";
 
-/* Placeholder until real partners are confirmed. Reads the same in TR and EN,
-   so it needs no message key. */
-const SPONSOR_NAMES = Array.from({ length: 9 }, () => "SPONSOR");
+/* Public institutions backing the event. Names live in messages under
+   Sponsors.institutions.<key> so they can be localised. */
+const INSTITUTIONS = [
+  { key: "gsb", src: "/logos/gsb.svg", href: "https://gsb.gov.tr" },
+  {
+    key: "valilik",
+    src: "/logos/antalya-valiligi.webp",
+    href: "https://antalya.gov.tr",
+  },
+  { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
+  { key: "ktb", src: "/logos/ktb.webp", href: "https://antalya.ktb.gov.tr" },
+  {
+    key: "obm",
+    src: "/logos/ogm.webp",
+    href: "https://antalyaobm.ogm.gov.tr",
+  },
+] as const;
+
+function TierHeading({ label }: { label: string }) {
+  return (
+    <div className="flex items-center gap-3 label text-ink-soft">
+      <span className="block h-1.5 w-1.5 rounded-full bg-ember" />
+      {label}
+    </div>
+  );
+}
 
 function Tier({
   label,
@@ -20,10 +43,7 @@ function Tier({
 
   return (
     <div className="flex flex-col items-center gap-6 border-t border-line pt-10">
-      <div className="flex items-center gap-3 label text-ink-soft">
-        <span className="block h-1.5 w-1.5 rounded-full bg-ember" />
-        {label}
-      </div>
+      <TierHeading label={label} />
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
         {Array.from({ length: count }).map((_, i) => (
           <div
@@ -39,26 +59,44 @@ function Tier({
   );
 }
 
+function InstitutionTier({ label }: { label: string }) {
+  const t = useTranslations("Sponsors.institutions");
+
+  return (
+    <div className="flex flex-col items-center gap-8 border-t border-line pt-10">
+      <TierHeading label={label} />
+      <ul className="flex flex-wrap items-start justify-center gap-x-6 gap-y-8 sm:gap-x-10">
+        {INSTITUTIONS.map(({ key, src, href }) => (
+          <li key={key} className="w-32 sm:w-36">
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col items-center gap-4 text-center"
+            >
+              <Image
+                src={src}
+                alt={t(key)}
+                width={400}
+                height={400}
+                className="h-20 w-20 object-contain transition-transform duration-300 group-hover:scale-105 sm:h-24 sm:w-24"
+              />
+              <span className="label leading-relaxed text-ink-soft">
+                {t(key)}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export function Sponsors() {
   const t = useTranslations("Sponsors");
 
   return (
     <section id="sponsors" className="bg-bone py-20 sm:py-28">
-      {/* marquee strip */}
-      <Marquee className="mb-20 border-y border-line bg-paper py-5 text-ink/70">
-        {SPONSOR_NAMES.concat(SPONSOR_NAMES).map((name, i) => (
-          <span
-            key={`${name}-${i}`}
-            className="mx-8 flex items-center gap-8 font-mono text-xs tracking-[0.4em]"
-          >
-            {name}
-            <span aria-hidden className="text-ember">
-              ✦
-            </span>
-          </span>
-        ))}
-      </Marquee>
-
       <div className="mx-auto flex max-w-[1100px] flex-col items-center gap-14 px-5 sm:px-8">
         <header className="text-center">
           <span className="label text-ink-soft">{t("sectionLabel")}</span>
@@ -70,7 +108,7 @@ export function Sponsors() {
         <Tier label={t("title")} count={1} size="lg" />
         <Tier label={t("main")} count={3} size="md" />
         <Tier label={t("co")} count={6} size="sm" />
-        <Tier label={t("official")} count={6} size="sm" />
+        <InstitutionTier label={t("official")} />
         <Tier label={t("csr")} count={1} size="md" />
       </div>
     </section>
