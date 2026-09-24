@@ -162,7 +162,9 @@ function RacePanel({ race }: { race: Race }) {
         </div>
 
         <div className="w-full border-t border-bone/18 pt-7">
-          <h3 className="mx-auto max-w-[17rem] text-balance font-display text-3xl leading-[0.92] tracking-tight text-white sm:text-4xl lg:text-[1.9rem] xl:text-[2.25rem]">
+          {/* Reserve three lines so one-, two- and three-line names all start
+              on the same line under the divider; the CTA stays bottom-aligned. */}
+          <h3 className="mx-auto min-h-[3lh] max-w-[17rem] text-balance font-display text-3xl leading-[0.92] tracking-tight text-white sm:text-4xl lg:text-[1.9rem] xl:text-[2.25rem]">
             {t(`${race.slug}.name`)}
           </h3>
           <span className="mt-7 inline-flex items-center gap-2 border border-bone/35 px-4 py-3 label text-bone transition-colors group-hover:border-[var(--race-accent)] group-hover:bg-[var(--race-accent)] group-hover:text-shadow">
