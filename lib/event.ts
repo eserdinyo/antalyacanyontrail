@@ -51,6 +51,10 @@ export type Race = {
      Absent (not 0) for courses that do not score: ACT13, ACT05.
      Closed union: one badge asset exists per tier in public/logos/. */
   itraPoints?: 1 | 2 | 3;
+  /* UTMB Index race category — set only for courses that count towards the
+     UTMB Index. Closed union: one badge asset exists per category in
+     public/logos/ (utmb-20k.svg, utmb-50k.svg). */
+  utmbCategory?: "20K" | "50K";
   /* TAF (kosu.taf.org.tr) registration page for this course */
   registerUrl: string;
 };
@@ -102,6 +106,7 @@ export const RACES: Race[] = [
     distanceKm: 70,
     elevationM: 1935,
     itraPoints: 3,
+    utmbCategory: "50K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=122",
     color: "ember-deep",
     image: "/races/ultra.jpeg",
@@ -121,6 +126,7 @@ export const RACES: Race[] = [
     distanceKm: 45,
     elevationM: 1037,
     itraPoints: 2,
+    utmbCategory: "50K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=121",
     color: "ember",
     image: "/races/marathon.jpeg",
@@ -140,6 +146,7 @@ export const RACES: Race[] = [
     distanceKm: 33,
     elevationM: 704,
     itraPoints: 1,
+    utmbCategory: "20K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=120",
     color: "ochre",
     image: "/races/epic.jpeg",
@@ -160,6 +167,8 @@ export const RACES: Race[] = [
     /* official figure from the course document; GPX measures ~295 m */
     elevationM: 400,
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=224",
+    itraPoints: 1,
+    utmbCategory: "20K",
     color: "pine",
     image: "/races/forest.jpeg",
     profile: FOREST_PROFILE,

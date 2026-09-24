@@ -7,6 +7,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RaceBadge } from "@/components/RaceBadge";
 import { ItraPoints } from "@/components/ItraPoints";
+import { UtmbCategory } from "@/components/UtmbCategory";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { RACES, getRace, type Race } from "@/lib/event";
@@ -131,8 +132,9 @@ function RaceHero({
             />
           </div>
 
-          <div className="flex shrink-0 items-center gap-4">
+          <div className="flex shrink-0 flex-wrap items-center gap-4">
             <RaceBadge race={race} size="lg" />
+            <UtmbCategory race={race} size="lg" />
             <ItraPoints race={race} size="lg" />
           </div>
         </div>

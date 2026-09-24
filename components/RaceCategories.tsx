@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { RACES, type Race } from "@/lib/event";
 import { ElevationProfile } from "./ElevationProfile";
 import { ItraPoints } from "./ItraPoints";
+import { UtmbCategory } from "./UtmbCategory";
 
 const PANEL_TINT: Record<
   Race["color"],
@@ -158,7 +159,8 @@ function RacePanel({ race }: { race: Race }) {
             <p className="mt-5 text-sm font-black tracking-[0.22em] text-bone">
               {race.elevationM}M+
             </p>
-            <div className="mt-5 flex h-[45px] justify-center">
+            <div className="mt-5 flex h-[45px] items-center justify-center gap-3">
+              <UtmbCategory race={race} size="sm" />
               <ItraPoints race={race} size="sm" />
             </div>
           </div>
