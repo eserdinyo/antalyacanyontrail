@@ -97,7 +97,7 @@ function RacePanel({ race }: { race: Race }) {
   return (
     <Link
       href={`/races/${race.slug}`}
-      className="group relative isolate flex min-h-[500px] overflow-hidden bg-shadow text-bone transition-transform duration-500 hover:z-10 hover:scale-[1.012] lg:min-h-[620px]"
+      className="group relative isolate flex min-h-[440px] overflow-hidden bg-shadow text-bone transition-transform duration-500 hover:z-10 hover:scale-[1.012] lg:min-h-[540px]"
       style={
         {
           "--race-accent": tint.accent,
@@ -162,12 +162,9 @@ function RacePanel({ race }: { race: Race }) {
         </div>
 
         <div className="w-full border-t border-bone/18 pt-7">
-          <h3 className="mx-auto max-w-[17rem] text-balance font-display text-4xl leading-[0.9] tracking-tight text-white sm:text-[2.75rem] lg:text-[2.35rem] xl:text-[2.8rem]">
+          <h3 className="mx-auto max-w-[17rem] text-balance font-display text-3xl leading-[0.92] tracking-tight text-white sm:text-4xl lg:text-[1.9rem] xl:text-[2.25rem]">
             {t(`${race.slug}.name`)}
           </h3>
-          <p className="mx-auto mt-5 max-w-[15rem] font-display-wonk text-base leading-snug text-bone/82">
-            {t(`${race.slug}.tagline`)}
-          </p>
           <span className="mt-7 inline-flex items-center gap-2 border border-bone/35 px-4 py-3 label text-bone transition-colors group-hover:border-[var(--race-accent)] group-hover:bg-[var(--race-accent)] group-hover:text-shadow">
             {t("details")}
             <span
