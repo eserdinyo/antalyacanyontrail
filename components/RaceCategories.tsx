@@ -128,19 +128,23 @@ function RacePanel({ race }: { race: Race }) {
         }}
       />
       <div className="flex min-w-0 flex-1 flex-col justify-between p-6 text-center sm:p-7 lg:p-6 xl:p-7">
-        <div className="flex flex-1 items-center justify-center py-8">
-          <div className="relative">
-            <p
-              className="font-display text-[6.5rem] leading-none tracking-tight text-white drop-shadow-[0_12px_28px_rgba(0,0,0,0.36)] sm:text-[7rem] lg:text-[5.8rem] xl:text-[7rem]"
-              aria-hidden
-            >
-              {race.distanceKm}
-            </p>
-            <span
-              className="absolute -right-6 top-2 rotate-90 label text-bone/65"
-              aria-hidden
-            >
-              KM
+        <div className="flex flex-1 items-start justify-center py-8">
+          <div className="w-full">
+            {/* KM anchors to the numeral itself, so the badge row below
+                cannot push it off the card. */}
+            <span className="relative inline-block">
+              <p
+                className="font-display text-[6.5rem] leading-none tracking-tight text-white drop-shadow-[0_12px_28px_rgba(0,0,0,0.36)] sm:text-[7rem] lg:text-[5.8rem] xl:text-[7rem]"
+                aria-hidden
+              >
+                {race.distanceKm}
+              </p>
+              <span
+                className="absolute -right-6 top-2 rotate-90 label text-bone/65"
+                aria-hidden
+              >
+                KM
+              </span>
             </span>
             <div
               aria-hidden
@@ -150,7 +154,7 @@ function RacePanel({ race }: { race: Race }) {
             <p className="mt-5 text-sm font-black tracking-[0.22em] text-bone">
               {race.elevationM}M+
             </p>
-            <div className="mt-5 flex h-[45px] items-center justify-center gap-3">
+            <div className="mt-5 flex min-h-9 flex-wrap items-center justify-center gap-2">
               <UtmbCategory race={race} size="sm" />
               <ItraPoints race={race} size="sm" />
             </div>

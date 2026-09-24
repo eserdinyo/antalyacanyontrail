@@ -13,7 +13,7 @@ const BADGE: Record<NonNullable<Race["utmbCategory"]>, string> = {
 /* Intrinsic artwork is 676.89x218.65 (~3.1:1). Heights match ItraPoints so
    the two badges sit on one baseline. */
 const SIZE = {
-  sm: { width: 139, height: 45 },
+  sm: { width: 111, height: 36 },
   lg: { width: 186, height: 60 },
 };
 

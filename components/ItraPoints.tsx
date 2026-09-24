@@ -11,11 +11,12 @@ const BADGE: Record<NonNullable<Race["itraPoints"]>, string> = {
   3: "/logos/itra-3.svg",
 };
 
-/* Intrinsic artwork is 77x45. The lg figure is a quarter of the area of
-   RaceBadge size="lg" at its sm: breakpoint and above (sm:w-36 sm:h-[170px]),
-   kept at the same 77:45 ratio. */
+/* Intrinsic artwork is 77x45. sm is scaled to 36px tall so it fits beside
+   the UTMB badge inside a 6-column race card. The lg figure is a quarter of
+   the area of RaceBadge size="lg" at its sm: breakpoint and above
+   (sm:w-36 sm:h-[170px]), kept at the same 77:45 ratio. */
 const SIZE = {
-  sm: { width: 77, height: 45 },
+  sm: { width: 62, height: 36 },
   lg: { width: 102, height: 60 },
 };
 
