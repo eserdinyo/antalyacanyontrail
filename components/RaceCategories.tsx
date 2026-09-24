@@ -4,7 +4,6 @@ import type { CSSProperties } from "react";
 
 import { Link } from "@/i18n/navigation";
 import { RACES, type Race } from "@/lib/event";
-import { ElevationProfile } from "./ElevationProfile";
 import { ItraPoints } from "./ItraPoints";
 import { UtmbCategory } from "./UtmbCategory";
 
@@ -129,14 +128,6 @@ function RacePanel({ race }: { race: Race }) {
         }}
       />
       <div className="flex min-w-0 flex-1 flex-col justify-between p-6 text-center sm:p-7 lg:p-6 xl:p-7">
-        <div className="h-16 w-full pt-2">
-          <ElevationProfile
-            profile={race.profile}
-            stroke={tint.accent}
-            fill={tint.glow}
-          />
-        </div>
-
         <div className="flex flex-1 items-center justify-center py-8">
           <div className="relative">
             <p
