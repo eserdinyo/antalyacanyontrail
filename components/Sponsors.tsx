@@ -10,13 +10,14 @@ const INSTITUTIONS = [
     src: "/logos/antalya-valiligi.webp",
     href: "https://antalya.gov.tr",
   },
-  { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
   { key: "ktb", src: "/logos/ktb.webp", href: "https://antalya.ktb.gov.tr" },
   {
     key: "obm",
     src: "/logos/ogm.webp",
     href: "https://antalyaobm.ogm.gov.tr",
   },
+  /* Protocol order: state bodies first, the federation last. */
+  { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
 ] as const;
 
 function TierHeading({ label }: { label: string }) {
