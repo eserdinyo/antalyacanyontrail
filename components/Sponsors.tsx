@@ -20,6 +20,41 @@ const INSTITUTIONS = [
   { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
 ] as const;
 
+type Sponsor = { name: string; src: string; href?: string };
+
+/* Brand names aren't localised, so they live here rather than in messages. */
+const MAIN_SPONSORS: Sponsor[] = [
+  {
+    name: "Zenova Gym",
+    src: "/logos/zenova-gym.webp",
+    href: "https://www.instagram.com/zenovagym",
+  },
+];
+
+function SponsorLogo({ name, src, href }: Sponsor) {
+  const content = (
+    <>
+      <Image
+        src={src}
+        alt={name}
+        width={340}
+        height={446}
+        className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+      />
+      <span className="label text-ink-soft">{name}</span>
+    </>
+  );
+  const className = "group flex flex-col items-center gap-3 text-center";
+
+  return href ? (
+    <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+      {content}
+    </a>
+  ) : (
+    <div className={className}>{content}</div>
+  );
+}
+
 function TierHeading({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-3 label text-ink-soft">
@@ -33,10 +68,12 @@ function Tier({
   label,
   count,
   size = "md",
+  sponsors = [],
 }: {
   label: string;
   count: number;
   size?: "sm" | "md" | "lg";
+  sponsors?: Sponsor[];
 }) {
   const t = useTranslations("Sponsors");
   const widthClass =
@@ -46,7 +83,10 @@ function Tier({
     <div className="flex flex-col items-center gap-6 border-t border-line pt-10">
       <TierHeading label={label} />
       <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-        {Array.from({ length: count }).map((_, i) => (
+        {sponsors.map((sponsor) => (
+          <SponsorLogo key={sponsor.name} {...sponsor} />
+        ))}
+        {Array.from({ length: count - sponsors.length }).map((_, i) => (
           <div
             key={i}
             className={`${widthClass} flex h-16 items-center justify-center bg-paper text-ink/35 label`}
@@ -107,7 +147,12 @@ export function Sponsors() {
         </header>
 
         <Tier label={t("title")} count={1} size="lg" />
-        <Tier label={t("main")} count={3} size="md" />
+        <Tier
+          label={t("main")}
+          count={MAIN_SPONSORS.length}
+          size="md"
+          sponsors={MAIN_SPONSORS}
+        />
         <Tier label={t("co")} count={6} size="sm" />
         <InstitutionTier label={t("official")} />
         <Tier label={t("csr")} count={1} size="md" />
