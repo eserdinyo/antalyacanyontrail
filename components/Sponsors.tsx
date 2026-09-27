@@ -20,38 +20,42 @@ const INSTITUTIONS = [
   { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
 ] as const;
 
-type Sponsor = { name: string; src: string; href?: string };
+type Sponsor = {
+  name: string;
+  src: string;
+  width: number;
+  height: number;
+  href?: string;
+};
 
 /* Brand names aren't localised, so they live here rather than in messages. */
 const MAIN_SPONSORS: Sponsor[] = [
   {
     name: "Zenova Gym",
-    src: "/logos/zenova-gym.webp",
+    src: "/logos/zenova-gym.svg",
+    width: 2141,
+    height: 654,
     href: "https://www.instagram.com/zenovagym",
   },
 ];
 
-function SponsorLogo({ name, src, href }: Sponsor) {
-  const content = (
-    <>
-      <Image
-        src={src}
-        alt={name}
-        width={340}
-        height={446}
-        className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-      />
-      <span className="label text-ink-soft">{name}</span>
-    </>
+function SponsorLogo({ name, src, width, height, href }: Sponsor) {
+  const logo = (
+    <Image
+      src={src}
+      alt={name}
+      width={width}
+      height={height}
+      className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+    />
   );
-  const className = "group flex flex-col items-center gap-3 text-center";
 
   return href ? (
-    <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
-      {content}
+    <a href={href} target="_blank" rel="noopener noreferrer" className="group">
+      {logo}
     </a>
   ) : (
-    <div className={className}>{content}</div>
+    logo
   );
 }
 
