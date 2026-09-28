@@ -6,11 +6,11 @@ type Props = {
   size?: "sm" | "md" | "lg" | "xl";
 };
 
-// Full lockup is 600x768 (aspect ~0.78), boxes match to avoid letterboxing
+// Full lockup is 800x975 (aspect ~0.82), boxes match to avoid letterboxing
 const DIMENSIONS = {
-  sm: { box: "h-12 w-[38px]", px: 38 },
-  md: { box: "h-16 w-[50px]", px: 50 },
-  lg: { box: "h-44 w-[137px]", px: 137 },
+  sm: { box: "h-12 w-[39px]", px: 39 },
+  md: { box: "h-16 w-[53px]", px: 53 },
+  lg: { box: "h-44 w-[144px]", px: 144 },
 };
 
 export function Logo({ inverted = false, size = "md" }: Props) {
