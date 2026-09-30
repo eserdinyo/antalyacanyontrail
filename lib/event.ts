@@ -220,7 +220,6 @@ export const RACES: Race[] = [
     color: "ochre",
     image: "/races/epic.jpeg",
     profile: ALAGEYIK_PROFILE,
-    traceDeTrailId: 10358,
     gpx: {
       file: "/routes/act30-alageyik-parkuru.gpx",
       measuredKm: 36.3,
