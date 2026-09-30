@@ -126,7 +126,16 @@
     "downloadSoon": "GPX soon",
     "otherRaces": "Other distances",
     "register": "Register",
-    "tba": "TBA"
+    "tba": "TBA",
+    "cpTitle": "Aid stations",
+    "cpNote": "Climb and descent figures come from the current route data and will be updated once ITRA confirms the course.",
+    "cpStart": "Start",
+    "cpFinish": "Finish",
+    "serviceWater": "Water",
+    "serviceFood": "Food",
+    "serviceMedical": "Medical",
+    "serviceShuttle": "Shuttle",
+    "cpSteepLegend": "Darker fill, steeper climb"
   },
   "RaceRules": {
     "eyebrow": "OFFICIAL DOCUMENT",

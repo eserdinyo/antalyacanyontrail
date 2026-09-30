@@ -126,7 +126,16 @@
     "downloadSoon": "GPX yakında",
     "otherRaces": "Diğer mesafeler",
     "register": "Kayıt Ol",
-    "tba": "Yakında"
+    "tba": "Yakında",
+    "cpTitle": "İstasyonlar",
+    "cpNote": "Tırmanma ve iniş değerleri mevcut rota verisinden hesaplanmıştır; ITRA verileri kesinleştiğinde güncellenecektir.",
+    "cpStart": "Start",
+    "cpFinish": "Finish",
+    "serviceWater": "Su",
+    "serviceFood": "Yiyecek",
+    "serviceMedical": "Sağlık",
+    "serviceShuttle": "Servis aracı",
+    "cpSteepLegend": "Koyu ton, dik tırmanış"
   },
   "RaceRules": {
     "eyebrow": "RESMİ DOKÜMAN",

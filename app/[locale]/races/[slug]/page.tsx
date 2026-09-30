@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { RaceBadge } from "@/components/RaceBadge";
 import { ItraPoints } from "@/components/ItraPoints";
 import { UtmbCategory } from "@/components/UtmbCategory";
+import { CheckpointProfile } from "@/components/checkpoints/CheckpointProfile";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { RACES, getRace, type Race } from "@/lib/event";
@@ -66,6 +67,7 @@ export default async function RaceDetailPage({
         {race.traceDeTrailId != null && (
           <TraceDeTrailBlock race={race} td={td} />
         )}
+        <CheckpointProfile race={race} td={td} />
         {race.gpx && <GpxDownload race={race} td={td} />}
         <RaceBody race={race} t={t} td={td} />
         {routeRules && <RouteRulesBlock routeRules={routeRules} td={td} />}

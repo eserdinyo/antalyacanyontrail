@@ -34,6 +34,20 @@ export type GpxTrack = {
   maxEleM: number;
 };
 
+export type CheckpointService = "water" | "food" | "medical" | "shuttle";
+
+export type Checkpoint = {
+  /* "START", "FINISH" or "CP1".."CPn" */
+  code: string;
+  /* place name — CPs only; start/finish are labelled via i18n */
+  name?: string;
+  /* cumulative figures from the start */
+  km: number;
+  ascentM: number;
+  descentM: number;
+  services: CheckpointService[];
+};
+
 export type Race = {
   code: string;
   slug: RaceSlug;
@@ -57,6 +71,11 @@ export type Race = {
   utmbCategory?: "20K" | "50K";
   /* TAF (kosu.taf.org.tr) registration page for this course */
   registerUrl: string;
+  /* aid stations in course order, START first and FINISH last */
+  checkpoints?: Checkpoint[];
+  /* elevation in metres at even steps from the first to the last checkpoint;
+     drives the station chart, so pins land on the right terrain */
+  checkpointProfileM?: number[];
 };
 
 export function getRace(slug: string): Race | undefined {
@@ -97,6 +116,45 @@ const GUVER_PROFILE = [
 const PACE5K_PROFILE = [
   1, 0.89, 0.662, 0.633, 0.566, 0.378, 0.095, 0.03,
   0, 0.062, 0.383, 0.564, 0.639, 0.661, 0.894, 0.986,
+];
+
+// Station-chart elevations (m), 73 even steps over each station sheet's
+// distance. Sampled from the course GPX; where the GPX length differs from
+// the sheet (13.5K, 22K, 7K) the track is scaled proportionally.
+// 36K Alageyik — from the updated 36K ALAGEYİK TRAİL.gpx (36.33 km).
+const ALAGEYIK_CP_PROFILE_M = [
+  295, 294, 289, 289, 287, 286, 281, 278, 271, 274, 265, 256, 268, 269, 272, 281, 286, 283,
+  282, 283, 284, 282, 286, 290, 287, 287, 294, 291, 292, 288, 241, 210, 217, 215, 224, 230,
+  243, 263, 283, 303, 353, 421, 461, 509, 558, 574, 527, 469, 422, 393, 406, 444, 428, 410,
+  350, 343, 346, 348, 346, 344, 344, 349, 350, 345, 339, 322, 319, 310, 302, 298, 301, 298,
+  295,
+];
+
+// 22K Forest Trail — act22-forest-trail.gpx (22.14 km) onto 22.02 km.
+const FOREST_CP_PROFILE_M = [
+  295, 295, 294, 289, 290, 289, 288, 286, 282, 277, 279, 275, 267, 276, 267, 265, 247, 271,
+  264, 271, 267, 272, 277, 282, 286, 286, 283, 283, 281, 283, 284, 285, 280, 284, 285, 296,
+  309, 316, 321, 330, 339, 348, 363, 378, 376, 363, 343, 348, 348, 345, 345, 344, 347, 350,
+  349, 353, 349, 346, 342, 330, 322, 322, 318, 310, 303, 306, 298, 299, 301, 302, 299, 298,
+  297,
+];
+
+// 13.5K Güver Cliff Trail — act12-guver-cliff-trail.gpx (12.05 km) onto 13.47 km.
+const GUVER_CP_PROFILE_M = [
+  297, 296, 295, 294, 293, 291, 289, 289, 290, 290, 289, 288, 287, 285, 283, 281, 279, 279,
+  278, 276, 274, 271, 271, 274, 275, 273, 268, 262, 255, 247, 254, 265, 270, 270, 269, 269,
+  268, 266, 268, 271, 275, 279, 282, 284, 286, 286, 286, 285, 283, 282, 281, 280, 281, 283,
+  286, 289, 288, 287, 286, 286, 288, 290, 292, 295, 298, 300, 300, 299, 296, 294, 293, 293,
+  295,
+];
+
+// 7K My Pace Run — act05-pace-run.gpx (7.01 km) onto 7.1 km.
+const PACE_CP_PROFILE_M = [
+  297, 296, 295, 295, 295, 295, 295, 294, 292, 290, 289, 288, 289, 290, 290, 290, 290, 289,
+  289, 288, 287, 286, 285, 284, 283, 283, 282, 279, 277, 279, 281, 281, 279, 276, 275, 275,
+  275, 274, 274, 276, 279, 280, 280, 278, 277, 279, 282, 283, 283, 284, 286, 286, 287, 288,
+  289, 289, 290, 290, 290, 290, 289, 289, 289, 290, 292, 294, 295, 295, 295, 295, 295, 296,
+  297,
 ];
 
 export const RACES: Race[] = [
@@ -148,6 +206,17 @@ export const RACES: Race[] = [
     itraPoints: 1,
     utmbCategory: "20K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=120",
+    // From the organiser's station sheet (36K İstasyonlar); km and
+    // climb/descent match the 36K GPX.
+    checkpoints: [
+      { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
+      { code: "CP1", name: "Güver", km: 9.12, ascentM: 135, descentM: 153, services: ["water", "food", "medical"] },
+      { code: "CP2", name: "Alabalık", km: 16.83, ascentM: 214, descentM: 296, services: ["water", "food", "medical", "shuttle"] },
+      { code: "CP3", name: "Alageyik", km: 22.12, ascentM: 581, descentM: 320, services: ["water", "food", "medical"] },
+      { code: "CP4", name: "Düzlerçamı", km: 28.66, ascentM: 734, descentM: 684, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 36.33, ascentM: 763, descentM: 764, services: [] },
+    ],
+    checkpointProfileM: ALAGEYIK_CP_PROFILE_M,
     color: "ochre",
     image: "/races/epic.jpeg",
     profile: ALAGEYIK_PROFILE,
@@ -169,6 +238,15 @@ export const RACES: Race[] = [
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=224",
     itraPoints: 1,
     utmbCategory: "20K",
+    // From the organiser's station sheet (22K Forest Trail). Climb/descent come
+    // from the course KML and will be updated once ITRA confirms.
+    checkpoints: [
+      { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
+      { code: "CP1", name: "Güver", km: 9.22, ascentM: 170, descentM: 189, services: ["water", "food", "medical"] },
+      { code: "CP2", name: "Düzlerçamı", km: 14.27, ascentM: 276, descentM: 235, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 22.02, ascentM: 408, descentM: 414, services: [] },
+    ],
+    checkpointProfileM: FOREST_CP_PROFILE_M,
     color: "pine",
     image: "/races/forest.jpeg",
     profile: FOREST_PROFILE,
@@ -187,6 +265,15 @@ export const RACES: Race[] = [
     distanceKm: 13,
     elevationM: 100,
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=119",
+    // From the organiser's station sheet (13.5K Güver Cliff Trail). Climb/descent come
+    // from the course KML and will be updated once ITRA confirms.
+    checkpoints: [
+      { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
+      { code: "CP1", name: "Fun Zone", km: 3.07, ascentM: 28, descentM: 48, services: ["water", "food", "medical"] },
+      { code: "CP2", name: "Güver", km: 8.59, ascentM: 170, descentM: 190, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 13.47, ascentM: 235, descentM: 237, services: [] },
+    ],
+    checkpointProfileM: GUVER_CP_PROFILE_M,
     color: "moss",
     image: "/races/short.jpeg",
     profile: GUVER_PROFILE,
@@ -205,6 +292,14 @@ export const RACES: Race[] = [
     distanceKm: 7,
     elevationM: 38,
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=118",
+    // From the organiser's station sheet (7K My Pace Run). Climb/descent come
+    // from the course KML and will be updated once ITRA confirms.
+    checkpoints: [
+      { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
+      { code: "CP1", name: "Fun Zone", km: 3.06, ascentM: 29, descentM: 48, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 7.1, ascentM: 108, descentM: 110, services: [] },
+    ],
+    checkpointProfileM: PACE_CP_PROFILE_M,
     color: "shadow",
     image: "/races/fun.jpeg",
     profile: PACE5K_PROFILE,
