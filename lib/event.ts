@@ -75,10 +75,10 @@ const TERMESSOS_PROFILE = [
   0.643, 1, 0.244, 0.129, 0.617, 0.383, 0.293, 0.181,
 ];
 
-// Values from Trace de Trail (id 10358): 33K Alageyik Trail — 33.5 km, ~704 m gain (196–587 m).
+// Values measured from the Garmin GPX: 36K Alageyik Trail — 36.3 km, ~763 m gain (202–584 m).
 const ALAGEYIK_PROFILE = [
-  0.195, 0.152, 0.097, 0.15, 0.159, 0.16, 0.058, 0.165,
-  0, 0.009, 0.329, 1, 0.459, 0.504, 0.328, 0.191,
+  0.255, 0.227, 0.16, 0.191, 0.215, 0.227, 0.239, 0,
+  0.23, 1, 0.676, 0.647, 0.431, 0.432, 0.298, 0.252,
 ];
 
 // Values measured from the Garmin GPX: 22K Forest Trail — 22.1 km, ~295 m gain (230–380 m).
@@ -143,8 +143,8 @@ export const RACES: Race[] = [
   {
     code: "ACT30",
     slug: "alageyik-trail",
-    distanceKm: 33,
-    elevationM: 704,
+    distanceKm: 36,
+    elevationM: 763,
     itraPoints: 1,
     utmbCategory: "20K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=120",
@@ -154,10 +154,10 @@ export const RACES: Race[] = [
     traceDeTrailId: 10358,
     gpx: {
       file: "/routes/act30-alageyik-parkuru.gpx",
-      measuredKm: 33.5,
-      ascentM: 704,
-      minEleM: 196,
-      maxEleM: 587,
+      measuredKm: 36.3,
+      ascentM: 763,
+      minEleM: 202,
+      maxEleM: 584,
     },
   },
   {

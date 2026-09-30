@@ -249,7 +249,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
     ],
   },
   "alageyik-trail": {
-    title: "ANTALYA CANYON ULTRA - 33K ALAGEYİK PARKURU",
+    title: "ANTALYA CANYON ULTRA - 36K ALAGEYİK PARKURU",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
       {
@@ -258,7 +258,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 33K Alageyik Parkuru, yaklaşık 33.5 km uzunluğunda ve 704m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 36K Alageyik Parkuru, yaklaşık 36.3 km uzunluğunda ve 763m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -268,7 +268,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "33K Alageyik Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "36K Alageyik Parkuru'na katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },

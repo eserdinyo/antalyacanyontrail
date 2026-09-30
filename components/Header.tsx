@@ -55,7 +55,7 @@ export function Header() {
         { href: "/races/my-pace-run", label: t("course7") },
         { href: "/races/guver-cliff-trail", label: t("course13") },
         { href: "/races/forest-trail", label: t("course22") },
-        { href: "/races/alageyik-trail", label: t("course33") },
+        { href: "/races/alageyik-trail", label: t("course36") },
         { href: "/races/antalya-goat-ultra", label: t("course45") },
         { href: "/races/antalya-termessos-ultra", label: t("course70") },
       ],

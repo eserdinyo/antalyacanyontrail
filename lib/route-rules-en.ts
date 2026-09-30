@@ -228,7 +228,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
     ],
   },
   "alageyik-trail": {
-    title: "ANTALYA CANYON ULTRA - 33K ALAGEYİK TRAIL",
+    title: "ANTALYA CANYON ULTRA - 36K ALAGEYİK TRAIL",
     subtitle: "Participation Terms and Race Rules",
     sections: [
       {
@@ -237,7 +237,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 33K Alageyik Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 33.5 km long with 704m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 9 hours (time limit: 17:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 36K Alageyik Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 36.3 km long with 763m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 9 hours (time limit: 17:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -247,7 +247,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "All athletes taking part in the 33K Alageyik Trail must hold either a valid medical certificate issued within the last 6 months (stating they are fit to practice athletics, running or mountaineering) or a valid (non-expired) athlete licence issued by the Athletics, Triathlon, Mountaineering, Orienteering or Cycling federations, and must present it during kit distribution. The race is open to all participants aged 18 and over.",
+            text: "All athletes taking part in the 36K Alageyik Trail must hold either a valid medical certificate issued within the last 6 months (stating they are fit to practice athletics, running or mountaineering) or a valid (non-expired) athlete licence issued by the Athletics, Triathlon, Mountaineering, Orienteering or Cycling federations, and must present it during kit distribution. The race is open to all participants aged 18 and over.",
           },
         ],
       },
