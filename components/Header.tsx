@@ -85,10 +85,10 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 z-[110] transition-all duration-300 ${
         scrolled
-          ? "border-b border-line bg-[#F8F2EC]/95 backdrop-blur"
-          : "border-b border-transparent bg-[#F8F2EC]"
+          ? "border-b border-line bg-brand-light/95 backdrop-blur"
+          : "border-b border-transparent bg-brand-light"
       }`}
     >
       <div className="mx-auto flex h-[100px] max-w-[1400px] items-center justify-between gap-6 px-5 sm:px-8">
@@ -124,7 +124,7 @@ export function Header() {
           onClick={() => setOpen(false)}
         />
         <div
-          className={`fixed inset-y-0 right-0 flex h-dvh w-full max-w-sm flex-col overflow-y-auto overscroll-contain border-l border-line bg-[#F8F2EC] transition-transform duration-300 ease-out ${
+          className={`fixed inset-y-0 right-0 flex h-dvh w-full max-w-sm flex-col overflow-y-auto overscroll-contain border-l border-line bg-brand-light transition-transform duration-300 ease-out ${
             open ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -174,8 +174,8 @@ function DesktopNavItem({ item }: { item: NavItem }) {
             className="transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180"
           />
         </button>
-        <div className="pointer-events-none absolute left-1/2 top-full min-w-64 -translate-x-1/2 translate-y-2 border border-line bg-bone/98 p-2 opacity-0 shadow-[0_24px_60px_rgba(45,39,36,0.18)] backdrop-blur transition-all duration-200 group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:translate-y-0 group-focus-within:opacity-100">
-          <div className="absolute -top-2 left-1/2 h-4 w-4 -translate-x-1/2 rotate-45 border-l border-t border-line bg-bone" />
+        <div className="pointer-events-none absolute left-1/2 top-full min-w-64 -translate-x-1/2 translate-y-2 border border-line bg-page/98 p-2 opacity-0 shadow-[0_24px_60px_rgba(45,39,36,0.18)] backdrop-blur transition-all duration-200 group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:translate-y-0 group-focus-within:opacity-100">
+          <div className="absolute -top-2 left-1/2 h-4 w-4 -translate-x-1/2 rotate-45 border-l border-t border-line bg-page" />
           <div className="relative grid gap-1">
             {item.items.map((subItem) => (
               <NavLinkView key={subItem.label} item={subItem} variant="desktop" />

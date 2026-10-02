@@ -39,7 +39,7 @@ export function CheckpointProfile({
   const legs = cps.slice(0, -1).map((cp, i) => ({ from: cp, ...legAfter(cps, i)! }));
 
   return (
-    <section className="border-b border-line bg-bone">
+    <section className="border-b border-line bg-page">
       <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
         <div className="flex flex-wrap items-end justify-between gap-4 border-b border-line pb-6">
           <h2 className="font-display text-3xl tracking-tight sm:text-4xl">

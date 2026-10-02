@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
 :root {
+  /* Dark surface color (hero, countdown, races, footer, START cards).
+     Change this one value to retheme every dark area. */
+  --brand-dark: #2d2724;
+  /* Header and mobile menu background. */
+  --brand-light: #f8f2ec;
+  /* Light page and section background. */
+  --page-bg: #f3ede0;
+
   /* Palette — limestone, ember, canyon shadow */
   --bone: #f3ede0;
   --bone-deep: #e7dcc6;
@@ -12,7 +20,7 @@
   --ochre: #c68c3c;
   --pine: #2f5d4e;
   --moss: #5c6b43;
-  --shadow: #2d2724;
+  --shadow: var(--brand-dark);
   --shadow-deep: #1a1614;
   --line: rgba(27, 24, 23, 0.18);
   --line-soft: rgba(27, 24, 23, 0.08);
@@ -29,6 +37,8 @@
   --color-ochre: var(--ochre);
   --color-pine: var(--pine);
   --color-moss: var(--moss);
+  --color-brand-light: var(--brand-light);
+  --color-page: var(--page-bg);
   --color-shadow: var(--shadow);
   --color-shadow-deep: var(--shadow-deep);
   --color-line: var(--line);
@@ -110,9 +120,7 @@
 /* paper-like cards */
 .surface-paper {
   background-color: var(--paper);
-  box-shadow:
-    0 1px 0 var(--line-soft),
-    0 18px 48px -36px rgba(27, 24, 23, 0.28);
+  box-shadow: 0 1px 0 var(--line-soft), 0 18px 48px -36px rgba(27, 24, 23, 0.28);
 }
 
 /* ember stamp ring (decorative circular badge) */
@@ -129,8 +137,11 @@
 
 /* topo dot grid pattern */
 .bg-topo {
-  background-image:
-    radial-gradient(circle at 1px 1px, rgba(27, 24, 23, 0.18) 1px, transparent 0);
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(27, 24, 23, 0.18) 1px,
+    transparent 0
+  );
   background-size: 14px 14px;
 }
 
@@ -152,13 +163,23 @@
 /* ─── Animations ────────────────────────────────────────── */
 
 @keyframes rise {
-  from { opacity: 0; transform: translateY(18px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes veil {
-  from { clip-path: inset(0 100% 0 0); }
-  to   { clip-path: inset(0 0 0 0); }
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
 }
 
 .reveal {
@@ -170,12 +191,24 @@
 }
 
 /* stagger helpers */
-.delay-1 { animation-delay: 0.1s; }
-.delay-2 { animation-delay: 0.2s; }
-.delay-3 { animation-delay: 0.35s; }
-.delay-4 { animation-delay: 0.5s; }
-.delay-5 { animation-delay: 0.7s; }
-.delay-6 { animation-delay: 0.95s; }
+.delay-1 {
+  animation-delay: 0.1s;
+}
+.delay-2 {
+  animation-delay: 0.2s;
+}
+.delay-3 {
+  animation-delay: 0.35s;
+}
+.delay-4 {
+  animation-delay: 0.5s;
+}
+.delay-5 {
+  animation-delay: 0.7s;
+}
+.delay-6 {
+  animation-delay: 0.95s;
+}
 
 /* underline that swells on hover */
 .hover-swell {

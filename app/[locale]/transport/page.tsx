@@ -91,7 +91,7 @@ export default async function TransportPage({
           </div>
         </section>
 
-        <section className="border-b border-line bg-bone">
+        <section className="border-b border-line bg-page">
           <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
             <article className="min-w-0">
               {transport.sections.map((section, index) => (

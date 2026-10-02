@@ -176,7 +176,7 @@ function RaceStats({
   ];
 
   return (
-    <section className="border-b border-line bg-bone">
+    <section className="border-b border-line bg-page">
       <div className="mx-auto max-w-[1400px] px-5 py-10 sm:px-8 sm:py-14">
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line pb-4">
           <span className="label text-ink-soft">{td("summary")}</span>
@@ -200,7 +200,7 @@ function RaceStats({
           {items.map((it) => (
             <div
               key={it.label}
-              className="bg-bone px-2 py-8 sm:px-6"
+              className="bg-page px-2 py-8 sm:px-6"
             >
               <p className="label text-ink-soft">{it.label}</p>
               <p className="mt-3 numeral text-3xl sm:text-4xl">{it.value}</p>
@@ -225,7 +225,7 @@ function TraceDeTrailBlock({
   if (race.traceDeTrailId == null) return null;
 
   return (
-    <section className="border-b border-line bg-bone">
+    <section className="border-b border-line bg-page">
       <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
         <div className="flex flex-wrap items-end justify-between gap-4 border-b border-line pb-6">
           <h2 className="font-display text-3xl tracking-tight sm:text-4xl">
@@ -260,7 +260,7 @@ function RaceBody({
   td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
 }) {
   return (
-    <section className="border-b border-line bg-bone">
+    <section className="border-b border-line bg-page">
       <div className="mx-auto grid max-w-[1400px] gap-10 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[1fr_360px]">
         <div className="max-w-2xl">
           <span className="label text-ink-soft">{td("courseTitle")}</span>
@@ -317,7 +317,7 @@ function RouteRulesBlock({
           </div>
         </aside>
 
-        <article className="divide-y divide-line bg-bone px-5 sm:px-8">
+        <article className="divide-y divide-line bg-page px-5 sm:px-8">
           {routeRules.sections.map((section) => (
             <section
               key={section.id}
@@ -420,7 +420,7 @@ function OtherRaces({
             <Link
               key={r.code}
               href={`/races/${r.slug}`}
-              className="group flex flex-col gap-4 bg-bone px-5 py-7 transition-colors hover:bg-paper"
+              className="group flex flex-col gap-4 bg-page px-5 py-7 transition-colors hover:bg-paper"
             >
               <div className="flex items-start justify-between gap-3">
                 <span className="label text-ink-soft">{r.code}</span>

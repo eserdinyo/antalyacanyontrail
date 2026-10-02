@@ -141,11 +141,10 @@ export function Sponsors() {
   const t = useTranslations("Sponsors");
 
   return (
-    <section id="sponsors" className="bg-bone py-20 sm:py-28">
+    <section id="sponsors" className="bg-page py-20 sm:py-28">
       <div className="mx-auto flex max-w-[1100px] flex-col items-center gap-14 px-5 sm:px-8">
         <header className="text-center">
-          <span className="label text-ink-soft">{t("sectionLabel")}</span>
-          <h2 className="mt-3 font-display text-4xl tracking-tight sm:text-5xl">
+          <h2 className="font-display text-4xl tracking-tight sm:text-5xl">
             {t("heading")}
           </h2>
         </header>

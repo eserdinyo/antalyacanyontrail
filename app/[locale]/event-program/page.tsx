@@ -34,7 +34,7 @@ export default async function EventProgramPage({
   return (
     <>
       <Header />
-      <main className="border-b border-line bg-bone">
+      <main className="border-b border-line bg-page">
         <div className="mx-auto max-w-2xl px-4 pt-7 pb-14 sm:px-8 sm:pt-16 sm:pb-24">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-ink-soft">
             {program.dateRange}

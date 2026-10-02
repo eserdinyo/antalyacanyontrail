@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { HERO_IMAGE, RACES, REGISTER_URL } from "@/lib/event";
 import { RaceBadge } from "./RaceBadge";
-import { ElevationProfile } from "./ElevationProfile";
 
 export function Hero() {
   const t = useTranslations("Hero");
@@ -30,7 +29,7 @@ export function Hero() {
       />
 
       {/* headline grid */}
-      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-8 pt-12 sm:min-h-[90vh] sm:px-8 sm:pt-[140px]">
+      <div className="relative mx-auto flex min-h-[88vh] max-w-[1400px] flex-col justify-between gap-12 px-5 pb-12 pt-12 sm:pb-16 sm:min-h-[90vh] sm:px-8 sm:pt-[140px]">
         <div className="flex flex-1 items-center max-w-5xl sm:flex-none sm:items-start">
           <h1 className="reveal delay-2 font-display leading-[0.88] tracking-tight text-[clamp(4rem,14vw,8.5rem)] sm:leading-[0.86]">
             <span className="block text-white">{t("kicker")}</span>
@@ -81,20 +80,6 @@ export function Hero() {
             ))}
           </div>
         </div>
-      </div>
-
-      {/* decorative elevation profile baseline */}
-      <div className="relative h-12 w-full text-ember-deep/55">
-        <ElevationProfile
-          profile={[
-            0.2, 0.4, 0.55, 0.4, 0.7, 0.85, 0.6, 0.78, 0.5, 0.6, 0.4, 0.55,
-            0.32, 0.45, 0.25, 0.15,
-          ]}
-          height={48}
-          stroke="rgba(243,237,224,0.75)"
-          fill="rgba(218,64,50,0.18)"
-          className="absolute inset-0"
-        />
       </div>
     </section>
   );

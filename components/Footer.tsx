@@ -1,9 +1,8 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { RACES, EVENT_COORDS } from "@/lib/event";
+import { RACES } from "@/lib/event";
 import { Logo } from "./Logo";
-import { RidgeLine } from "./Decorations";
 
 export function Footer() {
   const t = useTranslations("Footer");
@@ -11,32 +10,7 @@ export function Footer() {
 
   return (
     <footer id="footer" className="relative isolate overflow-hidden bg-shadow text-bone">
-      {/* ridge silhouette at top */}
-      <div
-        aria-hidden
-        className="absolute inset-x-0 top-0 -translate-y-[1px] text-bone-deep/15"
-        style={{ height: "44px" }}
-      >
-        <RidgeLine className="h-full w-full" />
-      </div>
-
-      {/* giant editorial mark */}
-      <div className="border-b border-bone/10 pt-32 pb-10">
-        <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
-          <p className="label text-bone/60">A · C · T</p>
-          <p className="mt-3 font-display text-[14vw] leading-[0.86] tracking-tight sm:text-[10vw] lg:text-[8vw]">
-            {t("headline")}
-          </p>
-          <div className="mt-6 flex flex-wrap items-end justify-between gap-4 label text-bone/60">
-            <span>{t("edition")}</span>
-            <span>
-              {EVENT_COORDS.lat} · {EVENT_COORDS.lng}
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div className="mx-auto grid max-w-[1400px] gap-12 px-5 py-16 sm:grid-cols-2 sm:px-8 lg:grid-cols-4 lg:px-8">
+      <div className="mx-auto grid max-w-[1400px] gap-12 px-5 pt-20 pb-16 sm:grid-cols-2 sm:px-8 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-2">
           <Logo inverted size="lg" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-bone/70">

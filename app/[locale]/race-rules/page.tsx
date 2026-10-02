@@ -69,7 +69,7 @@ export default async function RaceRulesPage({
           </div>
         </section>
 
-        <section className="border-b border-line bg-bone">
+        <section className="border-b border-line bg-page">
           <div className="mx-auto grid max-w-[1400px] gap-10 px-5 py-14 sm:px-8 sm:py-20 lg:grid-cols-[290px_1fr]">
             <aside className="hidden lg:block">
               <div className="sticky top-24 border-t border-line pt-5">

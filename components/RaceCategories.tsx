@@ -67,16 +67,12 @@ export function RaceCategories() {
       <div className="relative mx-auto max-w-[1600px] px-5 py-20 sm:px-8 sm:py-28">
         <div className="flex flex-wrap items-end justify-between gap-6 border-b border-bone/15 pb-10">
           <div className="max-w-2xl">
-            <span className="label text-bone/55">{t("sectionLabel")}</span>
-            <h2 className="mt-3 font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl">
+            <h2 className="font-display text-5xl leading-[0.95] tracking-tight sm:text-6xl">
               {t("title")}.
             </h2>
             <p className="mt-4 max-w-md font-display-wonk text-lg leading-snug text-bone/70">
               {t("subtitle")}
             </p>
-          </div>
-          <div className="hidden label text-bone/55 sm:block">
-            {t("summary")}
           </div>
         </div>
 

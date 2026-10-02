@@ -53,19 +53,13 @@ export function Countdown() {
         className="pointer-events-none absolute inset-0 opacity-[0.05] bg-topo"
       />
       <div className="relative mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
-        <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-bone/15 pb-4">
-          <span className="label text-bone/60">{t("title")}</span>
-          <span className="label text-bone/45">{t("subtitle")}</span>
-        </div>
-
-        <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-5">
-          {cells.map((c, i) => (
+        <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-5">
+          {cells.map((c) => (
             <div
               key={c.label}
               className="relative flex flex-col items-start"
             >
-              <span className="label text-bone/45">{`0${i + 1}`}</span>
-              <span className="numeral mt-2 text-[18vw] leading-[0.85] sm:text-[8vw] lg:text-[7rem]">
+              <span className="numeral text-[18vw] leading-[0.85] sm:text-[8vw] lg:text-[7rem]">
                 {c.value}
               </span>
               <span className="mt-3 label text-ember">{c.label}</span>

@@ -44,7 +44,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={geist.variable}>
-      <body className="grain min-h-screen bg-bone text-ink antialiased">
+      <body className="grain min-h-screen bg-page text-ink antialiased">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
