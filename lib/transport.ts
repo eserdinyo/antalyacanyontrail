@@ -17,6 +17,25 @@ export type TransportNote = {
   items: string[];
 };
 
+/* Race-area location — Düzler Çamı Milli Parkı, Döşemealtı */
+export const VENUE = {
+  name: "Düzler Çamı Milli Parkı",
+  address: ["Karaman Köprüsü, 07190", "Döşemealtı / Antalya"],
+  mapsUrl: "https://maps.app.goo.gl/aumaZicwg5zB2WcP9",
+  embedUrl:
+    "https://maps.google.com/maps?q=" +
+    encodeURIComponent(
+      "Düzler Çamı Milli Parkı, Karaman Köprüsü, 07190 Döşemealtı/Antalya",
+    ) +
+    "&z=13&output=embed",
+};
+
+export type TransportVenue = {
+  label: string;
+  openInMaps: string;
+  mapTitle: string;
+};
+
 export type TransportContent = {
   metaTitle: string;
   metaDescription: string;
@@ -24,6 +43,7 @@ export type TransportContent = {
   title: string;
   lede: string;
   sections: TransportSection[];
+  venue: TransportVenue;
   note: TransportNote;
 };
 
@@ -77,10 +97,15 @@ const tr: TransportContent = {
       id: "navigation",
       title: "Navigasyon",
       body: [
-        "Yarış merkezi konumu, Google Maps ve diğer navigasyon uygulamaları üzerinden kolayca bulunabilecektir. Konum bilgisi ve ulaşım detayları, resmî internet sitemiz ve sosyal medya hesaplarımız üzerinden yarış tarihine yaklaştıkça duyurulacaktır.",
+        "Yarış alanı Döşemealtı'ndaki Düzler Çamı Milli Parkı'ndadır. Navigasyon uygulamanıza \"Düzler Çamı Milli Parkı\" yazarak ya da aşağıdaki bağlantıyı kullanarak konuma kolayca ulaşabilirsiniz.",
       ],
     },
   ],
+  venue: {
+    label: "Yarış Alanı",
+    openInMaps: "Google Maps'te Aç",
+    mapTitle: "Yarış alanı haritası",
+  },
   note: {
     title: "Önemli Bilgilendirme",
     items: [
@@ -140,10 +165,15 @@ const en: TransportContent = {
       id: "navigation",
       title: "Navigation",
       body: [
-        "The race centre will be easy to find on Google Maps and other navigation apps. Location details and travel information will be announced on our official website and social media channels closer to the race.",
+        "The race area is in Düzler Çamı National Park, Döşemealtı. Search for \"Düzler Çamı Milli Parkı\" in your navigation app or use the link below.",
       ],
     },
   ],
+  venue: {
+    label: "Race Area",
+    openInMaps: "Open in Google Maps",
+    mapTitle: "Race area map",
+  },
   note: {
     title: "Important Information",
     items: [

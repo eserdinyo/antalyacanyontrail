@@ -15,8 +15,10 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import {
   getTransport,
+  VENUE,
   type TransportSection,
   type TransportSectionId,
+  type TransportVenue,
 } from "@/lib/transport";
 
 const SECTION_ICONS: Record<TransportSectionId, LucideIcon> = {
@@ -99,7 +101,11 @@ export default async function TransportPage({
                   key={section.id}
                   section={section}
                   index={index}
-                />
+                >
+                  {section.id === "navigation" && (
+                    <VenueBlock venue={transport.venue} />
+                  )}
+                </TransportSectionBlock>
               ))}
 
               <aside className="mt-12 grid gap-8 lg:grid-cols-[90px_1fr]">
@@ -144,9 +150,11 @@ export default async function TransportPage({
 function TransportSectionBlock({
   section,
   index,
+  children,
 }: {
   section: TransportSection;
   index: number;
+  children?: React.ReactNode;
 }) {
   const Icon = SECTION_ICONS[section.id];
 
@@ -181,8 +189,54 @@ function TransportSectionBlock({
               </p>
             ))}
           </div>
+
+          {children}
         </div>
       </div>
     </section>
+  );
+}
+
+function VenueBlock({ venue }: { venue: TransportVenue }) {
+  return (
+    <div className="mt-8 border border-line bg-paper">
+      <div className="flex flex-wrap items-end justify-between gap-5 p-6 sm:p-8">
+        <div>
+          <p className="label text-ember">{venue.label}</p>
+          <p className="mt-3 font-display text-2xl leading-tight tracking-tight sm:text-3xl">
+            {VENUE.name}
+          </p>
+          <address className="mt-2 not-italic text-base leading-relaxed text-ink-soft">
+            {VENUE.address.map((line) => (
+              <span key={line} className="block">
+                {line}
+              </span>
+            ))}
+          </address>
+        </div>
+        <a
+          href={VENUE.mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:py-3"
+        >
+          <MapPin size={16} strokeWidth={2} aria-hidden />
+          {venue.openInMaps}
+          <span
+            aria-hidden
+            className="transition-transform group-hover:translate-x-1"
+          >
+            →
+          </span>
+        </a>
+      </div>
+      <iframe
+        src={VENUE.embedUrl}
+        title={venue.mapTitle}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        className="block h-[360px] w-full border-0 border-t border-line sm:h-[440px]"
+      />
+    </div>
   );
 }

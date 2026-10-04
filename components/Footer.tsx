@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { RACES } from "@/lib/event";
+import { VENUE } from "@/lib/transport";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -55,6 +56,18 @@ export function Footer() {
             className="mt-5 inline-block font-display text-lg hover-swell text-bone/85 hover:text-bone"
           >
             {t("email")}
+          </a>
+          <a
+            href={VENUE.mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 block hover-swell text-bone/85 hover:text-bone"
+          >
+            <span className="label text-bone/60">{t("venueLabel")}</span>
+            <span className="mt-2 block font-display text-lg">{VENUE.name}</span>
+            <span className="block text-sm text-bone/65">
+              {VENUE.address.join(", ")}
+            </span>
           </a>
           <Link
             href="/race-rules"
