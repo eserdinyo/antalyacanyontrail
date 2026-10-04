@@ -26,15 +26,6 @@ type NavItem = NavLink & {
 export function Header() {
   const t = useTranslations("Nav");
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   useEffect(() => {
     if (!open) return;
 
@@ -84,13 +75,7 @@ export function Header() {
   ];
 
   return (
-    <header
-      className={`sticky top-0 z-[110] transition-all duration-300 ${
-        scrolled
-          ? "border-b border-line bg-brand-light/95 backdrop-blur"
-          : "border-b border-transparent bg-brand-light"
-      }`}
-    >
+    <header className="relative z-[110] bg-brand-light">
       <div className="mx-auto flex h-[100px] max-w-[1400px] items-center justify-between gap-6 px-5 sm:px-8">
         <Logo size="xl" />
 
