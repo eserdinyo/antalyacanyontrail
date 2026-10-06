@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import type { EventProgramContent } from "@/lib/event-program";
+import { VENUE } from "@/lib/transport";
 
 export function EventProgramDays({ program }: { program: EventProgramContent }) {
   const [selected, setSelected] = useState(0);
@@ -81,7 +82,23 @@ export function EventProgramDays({ program }: { program: EventProgramContent }) 
                     {item.time}
                   </time>
                   <div className="flex min-w-0 flex-col gap-1">
-                    <p className="text-base leading-snug font-semibold">{item.title}</p>
+                    <p className="text-base leading-snug font-semibold">
+                      {item.title}
+                      {item.location ? (
+                        <>
+                          {" ("}
+                          <a
+                            href={VENUE.mapsUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[#b8322a] underline underline-offset-2 hover:no-underline"
+                          >
+                            {program.location}
+                          </a>
+                          {")"}
+                        </>
+                      ) : null}
+                    </p>
                     {item.races ? (
                       <p className="text-[15px] font-extrabold tracking-tight">{item.races}</p>
                     ) : null}

@@ -1,5 +1,12 @@
 export type ProgramItem =
-  | { time: string; title: string; races?: string; start?: false }
+  | {
+      time: string;
+      title: string;
+      races?: string;
+      start?: false;
+      /* links to the race-area location on Google Maps */
+      location?: true;
+    }
   | { time: string; races: string; start: true };
 
 export type ProgramCutoff = {
@@ -24,6 +31,7 @@ export type EventProgramContent = {
   daysLabel: string;
   start: string;
   cutoffs: string;
+  location: string;
   days: ProgramDay[];
 };
 
@@ -36,6 +44,7 @@ const tr: EventProgramContent = {
   daysLabel: "Program günleri",
   start: "Start",
   cutoffs: "Cut-off saatleri",
+  location: "Konum",
   days: [
     {
       id: "friday",
@@ -43,7 +52,7 @@ const tr: EventProgramContent = {
       shortDate: "13 Kas",
       theme: "Expo ve Kit Dağıtımı",
       items: [
-        { time: "14.00–20.00", title: "Expo alanı" },
+        { time: "14.00–20.00", title: "Expo alanı", location: true },
         {
           time: "14.00–20.00",
           title: "Kit dağıtımı & zorunlu malzeme kontrolü",
@@ -113,6 +122,7 @@ const en: EventProgramContent = {
   daysLabel: "Program days",
   start: "Start",
   cutoffs: "Cut-off times",
+  location: "Location",
   days: [
     {
       id: "friday",
@@ -120,7 +130,7 @@ const en: EventProgramContent = {
       shortDate: "Nov 13",
       theme: "Expo and Kit Pickup",
       items: [
-        { time: "14:00–20:00", title: "Expo area" },
+        { time: "14:00–20:00", title: "Expo area", location: true },
         { time: "14:00–20:00", title: "Kit pickup & mandatory gear check" },
         { time: "18:00", title: "Technical briefing", races: "70K" },
         { time: "18:30", title: "Technical briefing", races: "45K" },
