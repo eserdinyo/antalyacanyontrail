@@ -12,7 +12,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 70K Antalya Termessos Ultra, run as part of Antalya Canyon Ultra, is a top-level ultra-marathon trail race approximately 70 km long with 1935m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 15 hours 45 minutes (time limit: 23:45). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 70K Antalya Termessos Ultra, run as part of Antalya Canyon Ultra, is a top-level ultra-marathon trail race approximately 70 km long with 2037m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 15 hours 45 minutes (time limit: 23:45). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -125,7 +125,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 45K Antalya Goat Ultra, run as part of Antalya Canyon Ultra, is an advanced-level ultra-marathon trail race approximately 46 km long with 1037m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 12 hours (time limit: 20:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 45K Antalya Goat Ultra, run as part of Antalya Canyon Ultra, is an advanced-level ultra-marathon trail race approximately 46 km long with 1194m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 12 hours (time limit: 20:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -237,7 +237,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 36K Alageyik Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 36.3 km long with 763m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 9 hours (time limit: 17:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 36K Alageyik Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 36.3 km long with 770m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 9 hours (time limit: 17:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -499,7 +499,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 13K Güver Cliff Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 13.5 km long with 105m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 3 hours (time limit: 11:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 13K Güver Cliff Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 13.5 km long with 234m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 3 hours (time limit: 11:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },

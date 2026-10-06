@@ -188,7 +188,7 @@ export const RACES: Race[] = [
     code: "ACT70",
     slug: "antalya-termessos-ultra",
     distanceKm: 70,
-    elevationM: 1935,
+    elevationM: 2037,
     itraPoints: 3,
     utmbCategory: "50K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=122",
@@ -223,7 +223,7 @@ export const RACES: Race[] = [
     code: "ACT45",
     slug: "antalya-goat-ultra",
     distanceKm: 45,
-    elevationM: 1037,
+    elevationM: 1194,
     itraPoints: 2,
     utmbCategory: "50K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=121",
@@ -316,7 +316,7 @@ export const RACES: Race[] = [
     code: "ACT13",
     slug: "guver-cliff-trail",
     distanceKm: 13,
-    elevationM: 100,
+    elevationM: 234,
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=119",
     // From the organiser's station sheet (13.5K Güver Cliff Trail); km and
     // climb/descent match the 13.5K GPX.

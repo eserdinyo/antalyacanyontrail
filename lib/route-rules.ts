@@ -33,7 +33,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 1935m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23.45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 2037m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23.45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -146,7 +146,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 46 km uzunluğunda ve 1037m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 45K Antalya Goat Ultra, yaklaşık 46 km uzunluğunda ve 1194m+ tırmanış içeren, ileri düzey bir ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 12 saat (Zaman sınırı: 20.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -258,7 +258,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 36K Alageyik Parkuru, yaklaşık 36.3 km uzunluğunda ve 763m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 36K Alageyik Parkuru, yaklaşık 36.3 km uzunluğunda ve 770m+ tırmanış içeren bir trail koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 9 saat (Zaman sınırı: 17.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -520,7 +520,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 105m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 13K Güver Cliff Trail, yaklaşık 13.5 km uzunluğunda ve 234m+ tırmanış içeren bir patika koşusudur. Koşu, 15 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 3 saat (Zaman sınırı: 11.00) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
