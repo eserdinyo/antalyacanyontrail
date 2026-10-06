@@ -116,10 +116,7 @@ function RaceHero({
 
         <div className="mt-10 flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
-            <p className="label text-bone/65">
-              {td("kicker")} · {race.code}
-            </p>
-            <h1 className="mt-4 font-display text-[12vw] leading-[0.9] tracking-tight sm:text-7xl lg:text-[8rem]">
+            <h1 className="font-display text-[12vw] leading-[0.9] tracking-tight sm:text-7xl lg:text-[8rem]">
               {t(`${race.slug}.name`)}
             </h1>
             <p className="mt-5 max-w-xl font-display-wonk text-xl leading-snug text-bone/85 sm:text-2xl">
@@ -154,16 +151,14 @@ function RaceStats({
   race: Race;
   td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
 }) {
-  const items: { label: string; value: string; sub?: string }[] = [
+  const items: { label: string; value: string }[] = [
     {
       label: td("statDistance"),
       value: `${race.distanceKm} KM`,
-      sub: race.gpx ? `${td("statMeasured")} · ${race.gpx.measuredKm} KM` : undefined,
     },
     {
       label: td("statElevation"),
       value: `${race.elevationM} M+`,
-      sub: race.gpx ? `${td("statMeasured")} · ${race.gpx.ascentM} M+` : undefined,
     },
     {
       label: td("statLow"),
@@ -204,9 +199,6 @@ function RaceStats({
             >
               <p className="label text-ink-soft">{it.label}</p>
               <p className="mt-3 numeral text-3xl sm:text-4xl">{it.value}</p>
-              {it.sub && (
-                <p className="mt-2 label text-ink-soft/70">{it.sub}</p>
-              )}
             </div>
           ))}
         </div>
