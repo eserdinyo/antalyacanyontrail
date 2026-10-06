@@ -193,7 +193,7 @@ export function CheckpointProfile({
               </span>
               {td("cpSteepLegend")}
             </span>
-            <ServiceLegend td={td} />
+            <ServiceLegend checkpoints={cps} td={td} />
           </div>
         </div>
 

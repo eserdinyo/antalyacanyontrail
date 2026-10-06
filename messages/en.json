@@ -135,6 +135,7 @@
     "serviceFood": "Food",
     "serviceMedical": "Medical",
     "serviceShuttle": "Shuttle",
+    "serviceDropBag": "Drop bag",
     "cpSteepLegend": "Darker fill, steeper climb"
   },
   "RaceRules": {

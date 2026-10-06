@@ -1,5 +1,12 @@
 import type { getTranslations } from "next-intl/server";
-import { Banana, Bus, Cross, Droplet, type LucideIcon } from "lucide-react";
+import {
+  Backpack,
+  Banana,
+  Bus,
+  Cross,
+  Droplet,
+  type LucideIcon,
+} from "lucide-react";
 
 import type { Checkpoint, CheckpointService } from "@/lib/event";
 
@@ -12,6 +19,7 @@ const SERVICE_ICON: Record<CheckpointService, LucideIcon> = {
   food: Banana,
   medical: Cross,
   shuttle: Bus,
+  dropBag: Backpack,
 };
 
 const SERVICE_KEY = {
@@ -19,6 +27,7 @@ const SERVICE_KEY = {
   food: "serviceFood",
   medical: "serviceMedical",
   shuttle: "serviceShuttle",
+  dropBag: "serviceDropBag",
 } as const satisfies Record<CheckpointService, string>;
 
 const SERVICES = Object.keys(SERVICE_ICON) as CheckpointService[];
@@ -71,16 +80,23 @@ export function ServiceIcons({
   );
 }
 
+/* Lists only the services offered somewhere on this course. */
 export function ServiceLegend({
+  checkpoints,
   td,
   className = "",
 }: {
+  checkpoints: Checkpoint[];
   td: RaceDetailT;
   className?: string;
 }) {
+  const used = SERVICES.filter((s) =>
+    checkpoints.some((cp) => cp.services.includes(s)),
+  );
+
   return (
     <ul className={`flex flex-wrap items-center gap-x-5 gap-y-2 ${className}`}>
-      {SERVICES.map((s) => {
+      {used.map((s) => {
         const Icon = SERVICE_ICON[s];
         return (
           <li key={s} className="inline-flex items-center gap-2 text-sm">

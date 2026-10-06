@@ -135,6 +135,7 @@
     "serviceFood": "Yiyecek",
     "serviceMedical": "Sağlık",
     "serviceShuttle": "Servis aracı",
+    "serviceDropBag": "Drop bag",
     "cpSteepLegend": "Koyu ton, dik tırmanış"
   },
   "RaceRules": {

@@ -34,7 +34,12 @@ export type GpxTrack = {
   maxEleM: number;
 };
 
-export type CheckpointService = "water" | "food" | "medical" | "shuttle";
+export type CheckpointService =
+  | "water"
+  | "food"
+  | "medical"
+  | "shuttle"
+  | "dropBag";
 
 export type Checkpoint = {
   /* "START", "FINISH" or "CP1".."CPn" */
@@ -120,14 +125,15 @@ const PACE5K_PROFILE = [
 
 // Station-chart elevations (m), 73 even steps over each station sheet's
 // distance. Sampled from the course GPX; where the GPX length differs from
-// the sheet (13.5K, 22K, 7K) the track is scaled proportionally.
-// 36K Alageyik — from the updated 36K ALAGEYİK TRAİL.gpx (36.33 km).
+// the sheet (22K, 7K) the track is scaled proportionally.
+// 36K Alageyik — from the 35K ALAGEYİK TRAİL.gpx (35.77 km), which drops a
+// short loop near km 2 of the earlier 36.33 km route.
 const ALAGEYIK_CP_PROFILE_M = [
-  295, 294, 289, 289, 287, 286, 281, 278, 271, 274, 265, 256, 268, 269, 272, 281, 286, 283,
-  282, 283, 284, 282, 286, 290, 287, 287, 294, 291, 292, 288, 241, 210, 217, 215, 224, 230,
-  243, 263, 283, 303, 353, 421, 461, 509, 558, 574, 527, 469, 422, 393, 406, 444, 428, 410,
-  350, 343, 346, 348, 346, 344, 344, 349, 350, 345, 339, 322, 319, 310, 302, 298, 301, 298,
-  295,
+  297, 294, 288, 289, 288, 283, 281, 275, 279, 264, 248, 265, 270, 273, 281, 287, 283, 281,
+  282, 283, 279, 286, 291, 287, 286, 294, 288, 291, 290, 267, 204, 215, 214, 217, 225, 237,
+  252, 273, 292, 323, 385, 443, 476, 528, 571, 555, 508, 448, 413, 395, 420, 457, 416, 377,
+  341, 347, 353, 348, 344, 346, 344, 351, 351, 344, 336, 320, 316, 308, 301, 298, 301, 299,
+  297,
 ];
 
 // 22K Forest Trail — act22-forest-trail.gpx (22.14 km) onto 22.02 km.
@@ -139,13 +145,33 @@ const FOREST_CP_PROFILE_M = [
   297,
 ];
 
-// 13.5K Güver Cliff Trail — act12-guver-cliff-trail.gpx (12.05 km) onto 13.47 km.
+// 13.5K Güver Cliff Trail — from the 13.5K GÜVER CLIFF TRAİL.gpx (13.47 km).
 const GUVER_CP_PROFILE_M = [
-  297, 296, 295, 294, 293, 291, 289, 289, 290, 290, 289, 288, 287, 285, 283, 281, 279, 279,
-  278, 276, 274, 271, 271, 274, 275, 273, 268, 262, 255, 247, 254, 265, 270, 270, 269, 269,
-  268, 266, 268, 271, 275, 279, 282, 284, 286, 286, 286, 285, 283, 282, 281, 280, 281, 283,
-  286, 289, 288, 287, 286, 286, 288, 290, 292, 295, 298, 300, 300, 299, 296, 294, 293, 293,
-  295,
+  299, 295, 295, 295, 293, 291, 289, 292, 289, 288, 288, 287, 284, 283, 281, 275, 280, 277,
+  275, 273, 262, 279, 272, 267, 266, 266, 232, 266, 270, 272, 260, 275, 269, 266, 269, 270,
+  277, 279, 282, 287, 287, 284, 287, 281, 283, 284, 279, 283, 282, 283, 285, 284, 284, 277,
+  284, 284, 285, 288, 291, 289, 288, 287, 289, 293, 292, 296, 306, 295, 300, 292, 293, 292,
+  296,
+];
+
+// 70K Termessos Ultra — no GPX of the current course yet; digitised from the
+// organiser's 70K elevation chart (70 km), within ~10 m of its CP heights.
+const TERMESSOS_CP_PROFILE_M = [
+  293, 291, 288, 279, 274, 247, 267, 276, 287, 285, 283, 288, 288, 293, 292, 235, 220, 224,
+  210, 220, 301, 287, 266, 221, 272, 249, 283, 251, 235, 190, 416, 529, 382, 439, 531, 493,
+  545, 627, 666, 684, 694, 733, 634, 448, 322, 288, 279, 225, 240, 275, 325, 446, 532, 561,
+  452, 389, 452, 394, 344, 352, 343, 345, 353, 336, 324, 308, 303, 306, 341, 314, 342, 323,
+  290,
+];
+
+// 45K Canyon Ultra — no GPX of the current course yet; digitised from the
+// organiser's 45K elevation chart (47.25 km), within ~10 m of its CP heights.
+const CANYON_ULTRA_CP_PROFILE_M = [
+  294, 295, 291, 288, 280, 274, 276, 268, 270, 273, 272, 282, 287, 285, 282, 278, 285, 289,
+  286, 293, 291, 290, 250, 213, 214, 217, 212, 211, 218, 280, 353, 432, 423, 465, 567, 561,
+  503, 455, 384, 329, 303, 293, 228, 224, 234, 255, 277, 303, 388, 453, 521, 567, 549, 468,
+  414, 398, 441, 424, 354, 341, 359, 345, 344, 344, 350, 351, 341, 324, 316, 310, 303, 299,
+  293,
 ];
 
 // 7K My Pace Run — act05-pace-run.gpx (7.01 km) onto 7.1 km.
@@ -166,6 +192,21 @@ export const RACES: Race[] = [
     itraPoints: 3,
     utmbCategory: "50K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=122",
+    // From the organiser's station sheet (70K, extended to 70 km for planning;
+    // the 64.97–70 km section assumes +100 m D+). Figures will be updated once
+    // ITRA confirms.
+    checkpoints: [
+      { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
+      { code: "CP1", name: "Köpek Çiftliği", km: 8.61, ascentM: 133, descentM: 152, services: ["water", "food", "medical"] },
+      { code: "CP2", name: "Alabalık", km: 16.14, ascentM: 175, descentM: 260, services: ["water", "food", "medical", "dropBag"] },
+      { code: "CP3", name: "Cennet Valley", km: 27.78, ascentM: 502, descentM: 623, services: ["water", "food", "medical"] },
+      { code: "CP4", name: "Neapolis", km: 36.61, ascentM: 1226, descentM: 862, services: ["water", "food", "medical"] },
+      { code: "CP5", name: "Alabalık-2", km: 45.53, ascentM: 1381, descentM: 1465, services: ["water", "food", "medical", "dropBag"] },
+      { code: "CP6", name: "Alageyik", km: 51.12, ascentM: 1745, descentM: 1471, services: ["water", "food", "medical"] },
+      { code: "CP7", name: "Düzlerçamı", km: 57.37, ascentM: 1837, descentM: 1794, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 70, ascentM: 2037, descentM: 2039, services: [] },
+    ],
+    checkpointProfileM: TERMESSOS_CP_PROFILE_M,
     color: "ember-deep",
     image: "/races/ultra.jpeg",
     profile: TERMESSOS_PROFILE,
@@ -186,6 +227,19 @@ export const RACES: Race[] = [
     itraPoints: 2,
     utmbCategory: "50K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=121",
+    // From the organiser's station sheet (45K Canyon Ultra, 47.25 km). Climb/
+    // descent come from the course KML and will be updated once ITRA confirms.
+    checkpoints: [
+      { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
+      { code: "CP1", name: "Köpek Çiftliği", km: 8.68, ascentM: 163, descentM: 182, services: ["water", "food", "medical"] },
+      { code: "CP2", name: "Alabalık-1", km: 16.16, ascentM: 213, descentM: 296, services: ["water", "food", "medical"] },
+      { code: "CP3", name: "Wildlife", km: 22.47, ascentM: 649, descentM: 360, services: ["water", "food", "medical"] },
+      { code: "CP4", name: "Alabalık-2", km: 27.94, ascentM: 671, descentM: 753, services: ["water", "food", "medical"] },
+      { code: "CP5", name: "Alageyik", km: 33.75, ascentM: 1058, descentM: 776, services: ["water", "food", "medical"] },
+      { code: "CP6", name: "Düzlerçamı", km: 39.82, ascentM: 1180, descentM: 1131, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 47.25, ascentM: 1194, descentM: 1195, services: [] },
+    ],
+    checkpointProfileM: CANYON_ULTRA_CP_PROFILE_M,
     color: "ember",
     image: "/races/marathon.jpeg",
     profile: CANYON_MARATHON_PROFILE,
@@ -202,19 +256,19 @@ export const RACES: Race[] = [
     code: "ACT30",
     slug: "alageyik-trail",
     distanceKm: 36,
-    elevationM: 763,
+    elevationM: 770,
     itraPoints: 1,
     utmbCategory: "20K",
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=120",
-    // From the organiser's station sheet (36K İstasyonlar); km and
-    // climb/descent match the 36K GPX.
+    // Stations from the organiser's 36K sheet, re-measured on the 35.77 km
+    // GPX (same CP locations; the shorter start moves each one ~0.55 km).
     checkpoints: [
       { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
-      { code: "CP1", name: "Güver", km: 9.12, ascentM: 135, descentM: 153, services: ["water", "food", "medical"] },
-      { code: "CP2", name: "Alabalık", km: 16.83, ascentM: 214, descentM: 296, services: ["water", "food", "medical", "shuttle"] },
-      { code: "CP3", name: "Alageyik", km: 22.12, ascentM: 581, descentM: 320, services: ["water", "food", "medical"] },
-      { code: "CP4", name: "Düzlerçamı", km: 28.66, ascentM: 734, descentM: 684, services: ["water", "food", "medical"] },
-      { code: "FINISH", km: 36.33, ascentM: 763, descentM: 764, services: [] },
+      { code: "CP1", name: "Güver", km: 8.57, ascentM: 135, descentM: 153, services: ["water", "food", "medical"] },
+      { code: "CP2", name: "Alabalık", km: 16.27, ascentM: 213, descentM: 295, services: ["water", "food", "medical", "shuttle"] },
+      { code: "CP3", name: "Alageyik", km: 21.56, ascentM: 581, descentM: 319, services: ["water", "food", "medical"] },
+      { code: "CP4", name: "Düzlerçamı", km: 28.13, ascentM: 741, descentM: 688, services: ["water", "food", "medical"] },
+      { code: "FINISH", km: 35.77, ascentM: 770, descentM: 770, services: [] },
     ],
     checkpointProfileM: ALAGEYIK_CP_PROFILE_M,
     color: "ochre",
@@ -222,9 +276,9 @@ export const RACES: Race[] = [
     profile: ALAGEYIK_PROFILE,
     gpx: {
       file: "/routes/act30-alageyik-parkuru.gpx",
-      measuredKm: 36.3,
-      ascentM: 763,
-      minEleM: 202,
+      measuredKm: 35.8,
+      ascentM: 770,
+      minEleM: 203,
       maxEleM: 584,
     },
   },
@@ -264,8 +318,8 @@ export const RACES: Race[] = [
     distanceKm: 13,
     elevationM: 100,
     registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=119",
-    // From the organiser's station sheet (13.5K Güver Cliff Trail). Climb/descent come
-    // from the course KML and will be updated once ITRA confirms.
+    // From the organiser's station sheet (13.5K Güver Cliff Trail); km and
+    // climb/descent match the 13.5K GPX.
     checkpoints: [
       { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
       { code: "CP1", name: "Fun Zone", km: 3.07, ascentM: 28, descentM: 48, services: ["water", "food", "medical"] },
@@ -280,9 +334,9 @@ export const RACES: Race[] = [
     gpx: {
       file: "/routes/act12-guver-cliff-trail.gpx",
       measuredKm: 13.5,
-      ascentM: 112,
-      minEleM: 236,
-      maxEleM: 303,
+      ascentM: 234,
+      minEleM: 228,
+      maxEleM: 306,
     },
   },
   {
