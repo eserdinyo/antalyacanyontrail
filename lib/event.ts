@@ -191,7 +191,7 @@ export const RACES: Race[] = [
     elevationM: 2037,
     itraPoints: 3,
     utmbCategory: "50K",
-    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=122",
+    registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/antalya-termossos-ultra-70k",
     // From the organiser's station sheet (70K, extended to 70 km for planning;
     // the 64.97–70 km section assumes +100 m D+). Figures will be updated once
     // ITRA confirms.
@@ -226,7 +226,7 @@ export const RACES: Race[] = [
     elevationM: 1194,
     itraPoints: 2,
     utmbCategory: "50K",
-    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=121",
+    registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/antalya-goat-ultra",
     // From the organiser's station sheet (45K Canyon Ultra, 47.25 km). Climb/
     // descent come from the course KML and will be updated once ITRA confirms.
     checkpoints: [
@@ -259,7 +259,7 @@ export const RACES: Race[] = [
     elevationM: 770,
     itraPoints: 1,
     utmbCategory: "20K",
-    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=120",
+    registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/alageyik-trail",
     // Stations from the organiser's 36K sheet, re-measured on the 35.77 km
     // GPX (same CP locations; the shorter start moves each one ~0.55 km).
     checkpoints: [
@@ -288,7 +288,7 @@ export const RACES: Race[] = [
     distanceKm: 22,
     /* official figure from the course document; GPX measures ~295 m */
     elevationM: 400,
-    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=224",
+    registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/forest-trail",
     itraPoints: 1,
     utmbCategory: "20K",
     // From the organiser's station sheet (22K Forest Trail). Climb/descent come
@@ -317,7 +317,7 @@ export const RACES: Race[] = [
     slug: "guver-cliff-trail",
     distanceKm: 13,
     elevationM: 234,
-    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=119",
+    registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/guver-cliff-trail",
     // From the organiser's station sheet (13.5K Güver Cliff Trail); km and
     // climb/descent match the 13.5K GPX.
     checkpoints: [
@@ -344,7 +344,7 @@ export const RACES: Race[] = [
     slug: "my-pace-run",
     distanceKm: 7,
     elevationM: 38,
-    registerUrl: "https://kosu.taf.org.tr/yarisma_detay.php?id=118",
+    registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/my-pace-run",
     // From the organiser's station sheet (7K My Pace Run). Climb/descent come
     // from the course KML and will be updated once ITRA confirms.
     checkpoints: [
@@ -370,5 +370,5 @@ export const RACES: Race[] = [
 export const HERO_IMAGE = "/races/hero.jpeg";
 
 /* Site-wide "Register" buttons send users to the races section, where each
-   course page carries its own TAF registration link (Race.registerUrl). */
+   course page carries its own Hermes Entry registration link (Race.registerUrl). */
 export const REGISTER_URL = "/#races";
