@@ -26,6 +26,8 @@ type Sponsor = {
   width: number;
   height: number;
   href?: string;
+  /* Height override for logos whose aspect ratio reads badly at h-12. */
+  className?: string;
 };
 
 /* Brand names aren't localised, so they live here rather than in messages. */
@@ -39,14 +41,33 @@ const MAIN_SPONSORS: Sponsor[] = [
   },
 ];
 
-function SponsorLogo({ name, src, width, height, href }: Sponsor) {
+const CO_SPONSORS: Sponsor[] = [
+  {
+    name: "Wodeco",
+    src: "/logos/wodeco.svg",
+    width: 648,
+    height: 64,
+    href: "https://wodeco.com.tr",
+    /* Wide wordmark: keep it visually level with the other logos. */
+    className: "h-6 sm:h-7",
+  },
+];
+
+function SponsorLogo({
+  name,
+  src,
+  width,
+  height,
+  href,
+  className = "h-12",
+}: Sponsor) {
   const logo = (
     <Image
       src={src}
       alt={name}
       width={width}
       height={height}
-      className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+      className={`${className} w-auto object-contain transition-transform duration-300 group-hover:scale-105`}
     />
   );
 
@@ -156,7 +177,12 @@ export function Sponsors() {
           size="md"
           sponsors={MAIN_SPONSORS}
         />
-        <Tier label={t("co")} count={6} size="sm" />
+        <Tier
+          label={t("co")}
+          count={6}
+          size="sm"
+          sponsors={CO_SPONSORS}
+        />
         <InstitutionTier label={t("official")} />
         <Tier label={t("csr")} count={1} size="md" />
       </div>
