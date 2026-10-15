@@ -10,7 +10,8 @@ const INSTITUTIONS = [
     src: "/logos/antalya-valiligi.webp",
     href: "https://antalya.gov.tr",
   },
-  { key: "ktb", src: "/logos/ktb.webp", href: "https://antalya.ktb.gov.tr" },
+  /* KTB logo is withheld until the directorate approves its use; restore with
+     { key: "ktb", src: "/logos/ktb.webp", href: "https://antalya.ktb.gov.tr" } */
   {
     key: "obm",
     src: "/logos/ogm.webp",
@@ -38,6 +39,8 @@ const MAIN_SPONSORS: Sponsor[] = [
     width: 2141,
     height: 654,
     href: "https://www.instagram.com/zenovagym",
+    /* Main tier must read larger than any co-sponsor. */
+    className: "h-16 sm:h-20",
   },
 ];
 
@@ -49,7 +52,7 @@ const CO_SPONSORS: Sponsor[] = [
     height: 64,
     href: "https://www.instagram.com/wodeco",
     /* Wide wordmark: keep it visually level with the other logos. */
-    className: "h-6 sm:h-7",
+    className: "h-4 sm:h-5",
   },
 ];
 
