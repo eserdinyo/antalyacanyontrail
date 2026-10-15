@@ -47,7 +47,7 @@ const CO_SPONSORS: Sponsor[] = [
     src: "/logos/wodeco.svg",
     width: 648,
     height: 64,
-    href: "https://wodeco.com.tr",
+    href: "https://www.instagram.com/wodeco",
     /* Wide wordmark: keep it visually level with the other logos. */
     className: "h-6 sm:h-7",
   },
