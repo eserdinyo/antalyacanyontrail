@@ -316,7 +316,7 @@ export const RACES: Race[] = [
     code: "ACT13",
     slug: "guver-cliff-trail",
     distanceKm: 13,
-    elevationM: 234,
+    elevationM: 100,
     registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/guver-cliff-trail",
     // From the organiser's station sheet (13.5K Güver Cliff Trail); km and
     // climb/descent match the 13.5K GPX.

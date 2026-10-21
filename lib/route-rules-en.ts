@@ -499,7 +499,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 13K Güver Cliff Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 13.5 km long with 234m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 3 hours (time limit: 11:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 13K Güver Cliff Trail, run as part of Antalya Canyon Ultra, is a trail race approximately 13.5 km long with 100m+ of climbing. The race starts from the start area at 08:00 on 15 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 3 hours (time limit: 11:00). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
