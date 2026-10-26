@@ -58,7 +58,7 @@ export function Header() {
         { href: "/event-program", label: t("program") },
         { href: "/race-rules", label: t("rulesMenu") },
         { href: "/transport", label: t("transport") },
-        { label: t("accommodation"), disabled: true },
+        { href: "/accommodation", label: t("accommodation") },
         { href: "/sustainability", label: t("sustainability") },
         { label: t("results"), disabled: true },
       ],
