@@ -587,41 +587,6 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
         ],
       },
-      {
-        id: "takim-kategorisi",
-        title: "9. Team Category",
-        content: [
-          {
-            type: "paragraph",
-            text: "A Team Category is held on the 13K Güver Cliff Trail course as part of Antalya Canyon Ultra. There is no requirement to belong to a company, club, institution or association to enter the Team Category. Company employees, sports clubs, running groups, groups of friends or athletes who come together for the race may form their own team. Team Category races take place on the same course and in the same start as the 13K Güver Cliff Trail individual race, but results and rankings are compiled separately.",
-          },
-          { type: "paragraph", text: "Participation Requirements:" },
-          {
-            type: "list",
-            items: [
-              "The Team Category is open only to athletes aged 18 and over.",
-              "A team must consist of at least 5 athletes; there is no maximum team size.",
-              "Teams may be women's, men's or mixed; there is no requirement regarding the number of women or men on a team.",
-              "The 7K and 13K Team Categories are evaluated independently of each other.",
-              "An athlete may be ranked in only one of the individual or team categories on the same course. Athletes racing in the Team Category are not included in the individual overall or age-category rankings of the same race.",
-              "An athlete who races individually on Saturday may take part again in the 7K or 13K race on Sunday, in either the individual or the team category.",
-            ],
-          },
-          { type: "paragraph", text: "Team Ranking:" },
-          {
-            type: "list",
-            items: [
-              "The team result is the combined time of the team's 3 fastest athletes who validly complete the race; the team with the lowest combined time ranks highest.",
-              "In the event of a tie, the results of the teams' 4th athletes are compared, then the 5th and subsequent athletes if the tie persists.",
-              "For a team to be included in the ranking, at least 5 athletes must start, and at least 3 athletes must validly complete the race for a team result to be recorded.",
-            ],
-          },
-          {
-            type: "paragraph",
-            text: "Awards: The 7K and 13K Team Categories are evaluated separately; in both distances the 3 fastest teams in the ranking are eligible for awards.",
-          },
-        ],
-      },
     ],
   },
   "my-pace-run": {
@@ -729,41 +694,6 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
               "Ages 12-17 Overall Classification Women / Men",
               "Ages 18+ Overall Classification Women / Men",
             ],
-          },
-        ],
-      },
-      {
-        id: "takim-kategorisi",
-        title: "10. Team Category",
-        content: [
-          {
-            type: "paragraph",
-            text: "A Team Category is held on the 7K My Pace Run course as part of Antalya Canyon Ultra. There is no requirement to belong to a company, club, institution or association to enter the Team Category. Company employees, sports clubs, running groups, groups of friends or athletes who come together for the race may form their own team. Team Category races take place on the same course and in the same start as the 7K My Pace Run individual race, but results and rankings are compiled separately.",
-          },
-          { type: "paragraph", text: "Participation Requirements:" },
-          {
-            type: "list",
-            items: [
-              "The Team Category is open only to athletes aged 18 and over.",
-              "A team must consist of at least 5 athletes; there is no maximum team size.",
-              "Teams may be women's, men's or mixed; there is no requirement regarding the number of women or men on a team.",
-              "The 7K and 13K Team Categories are evaluated independently of each other.",
-              "An athlete may be ranked in only one of the individual or team categories on the same course. Athletes racing in the Team Category are not included in the individual overall or age-category rankings of the same race.",
-              "An athlete who races individually on Saturday may take part again in the 7K or 13K race on Sunday, in either the individual or the team category.",
-            ],
-          },
-          { type: "paragraph", text: "Team Ranking:" },
-          {
-            type: "list",
-            items: [
-              "The team result is the combined time of the team's 3 fastest athletes who validly complete the race; the team with the lowest combined time ranks highest.",
-              "In the event of a tie, the results of the teams' 4th athletes are compared, then the 5th and subsequent athletes if the tie persists.",
-              "For a team to be included in the ranking, at least 5 athletes must start, and at least 3 athletes must validly complete the race for a team result to be recorded.",
-            ],
-          },
-          {
-            type: "paragraph",
-            text: "Awards: The 7K and 13K Team Categories are evaluated separately; in both distances the 3 fastest teams in the ranking are eligible for awards.",
           },
         ],
       },
