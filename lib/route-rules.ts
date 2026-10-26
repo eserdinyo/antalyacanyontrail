@@ -61,7 +61,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 - 25 Ekim 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -174,7 +174,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 - 25 Ekim 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -286,7 +286,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 - 25 Ekim 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -548,7 +548,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Standart Kayıt Paketi kapsamında keyfi iptal taleplerinde tam ücret iadesi yapılmaz. 1 Ekim 2026 saat 23.59'a kadar yapılacak başvurularda net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. Kayıt esnasında %15 ek bedelle Kayıt Sigortası satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 iade alabilirler; 1 - 25 Ekim 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 saat 23.59'a kadar %50 devir hizmet kesintisi ile başka bir sporcuya devir yapılabilir.",
           },
         ],
       },
@@ -648,7 +648,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) İptal, İade ve Devir Kuralları: Keyfi iptal taleplerinde tam ücret iadesi yapılmaz. Son kısmi iptal tarihi olan 1 Ekim 2026 saat 23.59'ya kadar yapılacak başvurularda, net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. 1 Ekim 2026'dan sonra standart paket iadesi yapılmaz. İlk kayıt esnasında %15 ek bedelle 'Kayıt Sigortası' satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 kesintisiz iade alabilirler; 1 Ekim - 10 Kasım 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 günü saat 23.59'a kadar %50 devir hizmet kesintisi uygulanarak başka bir sporcuya devir yapılabilir.",
+            text: "c) İptal, İade ve Devir Kuralları: Keyfi iptal taleplerinde tam ücret iadesi yapılmaz. Son kısmi iptal tarihi olan 1 Ekim 2026 saat 23.59'ya kadar yapılacak başvurularda, net kayıt ücretinin %30'u oranında kısmi iade hakkı tanınır. 1 Ekim 2026'dan sonra standart paket iadesi yapılmaz. İlk kayıt esnasında %15 ek bedelle 'Kayıt Sigortası' satın alan sporcular, 1 Ekim 2026'ya kadar gerekçesiz %100 kesintisiz iade alabilirler; 1 - 25 Ekim 2026 arasında ise sakatlık durumunda resmi sağlık/heyet raporu ibrazı ile %100 iade alabilirler. 13 Ekim 2026 günü saat 23.59'a kadar %50 devir hizmet kesintisi uygulanarak başka bir sporcuya devir yapılabilir.",
           },
           {
             type: "paragraph",

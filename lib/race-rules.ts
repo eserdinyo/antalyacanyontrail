@@ -93,7 +93,7 @@ export const RACE_RULES: RuleSection[] = [
         items: [
           "Sporcular, ilk kayıt esnasında isteğe bağlı bir ek seçenek olarak sunulan ve asıl parkur ücretinin %15'i oranında ek bedeli olan \"Kayıt Sigortası\" paketini satın alabilirler.",
           "Kayıt Sigortası satın alan sporcular, 1 Ekim 2026 tarihine kadar hiçbir belge veya gerekçe göstermeksizin kayıtlarını iptal edebilir ve ödedikleri asıl kayıt bedelinin %100'ünü kesintisiz olarak geri alabilirler (Sigorta bedeli iade edilmez).",
-          "Kayıt Sigortası bulunan sporcular, 1 Ekim 2026 ile 10 Kasım 2026 tarihleri arasında sakatlık durumlarında; tam teşekküllü hastanelerden alınmış resmi bir sağlık/heyet raporu ibraz etmek şartıyla asıl kayıt ücretlerinin %100'ünü yine iade alabilirler.",
+          "Kayıt Sigortası bulunan sporcular, 1 Ekim 2026 ile 25 Ekim 2026 tarihleri arasında sakatlık durumlarında; tam teşekküllü hastanelerden alınmış resmi bir sağlık/heyet raporu ibraz etmek şartıyla asıl kayıt ücretlerinin %100'ünü yine iade alabilirler.",
         ],
       },
       {

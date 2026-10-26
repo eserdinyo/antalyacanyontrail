@@ -40,7 +40,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 and 25 October 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -153,7 +153,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 and 25 October 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -265,7 +265,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 and 25 October 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -527,7 +527,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations under the Standard Registration Package. Applications submitted by 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. Athletes who purchase Registration Insurance for an additional 15% at the time of registration may receive a 100% refund without justification until 1 October 2026; between 1 and 25 October 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
         ],
       },
@@ -627,7 +627,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
           },
           {
             type: "paragraph",
-            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations. Applications submitted by the final partial-cancellation date of 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. No standard package refunds are issued after 1 October 2026. Athletes who purchase 'Registration Insurance' for an additional 15% at initial registration may receive a full 100% refund without justification until 1 October 2026; between 1 October and 10 November 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
+            text: "c) Cancellation, Refund and Transfer Rules: No full refund is issued for discretionary cancellations. Applications submitted by the final partial-cancellation date of 1 October 2026, 23:59 are entitled to a partial refund of 30% of the net entry fee. No standard package refunds are issued after 1 October 2026. Athletes who purchase 'Registration Insurance' for an additional 15% at initial registration may receive a full 100% refund without justification until 1 October 2026; between 1 and 25 October 2026 they may also receive a 100% refund in the event of injury, upon presenting an official medical board report from a fully equipped hospital. Until 13 October 2026, 23:59, the entry may be transferred to another athlete with a 50% transfer service deduction.",
           },
           {
             type: "paragraph",
