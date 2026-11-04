@@ -17,6 +17,11 @@ const INSTITUTIONS = [
     src: "/logos/ogm.webp",
     href: "https://antalyaobm.ogm.gov.tr",
   },
+  {
+    key: "dosemealti",
+    src: "/logos/dosemealti-belediyesi.webp",
+    href: "https://www.dosemealti.bel.tr",
+  },
   /* Protocol order: state bodies first, the federation last. */
   { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
 ] as const;
@@ -53,6 +58,17 @@ const CO_SPONSORS: Sponsor[] = [
     href: "https://www.instagram.com/wodeco",
     /* Wide wordmark: keep it visually level with the other logos. */
     className: "h-4 sm:h-5",
+  },
+];
+
+const PRODUCT_SPONSORS: Sponsor[] = [
+  {
+    name: "Gorilla Energy Drink",
+    src: "/logos/gorilla-energy.webp",
+    width: 1000,
+    height: 808,
+    href: "https://www.instagram.com/gorillaenergy",
+    className: "h-12 sm:h-14",
   },
 ];
 
@@ -185,6 +201,12 @@ export function Sponsors() {
           count={6}
           size="sm"
           sponsors={CO_SPONSORS}
+        />
+        <Tier
+          label={t("product")}
+          count={PRODUCT_SPONSORS.length}
+          size="sm"
+          sponsors={PRODUCT_SPONSORS}
         />
         <InstitutionTier label={t("official")} />
         <Tier label={t("csr")} count={1} size="md" />

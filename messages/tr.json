@@ -151,6 +151,7 @@
     "title": "İSİM SPONSORU",
     "main": "ANA SPONSORLAR",
     "co": "CO-SPONSORLAR",
+    "product": "ÜRÜN DESTEKÇİSİ",
     "official": "RESMİ DESTEKÇİLER",
     "csr": "SOSYAL SORUMLULUK PARTNERİ",
     "placeholder": "LOGO",
@@ -159,7 +160,8 @@
       "valilik": "Antalya Valiliği",
       "taf": "Türkiye Atletizm Federasyonu",
       "ktb": "Antalya İl Kültür ve Turizm Müdürlüğü",
-      "obm": "Antalya Orman Bölge Müdürlüğü"
+      "obm": "Antalya Orman Bölge Müdürlüğü",
+      "dosemealti": "Döşemealtı Belediyesi"
     }
   },
   "Footer": {

@@ -151,6 +151,7 @@
     "title": "TITLE SPONSOR",
     "main": "MAIN SPONSORS",
     "co": "CO-SPONSORS",
+    "product": "PRODUCT SUPPORTER",
     "official": "OFFICIAL SUPPORTERS",
     "csr": "SOCIAL RESPONSIBILITY PARTNER",
     "placeholder": "LOGO",
@@ -159,7 +160,8 @@
       "valilik": "Governorship of Antalya",
       "taf": "Turkish Athletics Federation",
       "ktb": "Antalya Provincial Directorate of Culture and Tourism",
-      "obm": "Antalya Regional Directorate of Forestry"
+      "obm": "Antalya Regional Directorate of Forestry",
+      "dosemealti": "Döşemealtı Municipality"
     }
   },
   "Footer": {
