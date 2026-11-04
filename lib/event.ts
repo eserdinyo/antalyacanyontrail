@@ -372,3 +372,8 @@ export const HERO_IMAGE = "/races/hero.jpeg";
 /* Site-wide "Register" buttons send users to the races section, where each
    course page carries its own Hermes Entry registration link (Race.registerUrl). */
 export const REGISTER_URL = "/#races";
+
+/* Wodeco Canyon Kids registration. TEMPORARY: points at the event's Hermes
+   Entry page until the kids-race registration link is provided. */
+export const KIDS_REGISTER_URL =
+  "https://www.hermesentry.com/r/70k-antalya-termessos-ultra";

@@ -49,6 +49,7 @@ export function Header() {
         { href: "/races/alageyik-trail", label: t("course36") },
         { href: "/races/antalya-goat-ultra", label: t("course45") },
         { href: "/races/antalya-termessos-ultra", label: t("course70") },
+        { href: "/kids", label: t("courseKids") },
       ],
     },
     {

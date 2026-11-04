@@ -16,6 +16,7 @@
     "course36": "36K Alageyik Trail",
     "course45": "45K Antalya Goat Ultra",
     "course70": "70K Antalya Termessos Ultra",
+    "courseKids": "Kids Race",
     "info": "RACE INFO",
     "raceInfo": "Race Info",
     "rules": "RACE RULES",
@@ -179,5 +180,22 @@
     "email": "antalyacanyonultra@gmail.com",
     "venueLabel": "Race Area",
     "rights": "© 2026 Antalya Canyon Ultra. All rights reserved."
+  },
+  "Kids": {
+    "eyebrow": "WODECO CANYON KIDS",
+    "title": "Kids Race",
+    "metaDescription": "Wodeco Canyon Kids: the Antalya Canyon Ultra kids race. Start time, kit pickup and registration.",
+    "lede": "My First Trail Story! The youngest runners of Antalya Canyon Ultra hit the trail on Sunday morning, 15 November.",
+    "imageAlt": "Children in red T-shirts running on a forest trail",
+    "startLabel": "Start",
+    "startTime": "10.45",
+    "startDate": "Sunday, 15 November 2026",
+    "kitLabel": "Kit pickup",
+    "kitSlot1Date": "Saturday 14 November · 10.00–20.00",
+    "kitSlot1Detail": "Expo area",
+    "kitSlot2Date": "Sunday 15 November · 09.00–10.00",
+    "kitSlot2Detail": "Race morning",
+    "onsiteNote": "On-site registration is also open during Expo hours.",
+    "register": "REGISTER"
   }
 }
