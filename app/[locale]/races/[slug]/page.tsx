@@ -68,7 +68,6 @@ export default async function RaceDetailPage({
           <TraceDeTrailBlock race={race} td={td} />
         )}
         <CheckpointProfile race={race} td={td} />
-        {race.gpx && <GpxDownload race={race} td={td} />}
         <RaceBody race={race} t={t} td={td} />
         {routeRules && <RouteRulesBlock routeRules={routeRules} td={td} />}
         <OtherRaces others={others} t={t} td={td} />
@@ -175,21 +174,38 @@ function RaceStats({
       <div className="mx-auto max-w-[1400px] px-5 py-10 sm:px-8 sm:py-14">
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line pb-4">
           <span className="label text-ink-soft">{td("summary")}</span>
-          <a
-            href={race.registerUrl}
-            target="_blank"
-            rel="noopener"
-            className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:justify-start sm:py-3"
-          >
-            <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
-            {td("register")}
-            <span
-              aria-hidden
-              className="transition-transform group-hover:translate-x-1"
+          <div className="flex w-full flex-col gap-3 sm:w-auto">
+            <a
+              href={race.registerUrl}
+              target="_blank"
+              rel="noopener"
+              className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:justify-start sm:py-3"
             >
-              →
-            </span>
-          </a>
+              <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
+              {td("register")}
+              <span
+                aria-hidden
+                className="transition-transform group-hover:translate-x-1"
+              >
+                →
+              </span>
+            </a>
+            {race.gpx && (
+              <a
+                href={race.gpx.file}
+                download
+                className="group inline-flex w-full items-center justify-center gap-3 border border-ink/30 px-6 py-4 label-lg text-ink transition-colors hover:border-ink hover:bg-ink hover:text-bone sm:justify-start sm:py-3"
+              >
+                {td("downloadCta")}
+                <span
+                  aria-hidden
+                  className="transition-transform group-hover:translate-y-0.5"
+                >
+                  ↓
+                </span>
+              </a>
+            )}
+          </div>
         </div>
         <div className="grid grid-cols-2 gap-px bg-line/60 lg:grid-cols-4">
           {items.map((it) => (
@@ -348,39 +364,6 @@ function RouteRuleBlock({ block }: { block: RouteRuleContent }) {
         </li>
       ))}
     </ul>
-  );
-}
-
-function GpxDownload({
-  race,
-  td,
-}: {
-  race: Race;
-  td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
-}) {
-  if (!race.gpx) return null;
-
-  return (
-    <section className="border-b border-line bg-shadow text-bone">
-      <div className="mx-auto flex max-w-[1400px] flex-col gap-6 px-5 py-14 sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:py-20">
-        <div className="max-w-xl">
-          <span className="label text-bone/60">{td("downloadTitle")}</span>
-          <p className="mt-3 font-display text-3xl leading-tight tracking-tight sm:text-4xl">
-            {td("downloadDesc")}
-          </p>
-        </div>
-        <a
-          href={race.gpx.file}
-          download
-          className="group flex w-full items-center justify-center gap-3 border border-bone/40 px-6 py-4 label-lg text-bone transition-colors hover:bg-ember hover:border-ember sm:inline-flex sm:w-auto sm:self-auto sm:justify-start"
-        >
-          {td("downloadCta")}
-          <span aria-hidden className="transition-transform group-hover:translate-x-1">
-            ↓
-          </span>
-        </a>
-      </div>
-    </section>
   );
 }
 
