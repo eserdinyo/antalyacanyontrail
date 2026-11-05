@@ -57,6 +57,7 @@ const tr: EventProgramContent = {
           time: "14.00–20.00",
           title: "Kit dağıtımı & zorunlu malzeme kontrolü",
         },
+        { time: "14.00–20.00", title: "Çocuk koşusu kit dağıtımı" },
         { time: "18.00", title: "Teknik toplantı", races: "70K" },
         { time: "18.30", title: "Teknik toplantı", races: "45K" },
         { time: "19.00", title: "Teknik toplantı", races: "36K · 22K" },
@@ -132,6 +133,7 @@ const en: EventProgramContent = {
       items: [
         { time: "14:00–20:00", title: "Expo area", location: true },
         { time: "14:00–20:00", title: "Kit pickup & mandatory gear check" },
+        { time: "14:00–20:00", title: "Kids run kit pickup" },
         { time: "18:00", title: "Technical briefing", races: "70K" },
         { time: "18:30", title: "Technical briefing", races: "45K" },
         { time: "19:00", title: "Technical briefing", races: "36K · 22K" },
