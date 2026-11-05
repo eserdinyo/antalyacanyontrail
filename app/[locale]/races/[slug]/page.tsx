@@ -230,7 +230,7 @@ function TraceDeTrailBlock({
   race: Race;
   td: Awaited<ReturnType<typeof getTranslations<"RaceDetail">>>;
 }) {
-  if (race.traceDeTrailId == null) return null;
+  if (race.traceDeTrailId == null && !race.mapUpdating) return null;
 
   return (
     <section className="border-b border-line bg-page">
@@ -240,19 +240,31 @@ function TraceDeTrailBlock({
             {td("mapTitle")}
           </h2>
           <p className="max-w-md text-sm leading-relaxed text-ink-soft">
-            {td("mapNote")}
+            {td(race.mapUpdating ? "mapUpdatingNote" : "mapNote")}
           </p>
         </div>
 
-        <div className="mt-8 surface-paper p-2 sm:p-4">
-          <iframe
-            src={`https://tracedetrail.fr/en/iframe/${race.traceDeTrailId}`}
-            title={td("mapTitle")}
-            allowFullScreen
-            scrolling="no"
-            className="block h-[800px] w-full border-0"
-          />
-        </div>
+        {race.mapUpdating ? (
+          <div className="mt-8 surface-paper flex min-h-[320px] flex-col items-center justify-center gap-4 px-6 py-16 text-center sm:min-h-[420px]">
+            <span className="block h-2 w-2 animate-pulse rounded-full bg-ember" />
+            <p className="font-display text-2xl tracking-tight sm:text-3xl">
+              {td("mapUpdatingTitle")}
+            </p>
+            <p className="max-w-md text-sm leading-relaxed text-ink-soft">
+              {td("mapUpdatingBody")}
+            </p>
+          </div>
+        ) : (
+          <div className="mt-8 surface-paper p-2 sm:p-4">
+            <iframe
+              src={`https://tracedetrail.fr/en/iframe/${race.traceDeTrailId}`}
+              title={td("mapTitle")}
+              allowFullScreen
+              scrolling="no"
+              className="block h-[800px] w-full border-0"
+            />
+          </div>
+        )}
       </div>
     </section>
   );

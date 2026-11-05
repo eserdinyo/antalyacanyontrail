@@ -66,6 +66,9 @@ export type Race = {
   gpx?: GpxTrack;
   /* Trace de Trail iframe id — embeds the interactive course map when set */
   traceDeTrailId?: number;
+  /* true while the course map is being revised — shows a placeholder
+     instead of the Trace de Trail embed */
+  mapUpdating?: boolean;
   /* ITRA performance points — set only for ITRA-scored courses.
      Absent (not 0) for courses that do not score: ACT13, ACT05.
      Closed union: one badge asset exists per tier in public/logos/. */
@@ -211,6 +214,8 @@ export const RACES: Race[] = [
     image: "/races/ultra.jpeg",
     profile: TERMESSOS_PROFILE,
     traceDeTrailId: 10360,
+    // New course from Garmin (course 472600561) pending; hide the old map.
+    mapUpdating: true,
     gpx: {
       file: "/routes/act70-termessos-ultra.gpx",
       measuredKm: 69.9,
