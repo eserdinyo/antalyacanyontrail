@@ -49,8 +49,7 @@ export function Header() {
         { href: "/races/alageyik-trail", label: t("course36") },
         { href: "/races/antalya-goat-ultra", label: t("course45") },
         { href: "/races/antalya-termessos-ultra", label: t("course70") },
-        /* Kids race hidden from the menu until launch; /kids stays live.
-           Restore with: { href: "/kids", label: t("courseKids") }, */
+        { href: "/kids", label: t("courseKids") },
       ],
     },
     {
