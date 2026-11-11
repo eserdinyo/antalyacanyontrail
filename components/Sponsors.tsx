@@ -17,11 +17,7 @@ const INSTITUTIONS = [
     src: "/logos/ogm.webp",
     href: "https://antalyaobm.ogm.gov.tr",
   },
-  {
-    key: "dosemealti",
-    src: "/logos/dosemealti-belediyesi.webp",
-    href: "https://www.dosemealti.bel.tr",
-  },
+  /* Döşemealtı Belediyesi is listed as a main sponsor instead. */
   /* Protocol order: state bodies first, the federation last. */
   { key: "taf", src: "/logos/taf.webp", href: "https://taf.org.tr" },
 ] as const;
@@ -39,13 +35,13 @@ type Sponsor = {
 /* Brand names aren't localised, so they live here rather than in messages. */
 const MAIN_SPONSORS: Sponsor[] = [
   {
-    name: "Zenova Gym",
-    src: "/logos/zenova-gym.svg",
-    width: 2141,
-    height: 654,
-    href: "https://www.instagram.com/zenovagym",
-    /* Main tier must read larger than any co-sponsor. */
-    className: "h-16 sm:h-20",
+    name: "Döşemealtı Belediyesi",
+    src: "/logos/dosemealti-belediyesi.webp",
+    width: 600,
+    height: 600,
+    href: "https://www.dosemealti.bel.tr",
+    /* Main tier must read larger than any other logo, institutions included. */
+    className: "h-28 sm:h-32",
   },
 ];
 
