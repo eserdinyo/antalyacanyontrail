@@ -72,6 +72,18 @@ const PRODUCT_SPONSORS: Sponsor[] = [
   },
 ];
 
+const CSR_PARTNERS: Sponsor[] = [
+  {
+    name: "Kırmızı Kasklılar Arama Kurtarma",
+    src: "/logos/kirmizi-kasklilar.webp",
+    width: 600,
+    height: 600,
+    href: "https://www.kirmizikasklilar.org",
+    /* Round badge: match the institution logos' height. */
+    className: "h-20 sm:h-24",
+  },
+];
+
 function SponsorLogo({
   name,
   src,
@@ -209,7 +221,12 @@ export function Sponsors() {
           sponsors={PRODUCT_SPONSORS}
         />
         <InstitutionTier label={t("official")} />
-        <Tier label={t("csr")} count={1} size="md" />
+        <Tier
+          label={t("csr")}
+          count={CSR_PARTNERS.length}
+          size="md"
+          sponsors={CSR_PARTNERS}
+        />
       </div>
     </section>
   );
