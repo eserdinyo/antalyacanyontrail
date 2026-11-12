@@ -202,5 +202,14 @@
     "kitSlot2Detail": "Yarış sabahı",
     "onsiteNote": "Expo açık olduğu saatlerde yerinde de kayıt alınır.",
     "register": "KAYIT OL"
+  },
+  "LiveResults": {
+    "badge": "Canlı",
+    "kicker": "Antalya Canyon Ultra 2026",
+    "title": "Canlı Sonuçlar",
+    "body": "Sporcuların istasyon geçişlerini ve bitiş sürelerini anlık olarak takip edin. Resmi sonuçlar onaylandıktan sonra PDF olarak sitemizde paylaşılacaktır.",
+    "cta": "Canlı Sonuçları Takip Et",
+    "dismiss": "Daha sonra",
+    "close": "Kapat"
   }
 }

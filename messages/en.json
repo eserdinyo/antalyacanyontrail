@@ -202,5 +202,14 @@
     "kitSlot2Detail": "Race morning",
     "onsiteNote": "On-site registration is also open during Expo hours.",
     "register": "REGISTER"
+  },
+  "LiveResults": {
+    "badge": "Live",
+    "kicker": "Antalya Canyon Ultra 2026",
+    "title": "Live Results",
+    "body": "Follow runners' checkpoint splits and finish times in real time. Official results will be published here as a PDF once approved.",
+    "cta": "Follow Live Results",
+    "dismiss": "Maybe later",
+    "close": "Close"
   }
 }
