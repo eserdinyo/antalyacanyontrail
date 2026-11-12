@@ -90,16 +90,16 @@ export function getRace(slug: string): Race | undefined {
   return RACES.find((r) => r.slug === slug);
 }
 
-// Values from Trace de Trail (id 10359): 45K Antalya Goat Ultra — 46.7 km, ~1037 m gain (195–587 m).
+// Values measured from the Garmin GPX: 45K Canyon Ultra — 43.6 km, ~1113 m gain (193–583 m).
 const CANYON_MARATHON_PROFILE = [
-  0.266, 0.22, 0.191, 0.232, 0.223, 0.241, 0.036, 0.024,
-  0.252, 0.193, 0.834, 0.499, 0.527, 0.39, 0.327, 0.262,
+  0.275, 0.223, 0.185, 0.223, 0.24, 0.105, 0, 0.221,
+  0.201, 0.202, 1, 0.567, 0.61, 0.415, 0.346, 0.273,
 ];
 
-// Values from Trace de Trail (id 10360): 70K Antalya Termessos Ultra — 69.9 km, ~1935 m gain (180–738 m).
+// Values measured from the Garmin GPX: 70K Termessos Ultra — 75.4 km, ~2335 m gain (194–1063 m).
 const TERMESSOS_PROFILE = [
-  0.185, 0.124, 0.157, 0.122, 0, 0.201, 0.082, 0.313,
-  0.643, 1, 0.244, 0.129, 0.617, 0.383, 0.293, 0.181,
+  0.128, 0.04, 0.109, 0.025, 0.142, 0.096, 0, 0.41,
+  0.609, 1, 0.487, 0.028, 0.371, 0.282, 0.183, 0.126,
 ];
 
 // Values measured from the Garmin GPX: 36K Alageyik Trail — 36.3 km, ~763 m gain (202–584 m).
@@ -157,24 +157,22 @@ const GUVER_CP_PROFILE_M = [
   296,
 ];
 
-// 70K Termessos Ultra — no GPX of the current course yet; digitised from the
-// organiser's 70K elevation chart (70 km), within ~10 m of its CP heights.
+// 70K Termessos Ultra — act70-termessos-ultra.gpx (75.45 km) onto 70 km.
 const TERMESSOS_CP_PROFILE_M = [
-  293, 291, 288, 279, 274, 247, 267, 276, 287, 285, 283, 288, 288, 293, 292, 235, 220, 224,
-  210, 220, 301, 287, 266, 221, 272, 249, 283, 251, 235, 190, 416, 529, 382, 439, 531, 493,
-  545, 627, 666, 684, 694, 733, 634, 448, 322, 288, 279, 225, 240, 275, 325, 446, 532, 561,
-  452, 389, 452, 394, 344, 352, 343, 345, 353, 336, 324, 308, 303, 306, 341, 314, 342, 323,
-  290,
+  298, 287, 286, 280, 272, 270, 265, 284, 278, 284, 285, 287, 294, 292, 228, 215, 219, 203,
+  249, 311, 254, 200, 252, 238, 272, 240, 280, 249, 219, 195, 456, 534, 377, 461, 524, 510,
+  577, 664, 660, 729, 899, 1059, 1054, 1025, 966, 861, 846, 708, 591, 515, 421, 329, 299, 213,
+  235, 269, 318, 444, 541, 551, 434, 398, 430, 405, 397, 365, 352, 356, 346, 321, 313, 302,
+  297,
 ];
 
-// 45K Canyon Ultra — no GPX of the current course yet; digitised from the
-// organiser's 45K elevation chart (47.25 km), within ~10 m of its CP heights.
+// 45K Canyon Ultra — act45-canyon-ultra.gpx (43.62 km) onto 47.25 km.
 const CANYON_ULTRA_CP_PROFILE_M = [
-  294, 295, 291, 288, 280, 274, 276, 268, 270, 273, 272, 282, 287, 285, 282, 278, 285, 289,
-  286, 293, 291, 290, 250, 213, 214, 217, 212, 211, 218, 280, 353, 432, 423, 465, 567, 561,
-  503, 455, 384, 329, 303, 293, 228, 224, 234, 255, 277, 303, 388, 453, 521, 567, 549, 468,
-  414, 398, 441, 424, 354, 341, 359, 345, 344, 344, 350, 351, 341, 324, 316, 310, 303, 299,
-  293,
+  298, 295, 288, 288, 283, 282, 267, 269, 240, 276, 269, 273, 283, 287, 286, 282, 285, 285,
+  291, 287, 286, 291, 293, 287, 244, 217, 214, 214, 219, 218, 196, 242, 297, 316, 253, 242,
+  307, 292, 288, 232, 222, 230, 245, 271, 295, 337, 420, 469, 527, 576, 539, 462, 412, 397,
+  426, 432, 407, 406, 401, 389, 369, 345, 347, 344, 350, 348, 334, 322, 316, 309, 303, 299,
+  297,
 ];
 
 // 7K My Pace Run — act05-pace-run.gpx (7.01 km) onto 7.1 km.
@@ -214,14 +212,15 @@ export const RACES: Race[] = [
     image: "/races/ultra.jpeg",
     profile: TERMESSOS_PROFILE,
     traceDeTrailId: 10360,
-    // New course from Garmin (course 472600561) pending; hide the old map.
+    // New 75.4 km course (Garmin course 472600561); Trace de Trail still
+    // shows the old route.
     mapUpdating: true,
     gpx: {
       file: "/routes/act70-termessos-ultra.gpx",
-      measuredKm: 69.9,
-      ascentM: 1935,
-      minEleM: 180,
-      maxEleM: 738,
+      measuredKm: 75.4,
+      ascentM: 2335,
+      minEleM: 194,
+      maxEleM: 1063,
     },
   },
   {
@@ -249,12 +248,15 @@ export const RACES: Race[] = [
     image: "/races/marathon.jpeg",
     profile: CANYON_MARATHON_PROFILE,
     traceDeTrailId: 10359,
+    // New 43.6 km course (Garmin course 463347266); Trace de Trail still
+    // shows the old route.
+    mapUpdating: true,
     gpx: {
       file: "/routes/act45-canyon-ultra.gpx",
-      measuredKm: 46.7,
-      ascentM: 1037,
-      minEleM: 195,
-      maxEleM: 587,
+      measuredKm: 43.6,
+      ascentM: 1113,
+      minEleM: 193,
+      maxEleM: 583,
     },
   },
   {
