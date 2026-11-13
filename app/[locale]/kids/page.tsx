@@ -108,13 +108,6 @@ export default async function KidsPage({
               </dl>
 
               <div className="flex flex-col gap-4">
-                <p className="flex items-start gap-3 text-sm leading-relaxed text-ink-soft">
-                  <span
-                    aria-hidden
-                    className="mt-[0.5em] block h-1.5 w-1.5 shrink-0 rounded-full bg-ember"
-                  />
-                  {t("onsiteNote")}
-                </p>
                 <a
                   href={KIDS_REGISTER_URL}
                   target="_blank"

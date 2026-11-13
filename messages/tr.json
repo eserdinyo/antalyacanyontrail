@@ -195,12 +195,11 @@
     "startDate": "15 Kasım 2026 Pazar",
     "kitLabel": "Kit dağıtımı",
     "kitSlot0Date": "13 Kasım Cuma · 14.00–20.00",
-    "kitSlot0Detail": "Expo alanı",
+    "kitSlot0Detail": "Düzlerçamı Güver Uçurumu",
     "kitSlot1Date": "14 Kasım Cumartesi · 10.00–20.00",
-    "kitSlot1Detail": "Expo alanı",
+    "kitSlot1Detail": "Düzlerçamı Güver Uçurumu",
     "kitSlot2Date": "15 Kasım Pazar · 09.00–10.00",
     "kitSlot2Detail": "Yarış sabahı",
-    "onsiteNote": "Expo açık olduğu saatlerde yerinde de kayıt alınır.",
     "register": "KAYIT OL"
   },
   "LiveResults": {
