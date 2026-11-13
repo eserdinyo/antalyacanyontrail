@@ -102,16 +102,16 @@ const TERMESSOS_PROFILE = [
   0.609, 1, 0.487, 0.028, 0.371, 0.282, 0.183, 0.126,
 ];
 
-// Values measured from the Garmin GPX: 36K Alageyik Trail — 36.3 km, ~763 m gain (202–584 m).
+// Values measured from the Garmin GPX: 36K Alageyik Trail — 35.9 km, ~758 m gain (203–584 m).
 const ALAGEYIK_PROFILE = [
-  0.255, 0.227, 0.16, 0.191, 0.215, 0.227, 0.239, 0,
-  0.23, 1, 0.676, 0.647, 0.431, 0.432, 0.298, 0.252,
+  0.213, 0.172, 0.074, 0.173, 0.179, 0.182, 0.144, 0,
+  0.225, 1, 0.567, 0.549, 0.427, 0.379, 0.275, 0.211,
 ];
 
-// Values measured from the Garmin GPX: 22K Forest Trail — 22.1 km, ~295 m gain (230–380 m).
+// Values measured from the Garmin GPX: 22K Forest Trail — 21.9 km, ~389 m gain (217–365 m).
 const FOREST_PROFILE = [
-  0.419, 0.367, 0.287, 0, 0.202, 0.348, 0.329, 0.347,
-  0.624, 1, 0.836, 0.794, 0.805, 0.614, 0.482, 0.459,
+  0.338, 0.251, 0.161, 0.003, 0, 0.102, 0.137, 0.198,
+  0.426, 0.932, 0.997, 0.91, 1, 0.65, 0.411, 0.329,
 ];
 
 // Values from Trace de Trail (id 10356): 13K Güver Cliff Trail — 13.5 km, ~112 m gain (236–303 m).
@@ -129,23 +129,24 @@ const PACE5K_PROFILE = [
 // Station-chart elevations (m), 73 even steps over each station sheet's
 // distance. Sampled from the course GPX; where the GPX length differs from
 // the sheet (22K, 7K) the track is scaled proportionally.
-// 36K Alageyik — from the 35K ALAGEYİK TRAİL.gpx (35.77 km), which drops a
-// short loop near km 2 of the earlier 36.33 km route.
+// 36K Alageyik — act30-alageyik-parkuru.gpx (Garmin course 519924634,
+// 35.86 km) onto 35.77 km.
 const ALAGEYIK_CP_PROFILE_M = [
-  297, 294, 288, 289, 288, 283, 281, 275, 279, 264, 248, 265, 270, 273, 281, 287, 283, 281,
-  282, 283, 279, 286, 291, 287, 286, 294, 288, 291, 290, 267, 204, 215, 214, 217, 225, 237,
-  252, 273, 292, 323, 385, 443, 476, 528, 571, 555, 508, 448, 413, 395, 420, 457, 416, 377,
-  341, 347, 353, 348, 344, 346, 344, 351, 351, 344, 336, 320, 316, 308, 301, 298, 301, 299,
-  297,
+  296, 294, 288, 289, 287, 283, 281, 274, 279, 263, 250, 264, 270, 273, 281, 287, 283, 281,
+  282, 284, 280, 286, 290, 288, 287, 295, 289, 291, 290, 263, 203, 213, 214, 218, 225, 238,
+  253, 274, 294, 325, 398, 447, 485, 536, 579, 554, 500, 444, 412, 398, 423, 447, 414, 406,
+  404, 401, 392, 378, 357, 339, 344, 346, 349, 346, 342, 326, 321, 318, 311, 304, 302, 298,
+  296,
 ];
 
-// 22K Forest Trail — act22-forest-trail.gpx (22.14 km) onto 22.02 km.
+// 22K Forest Trail — act22-forest-trail.gpx (Garmin course 530255368,
+// 21.89 km) onto 22.02 km.
 const FOREST_CP_PROFILE_M = [
-  295, 295, 294, 289, 290, 289, 288, 286, 282, 277, 279, 275, 267, 276, 267, 265, 247, 271,
-  264, 271, 267, 272, 277, 282, 286, 286, 283, 283, 281, 283, 284, 285, 280, 284, 285, 296,
-  309, 316, 321, 330, 339, 348, 363, 378, 376, 363, 343, 348, 348, 345, 345, 344, 347, 350,
-  349, 353, 349, 346, 342, 330, 322, 322, 318, 310, 303, 306, 298, 299, 301, 302, 299, 298,
-  297,
+  297, 295, 296, 290, 290, 289, 287, 286, 286, 287, 283, 271, 279, 275, 259, 279, 267, 261,
+  218, 267, 268, 273, 270, 269, 277, 281, 286, 286, 287, 281, 281, 283, 282, 284, 285, 281,
+  284, 287, 301, 314, 320, 322, 333, 346, 351, 362, 355, 350, 353, 352, 345, 339, 341, 350,
+  349, 350, 351, 343, 348, 344, 332, 322, 322, 321, 318, 313, 308, 304, 301, 302, 300, 295,
+  296,
 ];
 
 // 13.5K Güver Cliff Trail — from the 13.5K GÜVER CLIFF TRAİL.gpx (13.47 km).
@@ -283,8 +284,8 @@ export const RACES: Race[] = [
     profile: ALAGEYIK_PROFILE,
     gpx: {
       file: "/routes/act30-alageyik-parkuru.gpx",
-      measuredKm: 35.8,
-      ascentM: 770,
+      measuredKm: 35.9,
+      ascentM: 758,
       minEleM: 203,
       maxEleM: 584,
     },
@@ -293,7 +294,7 @@ export const RACES: Race[] = [
     code: "ACT22",
     slug: "forest-trail",
     distanceKm: 22,
-    /* official figure from the course document; GPX measures ~295 m */
+    /* official figure from the course document; GPX measures ~389 m */
     elevationM: 400,
     registerUrl: "https://www.hermesentry.com/r/70k-antalya-termessos-ultra/forest-trail",
     itraPoints: 1,
@@ -311,12 +312,15 @@ export const RACES: Race[] = [
     image: "/races/forest.jpeg",
     profile: FOREST_PROFILE,
     traceDeTrailId: 10582,
+    // New 21.9 km course (Garmin course 530255368); Trace de Trail still
+    // shows the old route.
+    mapUpdating: true,
     gpx: {
       file: "/routes/act22-forest-trail.gpx",
-      measuredKm: 22.1,
-      ascentM: 295,
-      minEleM: 230,
-      maxEleM: 380,
+      measuredKm: 21.9,
+      ascentM: 389,
+      minEleM: 217,
+      maxEleM: 365,
     },
   },
   {
