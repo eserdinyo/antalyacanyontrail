@@ -201,14 +201,5 @@
     "kitSlot2Date": "15 Kasım Pazar · 09.00–10.00",
     "kitSlot2Detail": "Yarış sabahı",
     "register": "KAYIT OL"
-  },
-  "LiveResults": {
-    "badge": "Canlı",
-    "kicker": "Antalya Canyon Ultra 2026",
-    "title": "Canlı Sonuçlar",
-    "body": "Sporcuların istasyon geçişlerini ve bitiş sürelerini anlık olarak takip edin. Resmi sonuçlar onaylandıktan sonra PDF olarak sitemizde paylaşılacaktır.",
-    "cta": "Canlı Sonuçları Takip Et",
-    "dismiss": "Daha sonra",
-    "close": "Kapat"
   }
 }
