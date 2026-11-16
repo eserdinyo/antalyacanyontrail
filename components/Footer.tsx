@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { RACES } from "@/lib/event";
 import { VENUE } from "@/lib/transport";
 import { Logo } from "./Logo";
+import { LangSwitcher } from "./LangSwitcher";
 
 export function Footer() {
   const t = useTranslations("Footer");
@@ -91,6 +92,7 @@ export function Footer() {
         <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-3 px-5 py-6 label text-bone/50 sm:px-8">
           <span>{t("rights")}</span>
           <span>{t("love")}</span>
+          <LangSwitcher inverted />
         </div>
       </div>
     </footer>

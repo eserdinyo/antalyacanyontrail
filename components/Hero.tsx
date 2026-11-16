@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { HERO_IMAGE, RACES, REGISTER_URL } from "@/lib/event";
+import { HERO_IMAGE, RACES } from "@/lib/event";
 import { RaceBadge } from "./RaceBadge";
 
 export function Hero() {
@@ -39,42 +39,20 @@ export function Hero() {
           </h1>
         </div>
 
-        {/* bottom row — dates + CTA on left, race badges on right */}
-        <div className="flex flex-col gap-10 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
-          <div className="reveal delay-3 flex flex-col gap-6 sm:gap-8">
+        {/* bottom row — partner logos on left, race badges on right, centred on one line */}
+        <div className="flex flex-col gap-10 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
+          <div className="reveal delay-3 flex flex-wrap items-center gap-6 sm:gap-8">
             <Image
               src="/logos/utmb.png"
               alt="UTMB Index"
               width={905}
               height={217}
-              className="h-10 w-auto self-start"
+              className="h-10 w-auto"
             />
-            <div>
-              <div className="label text-bone/60">{t("datesLabel")}</div>
-              <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
-                {t("dateRange")}
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <a
-                href={REGISTER_URL}
-                className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:justify-start sm:py-3"
-              >
-                <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
-                {t("register")}
-                <span
-                  aria-hidden
-                  className="transition-transform group-hover:translate-x-1"
-                >
-                  →
-                </span>
-              </a>
-            </div>
           </div>
 
           {/* race badges — desktop only */}
-          <div className="reveal delay-5 hidden sm:flex sm:flex-row sm:items-end sm:justify-end sm:gap-4">
+          <div className="reveal delay-5 hidden sm:flex sm:flex-row sm:items-center sm:justify-end sm:gap-4">
             {RACES.map((race) => (
               <RaceBadge key={race.code} race={race} size="md" />
             ))}

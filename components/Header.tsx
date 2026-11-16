@@ -5,8 +5,6 @@ import { useTranslations } from "next-intl";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "./Logo";
-import { LangSwitcher } from "./LangSwitcher";
-import { REGISTER_URL } from "@/lib/event";
 
 const VOLUNTEER_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSeOUMau4GsTvlkUHe8w7rXRsSs0Lfm5WjQmaN4ZZJKWPArWsA/viewform";
@@ -38,8 +36,6 @@ export function Header() {
   }, [open]);
 
   const nav: NavItem[] = [
-    { href: "/#dates", label: t("dates"), tone: "outline" },
-    { href: REGISTER_URL, label: t("register"), tone: "solid" },
     {
       label: t("courses"),
       items: [
@@ -55,13 +51,12 @@ export function Header() {
     {
       label: t("raceInfo"),
       items: [
-        { href: REGISTER_URL, label: t("registerMenu") },
         { href: "/event-program", label: t("program") },
         { href: "/race-rules", label: t("rulesMenu") },
         { href: "/transport", label: t("transport") },
         { href: "/accommodation", label: t("accommodation") },
         { href: "/sustainability", label: t("sustainability") },
-        { label: t("results"), disabled: true },
+        { href: "/results", label: t("results") },
       ],
     },
     {
@@ -80,23 +75,20 @@ export function Header() {
       <div className="mx-auto flex h-[100px] max-w-[1400px] items-center justify-between gap-6 px-5 sm:px-8">
         <Logo size="xl" />
 
-        <nav className="hidden items-center gap-2 lg:flex">
+        <nav className="ml-auto hidden items-center gap-2 lg:flex">
           {nav.map((item) => (
             <DesktopNavItem key={item.label} item={item} />
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
-          <LangSwitcher />
-          <button
-            type="button"
-            className="rounded-md p-2 text-ink lg:hidden"
-            aria-label="Menu"
-            onClick={() => setOpen((v) => !v)}
-          >
-            {open ? <X size={20} /> : <Menu size={20} />}
-          </button>
-        </div>
+        <button
+          type="button"
+          className="rounded-md p-2 text-ink lg:hidden"
+          aria-label="Menu"
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? <X size={20} /> : <Menu size={20} />}
+        </button>
       </div>
 
       {/* Mobile fullscreen overlay */}
@@ -134,9 +126,6 @@ export function Header() {
               />
             ))}
           </nav>
-          <div className="px-8 pb-8">
-            <LangSwitcher />
-          </div>
         </div>
       </div>
     </header>

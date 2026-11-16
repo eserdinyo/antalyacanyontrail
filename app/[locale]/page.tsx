@@ -1,11 +1,11 @@
 import { setRequestLocale } from "next-intl/server";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { Countdown } from "@/components/Countdown";
 import { About } from "@/components/About";
 import { RaceCategories } from "@/components/RaceCategories";
 import { Sponsors } from "@/components/Sponsors";
 import { Footer } from "@/components/Footer";
+import { RaceFinishedModal } from "@/components/RaceFinishedModal";
 
 export default async function HomePage({
   params,
@@ -20,12 +20,12 @@ export default async function HomePage({
       <Header />
       <main>
         <Hero />
-        <Countdown />
         <About />
         <RaceCategories />
         <Sponsors />
       </main>
       <Footer />
+      <RaceFinishedModal />
     </>
   );
 }

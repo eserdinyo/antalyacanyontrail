@@ -175,21 +175,6 @@ function RaceStats({
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line pb-4">
           <span className="label text-ink-soft">{td("summary")}</span>
           <div className="flex w-full flex-col gap-3 sm:w-auto">
-            <a
-              href={race.registerUrl}
-              target="_blank"
-              rel="noopener"
-              className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:justify-start sm:py-3"
-            >
-              <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
-              {td("register")}
-              <span
-                aria-hidden
-                className="transition-transform group-hover:translate-x-1"
-              >
-                →
-              </span>
-            </a>
             {race.gpx && (
               <a
                 href={race.gpx.file}
@@ -294,20 +279,6 @@ function RaceBody({
           <p className="font-display text-2xl leading-tight tracking-tight">
             {t(`${race.slug}.name`)}
           </p>
-          <a
-            href={race.registerUrl}
-            target="_blank"
-            rel="noopener"
-            className="group mt-2 inline-flex items-center justify-between gap-3 bg-ink px-5 py-4 label-lg text-bone transition-colors hover:bg-ember"
-          >
-            {td("register")}
-            <span
-              aria-hidden
-              className="transition-transform group-hover:translate-x-1"
-            >
-              →
-            </span>
-          </a>
         </div>
       </div>
     </section>

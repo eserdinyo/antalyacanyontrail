@@ -5,7 +5,7 @@ import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { useTransition } from "react";
 
-export function LangSwitcher() {
+export function LangSwitcher({ inverted = false }: { inverted?: boolean }) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -28,14 +28,18 @@ export function LangSwitcher() {
                 startTransition(() => router.replace(pathname, { locale: l }));
               }}
               className={`transition-colors ${
-                active ? "text-ember" : "text-ink-soft hover:text-ink"
+                active
+                  ? "text-ember"
+                  : inverted
+                    ? "text-bone/60 hover:text-bone"
+                    : "text-ink-soft hover:text-ink"
               }`}
               aria-pressed={active}
             >
               {l.toUpperCase()}
             </button>
             {i < routing.locales.length - 1 && (
-              <span className="text-ink-soft">/</span>
+              <span className={inverted ? "text-bone/40" : "text-ink-soft"}>/</span>
             )}
           </span>
         );

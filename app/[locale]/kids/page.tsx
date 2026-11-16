@@ -4,7 +4,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { KIDS_REGISTER_URL } from "@/lib/event";
 
 export async function generateMetadata({
   params,
@@ -106,24 +105,6 @@ export default async function KidsPage({
                   </dd>
                 </div>
               </dl>
-
-              <div className="flex flex-col gap-4">
-                <a
-                  href={KIDS_REGISTER_URL}
-                  target="_blank"
-                  rel="noopener"
-                  className="group inline-flex w-full items-center justify-center gap-3 bg-ember px-6 py-4 label-lg text-bone transition-colors hover:bg-ember-deep sm:w-auto sm:self-start sm:px-10"
-                >
-                  <span className="block h-1.5 w-1.5 rounded-full bg-bone" />
-                  {t("register")}
-                  <span
-                    aria-hidden
-                    className="transition-transform group-hover:translate-x-1"
-                  >
-                    →
-                  </span>
-                </a>
-              </div>
             </div>
           </div>
         </section>

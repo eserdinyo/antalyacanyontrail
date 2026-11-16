@@ -4,10 +4,7 @@
     "description": "Toroslar'ın kanyonlarında patika koşusu — 13-15 Kasım 2026"
   },
   "Nav": {
-    "dates": "13-15 KASIM",
     "datesNav": "Tarih",
-    "register": "KAYIT OL",
-    "registerMenu": "Kayıt Ol",
     "races": "YARIŞLAR",
     "courses": "Parkurlar",
     "course7": "7K My Pace Run",
@@ -35,19 +32,7 @@
   },
   "Hero": {
     "kicker": "Ritmini kanyonun",
-    "tagline": "kalbinde yakala",
-    "dateRange": "13-15 KASIM 2026",
-    "datesLabel": "TARİHLER",
-    "register": "KAYIT OL"
-  },
-  "Countdown": {
-    "title": "GERİ SAYIM",
-    "subtitle": "BAŞLANGIÇ ÇİZGİSİ · YEREL SAATLE 07.00",
-    "months": "AY",
-    "days": "GÜN",
-    "hours": "SAAT",
-    "minutes": "DAKİKA",
-    "seconds": "SANİYE"
+    "tagline": "kalbinde yakala"
   },
   "About": {
     "sectionLabel": "§ 01 · ETKİNLİK",
@@ -127,7 +112,6 @@
     "downloadShort": "GPX",
     "downloadSoon": "GPX yakında",
     "otherRaces": "Diğer mesafeler",
-    "register": "Kayıt Ol",
     "tba": "Yakında",
     "cpTitle": "İstasyonlar",
     "cpNote": "Tırmanma ve iniş değerleri mevcut rota verisinden hesaplanmıştır; ITRA verileri kesinleştiğinde güncellenecektir.",
@@ -187,7 +171,7 @@
   "Kids": {
     "eyebrow": "WODECO CANYON KIDS",
     "title": "Çocuk Koşusu",
-    "metaDescription": "Wodeco Canyon Kids: Antalya Canyon Ultra çocuk koşusu. Start saati, kit dağıtımı ve kayıt.",
+    "metaDescription": "Wodeco Canyon Kids: Antalya Canyon Ultra çocuk koşusu. Start saati ve kit dağıtımı.",
     "lede": "İlk Patika Hikâyem! Antalya Canyon Ultra'nın en genç koşucuları, 15 Kasım Pazar sabahı patikada.",
     "imageAlt": "Kırmızı tişörtlü çocuklar orman patikasında koşuyor",
     "startLabel": "Start",
@@ -199,7 +183,25 @@
     "kitSlot1Date": "14 Kasım Cumartesi · 10.00–20.00",
     "kitSlot1Detail": "Düzlerçamı Güver Uçurumu",
     "kitSlot2Date": "15 Kasım Pazar · 09.00–10.00",
-    "kitSlot2Detail": "Yarış sabahı",
-    "register": "KAYIT OL"
+    "kitSlot2Detail": "Yarış sabahı"
+  },
+  "Results": {
+    "metaTitle": "Sonuçlar",
+    "eyebrow": "Antalya Canyon Ultra 2026",
+    "title": "Sonuçlar",
+    "lede": "Onaylanan resmi sonuçlar PDF olarak burada yayınlanır.",
+    "women": "Kadınlar",
+    "men": "Erkekler",
+    "overall": "Genel Sonuç",
+    "pdf": "PDF",
+    "saturday": "14 Kasım 2026",
+    "sunday": "15 Kasım 2026"
+  },
+  "RaceFinished": {
+    "title": "Antalya Canyon Ultra 2026 Sona Erdi",
+    "hashtag": "#ACU2026 sona erdi!",
+    "body": "Sonuçlarınıza aşağıdaki bağlantıdan ulaşabilirsiniz.",
+    "cta": "Sonuçları Görüntüle",
+    "close": "Kapat"
   }
 }
