@@ -57,17 +57,6 @@ const CO_SPONSORS: Sponsor[] = [
   },
 ];
 
-const PRODUCT_SPONSORS: Sponsor[] = [
-  {
-    name: "Gorilla Energy Drink",
-    src: "/logos/gorilla-energy.webp",
-    width: 1000,
-    height: 808,
-    href: "https://www.instagram.com/gorillaenergy",
-    className: "h-12 sm:h-14",
-  },
-];
-
 const CSR_PARTNERS: Sponsor[] = [
   {
     name: "Kırmızı Kasklılar Arama Kurtarma",
@@ -209,12 +198,6 @@ export function Sponsors() {
           count={6}
           size="sm"
           sponsors={CO_SPONSORS}
-        />
-        <Tier
-          label={t("product")}
-          count={PRODUCT_SPONSORS.length}
-          size="sm"
-          sponsors={PRODUCT_SPONSORS}
         />
         <InstitutionTier label={t("official")} />
         <Tier
