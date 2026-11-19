@@ -198,6 +198,14 @@
     "saturday": "14 Kasım 2026",
     "sunday": "15 Kasım 2026"
   },
+  "Photos": {
+    "metaTitle": "Fotoğraflar",
+    "eyebrow": "Medya",
+    "title": "Fotoğraflar",
+    "lede": "Antalya Canyon Ultra fotoğraflarını yıllara göre buradan inceleyebilirsiniz.",
+    "mainAlbum": "Ana Albüm",
+    "dayAlbum": "{day}. Gün · Albüm {n}"
+  },
   "PhotosModal": {
     "title": "Yarış Fotoğrafları Yayında",
     "hashtag": "#ACU2026 sona erdi!",

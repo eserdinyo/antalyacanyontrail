@@ -62,7 +62,7 @@ export function Header() {
     {
       label: t("media"),
       items: [
-        { label: t("photos"), disabled: true },
+        { href: "/photos", label: t("photos") },
         { label: t("videos"), disabled: true },
         { label: t("press"), disabled: true },
       ],
