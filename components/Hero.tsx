@@ -39,20 +39,26 @@ export function Hero() {
           </h1>
         </div>
 
-        {/* bottom row — partner logos on left, race badges on right, centred on one line */}
-        <div className="flex flex-col gap-10 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
-          <div className="reveal delay-3 flex flex-wrap items-center gap-6 sm:gap-8">
+        {/* bottom row — logos + dates on left, race badges on right */}
+        <div className="flex flex-col gap-10 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
+          <div className="reveal delay-3 flex flex-col gap-6 sm:gap-8">
             <Image
               src="/logos/utmb.png"
               alt="UTMB Index"
               width={905}
               height={217}
-              className="h-10 w-auto"
+              className="h-10 w-auto self-start"
             />
+            <div>
+              <div className="label text-bone/60">{t("datesLabel")}</div>
+              <div className="mt-1 font-display text-xl tracking-tight sm:text-3xl">
+                {t("dateRange")}
+              </div>
+            </div>
           </div>
 
           {/* race badges — desktop only */}
-          <div className="reveal delay-5 hidden sm:flex sm:flex-row sm:items-center sm:justify-end sm:gap-4">
+          <div className="reveal delay-5 hidden sm:flex sm:flex-row sm:items-end sm:justify-end sm:gap-4">
             {RACES.map((race) => (
               <RaceBadge key={race.code} race={race} size="md" />
             ))}

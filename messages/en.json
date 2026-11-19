@@ -1,7 +1,7 @@
 {
   "Meta": {
     "title": "Antalya Canyon Ultra",
-    "description": "Trail running through the canyons of the Taurus mountains — November 13-15, 2026"
+    "description": "Trail running through the canyons of the Taurus mountains — November 12-14, 2027"
   },
   "Nav": {
     "datesNav": "Date",
@@ -32,7 +32,9 @@
   },
   "Hero": {
     "kicker": "Catch your rhythm",
-    "tagline": "in the canyon's heart"
+    "tagline": "in the canyon's heart",
+    "datesLabel": "DATES",
+    "dateRange": "NOVEMBER 12–14, 2027"
   },
   "About": {
     "sectionLabel": "§ 01 · THE EVENT",
