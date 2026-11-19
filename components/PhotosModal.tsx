@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { X } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { PHOTOS_URL } from "@/lib/event";
 
 export function PhotosModal() {
@@ -79,16 +80,25 @@ export function PhotosModal() {
           {t("body")}
         </p>
 
-        <a
-          ref={ctaRef}
-          href={PHOTOS_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={() => setOpen(false)}
-          className="mt-7 inline-flex h-12 items-center justify-center rounded-full bg-ember px-8 label-lg text-[13px]! font-black! tracking-[0.1em] text-bone transition-colors hover:bg-shadow-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70 focus-visible:ring-offset-2"
-        >
-          {t("cta")}
-        </a>
+        <div className="mt-7 flex flex-col items-center gap-3">
+          <a
+            ref={ctaRef}
+            href={PHOTOS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="inline-flex min-h-12 w-full max-w-sm items-center justify-center rounded-full bg-ember px-6 py-2 label-lg text-[13px]! font-black! tracking-[0.1em] text-bone transition-colors hover:bg-shadow-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70 focus-visible:ring-offset-2"
+          >
+            {t("cta")}
+          </a>
+          <Link
+            href="/photos"
+            onClick={() => setOpen(false)}
+            className="inline-flex min-h-12 w-full max-w-sm items-center justify-center rounded-full border-2 border-ink/15 px-6 py-2 label-lg text-[13px]! font-black! tracking-[0.1em] text-ink transition-colors hover:border-ember hover:text-ember focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70 focus-visible:ring-offset-2"
+          >
+            {t("albums")}
+          </Link>
+        </div>
       </div>
     </div>
   );
