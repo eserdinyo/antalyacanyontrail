@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { X } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { PHOTOS_URL } from "@/lib/event";
 
-export function RaceFinishedModal() {
-  const t = useTranslations("RaceFinished");
+export function PhotosModal() {
+  const t = useTranslations("PhotosModal");
   const [open, setOpen] = useState(false);
   const ctaRef = useRef<HTMLAnchorElement>(null);
 
@@ -39,7 +39,7 @@ export function RaceFinishedModal() {
       className="fixed inset-0 z-[200] flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
-      aria-labelledby="race-finished-title"
+      aria-labelledby="photos-modal-title"
     >
       <div
         className="absolute inset-0 bg-shadow-deep/70 backdrop-blur-sm"
@@ -68,7 +68,7 @@ export function RaceFinishedModal() {
         </div>
 
         <h2
-          id="race-finished-title"
+          id="photos-modal-title"
           className="mt-6 font-display text-2xl uppercase leading-tight sm:text-3xl"
         >
           {t("title")}
@@ -79,14 +79,16 @@ export function RaceFinishedModal() {
           {t("body")}
         </p>
 
-        <Link
+        <a
           ref={ctaRef}
-          href="/results"
+          href={PHOTOS_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           onClick={() => setOpen(false)}
           className="mt-7 inline-flex h-12 items-center justify-center rounded-full bg-ember px-8 label-lg text-[13px]! font-black! tracking-[0.1em] text-bone transition-colors hover:bg-shadow-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70 focus-visible:ring-offset-2"
         >
           {t("cta")}
-        </Link>
+        </a>
       </div>
     </div>
   );

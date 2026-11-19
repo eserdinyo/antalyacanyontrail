@@ -198,11 +198,11 @@
     "saturday": "14 Kasım 2026",
     "sunday": "15 Kasım 2026"
   },
-  "RaceFinished": {
-    "title": "Antalya Canyon Ultra 2026 Sona Erdi",
+  "PhotosModal": {
+    "title": "Yarış Fotoğrafları Yayında",
     "hashtag": "#ACU2026 sona erdi!",
-    "body": "Sonuçlarınıza aşağıdaki bağlantıdan ulaşabilirsiniz.",
-    "cta": "Sonuçları Görüntüle",
+    "body": "Antalya Canyon Ultra 2026 fotoğraflarınıza aşağıdaki bağlantıdan ulaşabilirsiniz.",
+    "cta": "Fotoğrafları Görüntüle",
     "close": "Kapat"
   }
 }

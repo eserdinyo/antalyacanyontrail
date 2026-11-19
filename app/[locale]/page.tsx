@@ -5,7 +5,7 @@ import { About } from "@/components/About";
 import { RaceCategories } from "@/components/RaceCategories";
 import { Sponsors } from "@/components/Sponsors";
 import { Footer } from "@/components/Footer";
-import { RaceFinishedModal } from "@/components/RaceFinishedModal";
+import { PhotosModal } from "@/components/PhotosModal";
 
 export default async function HomePage({
   params,
@@ -25,7 +25,7 @@ export default async function HomePage({
         <Sponsors />
       </main>
       <Footer />
-      <RaceFinishedModal />
+      <PhotosModal />
     </>
   );
 }
