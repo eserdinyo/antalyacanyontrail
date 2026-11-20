@@ -202,7 +202,12 @@
     "metaTitle": "Fotoğraflar",
     "eyebrow": "Medya",
     "title": "Fotoğraflar",
-    "lede": "Antalya Canyon Ultra fotoğraflarını yıllara göre buradan inceleyebilirsiniz.",
+    "lede": "Antalya Canyon Ultra fotoğraflarına yüz tanıma ile ya da Google Drive albümlerinden ulaşabilirsiniz.",
+    "faceTitle": "Yüz Tanıma ile Fotoğraflarını Bul",
+    "faceBody": "Bir selfie yükle; yarışta çekilen fotoğrafların arasından sana ait olanlar otomatik olarak bulunsun.",
+    "faceCta": "Fotoğraflarını Bul",
+    "driveTitle": "Google Drive'dan Fotoğraflarını Bul",
+    "driveBody": "Yarış günlerine göre ayrılmış albümlerde tüm fotoğraflara göz at.",
     "mainAlbum": "Ana Albüm",
     "dayAlbum": "{day}. Gün · Albüm {n}"
   },
@@ -210,8 +215,7 @@
     "title": "Yarış Fotoğrafları Yayında",
     "hashtag": "#ACU2026 sona erdi!",
     "body": "Antalya Canyon Ultra 2026 fotoğraflarınıza aşağıdaki bağlantıdan ulaşabilirsiniz.",
-    "cta": "Fotoğrafını Bul",
-    "albums": "Tüm Albümler",
+    "cta": "Fotoğrafları Görüntüle",
     "close": "Kapat"
   }
 }

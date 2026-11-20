@@ -202,7 +202,12 @@
     "metaTitle": "Photos",
     "eyebrow": "Media",
     "title": "Photos",
-    "lede": "Browse Antalya Canyon Ultra photos by year.",
+    "lede": "Find Antalya Canyon Ultra photos with face recognition or browse the Google Drive albums.",
+    "faceTitle": "Find Your Photos with Face Recognition",
+    "faceBody": "Upload a selfie and the race photos you appear in are found for you automatically.",
+    "faceCta": "Find Your Photos",
+    "driveTitle": "Find Your Photos on Google Drive",
+    "driveBody": "Browse every photo in albums sorted by race day.",
     "mainAlbum": "Main Album",
     "dayAlbum": "Day {day} · Album {n}"
   },
@@ -210,8 +215,7 @@
     "title": "Race Photos Are Live",
     "hashtag": "#ACU2026 is a wrap!",
     "body": "Find your Antalya Canyon Ultra 2026 photos at the link below.",
-    "cta": "Find Your Photos",
-    "albums": "All Albums",
+    "cta": "View Photos",
     "close": "Close"
   }
 }

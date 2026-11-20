@@ -372,6 +372,6 @@ export const RACES: Race[] = [
 
 export const HERO_IMAGE = "/races/hero.jpeg";
 
-/* official race photo gallery (Facerog) */
-export const PHOTOS_URL = "https://app.facerog.com/e/1s8hwlp4hC18Xfic";
+/* Facerog face-recognition photo search for the 2026 race */
+export const FACE_SEARCH_URL = "https://app.facerog.com/e/1s8hwlp4hC18Xfic";
 

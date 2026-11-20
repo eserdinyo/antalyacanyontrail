@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowUpRight, Images } from "lucide-react";
+import { ArrowUpRight, FolderOpen, ScanFace } from "lucide-react";
 
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { FACE_SEARCH_URL } from "@/lib/event";
 
 const DRIVE = "https://drive.google.com/drive/folders/";
 
@@ -12,11 +13,18 @@ const DRIVE = "https://drive.google.com/drive/folders/";
  *  edition's main album. */
 type PhotoAlbum = { folderId: string; day?: 1 | 2; n?: number };
 
-type PhotoYear = { year: number; albums: PhotoAlbum[] };
+type PhotoYear = {
+  year: number;
+  /** Facerog event page: runners find their photos with a selfie. */
+  faceSearchUrl?: string;
+  /** Google Drive folders, shown as buttons on the Drive card. */
+  albums: PhotoAlbum[];
+};
 
 const YEARS: PhotoYear[] = [
   {
     year: 2026,
+    faceSearchUrl: FACE_SEARCH_URL,
     albums: [
       { folderId: "1K9fyjsnLY6_X7UhH67vp5s88igx6N7R6" },
       { folderId: "1zBYjrB7-oFgDxG-LtNzPwA5B7NgnzMqx", day: 1, n: 1 },
@@ -81,11 +89,8 @@ export default async function PhotosPage({
 
         <section className="border-b border-line bg-page">
           <div className="mx-auto grid max-w-[1400px] gap-6 px-5 py-14 sm:px-8 sm:py-20">
-            {YEARS.map(({ year, albums }) => (
-              <article
-                key={year}
-                className="grid gap-6 border border-line bg-paper p-6 sm:p-8"
-              >
+            {YEARS.map(({ year, faceSearchUrl, albums }) => (
+              <article key={year} className="grid gap-6">
                 <div>
                   <p className="label text-ember">Antalya Canyon Ultra</p>
                   <h2 className="mt-3 font-display text-4xl leading-none tracking-tight sm:text-5xl">
@@ -93,22 +98,67 @@ export default async function PhotosPage({
                   </h2>
                 </div>
 
-                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  {albums.map((album) => (
-                    <a
-                      key={album.folderId}
-                      href={DRIVE + album.folderId}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group inline-flex min-h-12 items-center justify-center gap-2 border border-line bg-page px-5 py-3 label-lg text-[13px]! transition-colors hover:border-ember hover:bg-ember hover:text-bone focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70"
-                    >
-                      <Images size={17} strokeWidth={2} aria-hidden />
-                      {album.day
-                        ? t("dayAlbum", { day: album.day, n: album.n ?? 1 })
-                        : t("mainAlbum")}
-                      <ArrowUpRight size={16} strokeWidth={2} aria-hidden />
-                    </a>
-                  ))}
+                <div className="grid gap-6 lg:grid-cols-2">
+                  {faceSearchUrl && (
+                    <div className="flex flex-col gap-6 border border-line bg-paper p-6 sm:p-8">
+                      <ScanFace
+                        size={40}
+                        strokeWidth={1.5}
+                        className="text-ember"
+                        aria-hidden
+                      />
+                      <div>
+                        <h3 className="font-display text-2xl leading-tight tracking-tight sm:text-3xl">
+                          {t("faceTitle")}
+                        </h3>
+                        <p className="mt-3 max-w-md text-[15px] leading-relaxed text-ink-soft">
+                          {t("faceBody")}
+                        </p>
+                      </div>
+                      <a
+                        href={faceSearchUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-auto group inline-flex min-h-12 items-center justify-center gap-2 border border-line bg-page px-5 py-3 label-lg text-[13px]! transition-colors hover:border-ember hover:bg-ember hover:text-bone focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70"
+                      >
+                        {t("faceCta")}
+                        <ArrowUpRight size={16} strokeWidth={2} aria-hidden />
+                      </a>
+                    </div>
+                  )}
+
+                  <div className="flex flex-col gap-6 border border-line bg-paper p-6 sm:p-8">
+                    <FolderOpen
+                      size={40}
+                      strokeWidth={1.5}
+                      className="text-ember"
+                      aria-hidden
+                    />
+                    <div>
+                      <h3 className="font-display text-2xl leading-tight tracking-tight sm:text-3xl">
+                        {t("driveTitle")}
+                      </h3>
+                      <p className="mt-3 max-w-md text-[15px] leading-relaxed text-ink-soft">
+                        {t("driveBody")}
+                      </p>
+                    </div>
+                    <div className="mt-auto grid gap-3 sm:grid-cols-2">
+                      {albums.map((album) => (
+                        <a
+                          key={album.folderId}
+                          href={DRIVE + album.folderId}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group inline-flex min-h-12 items-center justify-center gap-2 border border-line bg-page px-5 py-3 label-lg text-[13px]! transition-colors hover:border-ember hover:bg-ember hover:text-bone focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember/70"
+                        >
+                          {album.day
+                            ? t("dayAlbum", { day: album.day, n: album.n ?? 1 })
+                            : t("mainAlbum")}
+                          <ArrowUpRight size={16} strokeWidth={2} aria-hidden />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </article>
             ))}
