@@ -42,7 +42,7 @@ export const RACE_RULES: RuleSection[] = [
         items: [
           "Yarışma, 7K parkuru hariç, 18 yaş ve üzerindeki tüm katılımcılara açıktır. 7K parkuru ise kendi içinde 12-17 yaş grubu ve 18+ yaş grubu olmak üzere iki ayrı kategori olarak değerlendirilecek ve bu gruplar için ayrı kürsü törenleri icra edilecektir.",
           "7K parkurunda 12-17 yaşındaki sporcular veli izin dilekçesi ile yarışabilir.",
-          "22K, 36K, 45K ve 70K parkurlarında yarışacak sporcuların; son 6 ay içerisinde alınmış sağlık raporuna veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları zorunludur. (7K ve 13K parkurları için sağlık raporu veya lisans zorunluluğu bulunmamaktadır.)",
+          "22K, 36K, 45K ve 77K parkurlarında yarışacak sporcuların; son 6 ay içerisinde alınmış sağlık raporuna veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları zorunludur. (7K ve 13K parkurları için sağlık raporu veya lisans zorunluluğu bulunmamaktadır.)",
           "Organizasyon gerekli gördüğü durumlarda sağlık raporu talep etme hakkına sahiptir.",
           "Katılımcılar kayıt yaptırarak yarışın fiziksel ve mental risklerini kabul etmiş sayılır.",
         ],
@@ -69,7 +69,7 @@ export const RACE_RULES: RuleSection[] = [
           "22K Forest Trail: Normal Kayıt (28 Ağustos - 25 Ekim): 3.550 ₺",
           "36K Alageyik Trail: Erken Kayıt (20 Temmuz - 31 Temmuz): 3.150 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 3.650 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 4.150 ₺",
           "45K Antalya Goat Ultra: Erken Kayıt (20 Temmuz - 31 Temmuz): 3.750 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 4.250 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 4.850 ₺",
-          "70K Antalya Termessos Ultra: Erken Kayıt (20 Temmuz - 31 Temmuz): 4.500 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 5.000 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 5.750 ₺",
+          "77K Antalya Termessos Ultra: Erken Kayıt (20 Temmuz - 31 Temmuz): 4.500 ₺ | Normal Kayıt (1 Ağustos - 24 Eylül): 5.000 ₺ | Geç Kayıt (25 Eylül - 25 Ekim): 5.750 ₺",
         ],
       },
       {
@@ -122,7 +122,7 @@ export const RACE_RULES: RuleSection[] = [
         type: "list",
         items: [
           "Yarış kitleri yalnızca kayıtlı sporculara teslim edilir.",
-          "Kit teslimi sırasında: kimlik/pasaport, zorunlu malzemeler, sağlık/lisans belgeleri kontrol edilir. (Sağlık raporu veya lisans yükümlülüğü sadece 22K, 36K, 45K ve 70K sporcuları için geçerlidir.)",
+          "Kit teslimi sırasında: kimlik/pasaport, zorunlu malzemeler, sağlık/lisans belgeleri kontrol edilir. (Sağlık raporu veya lisans yükümlülüğü sadece 22K, 36K, 45K ve 77K sporcuları için geçerlidir.)",
           "Zorunlu malzemelerini ibraz etmeyen sporcular yarışa alınmayabilir.",
           "Kit teslim saatleri organizasyon programında ayrıca duyurulur.",
         ],
@@ -164,14 +164,14 @@ export const RACE_RULES: RuleSection[] = [
       {
         type: "list",
         items: [
-          "Cep Telefonu: Bataryası tam dolu, yarış öncesi organizasyon tarafından verilecek acil durum numaraları kaydedilmiş ve hat numarası gizlenmemiş olmalıdır. (22K, 36K, 45K, 70K)",
-          "Su Taşıma Sistemi: En az 1 litre kapasiteli su torbası (hydration bladder) veya soft flask/matara (22K, 36K, 45K, 70K).",
+          "Cep Telefonu: Bataryası tam dolu, yarış öncesi organizasyon tarafından verilecek acil durum numaraları kaydedilmiş ve hat numarası gizlenmemiş olmalıdır. (22K, 36K, 45K, 77K)",
+          "Su Taşıma Sistemi: En az 1 litre kapasiteli su torbası (hydration bladder) veya soft flask/matara (22K, 36K, 45K, 77K).",
           "Bardak veya Soft Flask: Çevre bilinci nedeniyle istasyonlarda plastik bardak bulundurulmayacaktır. Sporcuların sıcak/soğuk içecekler için kendi bardaklarını taşımaları zorunludur. (Tüm Parkurlar)",
-          "Yağmurluk / Rüzgarlık: Dağdaki ani hava değişimlerine karşı, kapüşonlu ve su/rüzgar geçirmez özellikte olmalıdır. (36K, 45K, 70K)",
-          "Acil Durum Battaniyesi (Termal Battaniye): En az 1.40m x 2m ölçülerinde olmalıdır. (36K, 45K, 70K)",
-          "Düdük: Kolayca ulaşılabilecek bir yerde (tercihen çanta askısında) olmalıdır. (22K, 36K, 45K, 70K)",
-          "Kafa Lambası: Yedek pilleri veya şarj kablosu (batarya gerekir) ile birlikte. (70K Parkuru için)",
-          "İlk Yardım Seti: Elastik bandaj, yara bandı vs bulunmalıdır. (22K, 36K, 45K, 70K)",
+          "Yağmurluk / Rüzgarlık: Dağdaki ani hava değişimlerine karşı, kapüşonlu ve su/rüzgar geçirmez özellikte olmalıdır. (36K, 45K, 77K)",
+          "Acil Durum Battaniyesi (Termal Battaniye): En az 1.40m x 2m ölçülerinde olmalıdır. (36K, 45K, 77K)",
+          "Düdük: Kolayca ulaşılabilecek bir yerde (tercihen çanta askısında) olmalıdır. (22K, 36K, 45K, 77K)",
+          "Kafa Lambası: Yedek pilleri veya şarj kablosu (batarya gerekir) ile birlikte. (77K Parkuru için)",
+          "İlk Yardım Seti: Elastik bandaj, yara bandı vs bulunmalıdır. (22K, 36K, 45K, 77K)",
         ],
       },
       {

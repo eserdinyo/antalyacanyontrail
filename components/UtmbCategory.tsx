@@ -8,6 +8,7 @@ import type { Race } from "@/lib/event";
 const BADGE: Record<NonNullable<Race["utmbCategory"]>, string> = {
   "20K": "/logos/utmb-20k.svg",
   "50K": "/logos/utmb-50k.svg",
+  "100K": "/logos/utmb-100k.svg",
 };
 
 /* Intrinsic artwork is 676.89x218.65 (~3.1:1). Heights match ItraPoints so

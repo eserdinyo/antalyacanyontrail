@@ -24,7 +24,7 @@ export type RouteRules = {
 
 export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
   "antalya-termessos-ultra": {
-    title: "ANTALYA CANYON ULTRA - 70K ANTALYA TERMESSOS ULTRA",
+    title: "ANTALYA CANYON ULTRA - 77K ANTALYA TERMESSOS ULTRA",
     subtitle: "Katılım Koşulları ve Yarışma Kuralları",
     sections: [
       {
@@ -33,7 +33,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Antalya Canyon Ultra kapsamında koşulacak 70K Antalya Termessos Ultra, yaklaşık 70 km uzunluğunda ve 2037m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23.45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
+            text: "Antalya Canyon Ultra kapsamında koşulacak 77K Antalya Termessos Ultra, yaklaşık 77 km uzunluğunda ve 2382m+ tırmanış içeren, en üst seviye ultra maraton patika koşusudur. Koşu, 14 Kasım 2026 tarihinde saat 08.00'de start alanından başlar. Katılımcıların kısmi yeterlilik esasına göre, 15 saat 45 dakika (Zaman sınırı: 23.45) içerisinde parkuru tamamlamaları gereklidir. Kısmi yeterlilik, katılımcıların karşılaşabilecekleri doğa ve arazi koşullarında güvenli bir şekilde koşularına devam etmelerine olanak sağlayacak malzemeleri yanlarında taşımaları anlamına gelmektedir.",
           },
         ],
       },
@@ -43,7 +43,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "70K Antalya Termessos Ultra parkuruna katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
+            text: "77K Antalya Termessos Ultra parkuruna katılacak tüm sporcuların; son 6 ay içerisinde alınmış geçerli bir sağlık raporuna (üzerinde 'Atletizm, Koşu veya Dağcılık branşlarında spor yapmasında sakınca yoktur' ibaresi olan) veya Atletizm, Triatlon, Dağcılık, Oryantiring ya da Bisiklet Federasyonlarından alınmış geçerli (vize süresi dolmamış) bir sporcu lisansına sahip olmaları ve bunu kit dağıtımı esnasında ibraz etmeleri zorunludur. Koşuya 18 yaş ve üzerindeki tüm katılımcılar katılabilir.",
           },
         ],
       },
@@ -71,7 +71,7 @@ export const ROUTE_RULES: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen resmi saatlerde 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır. 70K Antalya Termessos Ultra sporcuları için ara nokta destek çantası (Drop Bag) teslim etme hakkı bulunmaktadır. Drop Bag çantaları 14 Kasım sabahı 06.00 - 07.20 saatleri arasında teslim alınacaktır.",
+            text: "Katılımcıların göğüs numarası, zaman ölçüm çipleri ve malzemelerini içeren koşu paketlerini ilan edilen resmi saatlerde 'Yarış Ofisi'nden teslim almaları gerekmektedir. Kit teslimi sırasında sağlık raporu/lisans kontrolü ve zorunlu malzeme kontrolleri eksiksiz yapılacaktır. 77K Antalya Termessos Ultra sporcuları için ara nokta destek çantası (Drop Bag) teslim etme hakkı bulunmaktadır. Drop Bag çantaları 14 Kasım sabahı 06.00 - 07.20 saatleri arasında teslim alınacaktır.",
           },
         ],
       },

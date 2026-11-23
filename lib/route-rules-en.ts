@@ -3,7 +3,7 @@ import type { RouteRules } from "./route-rules";
 
 export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
   "antalya-termessos-ultra": {
-    title: "ANTALYA CANYON ULTRA - 70K ANTALYA TERMESSOS ULTRA",
+    title: "ANTALYA CANYON ULTRA - 77K ANTALYA TERMESSOS ULTRA",
     subtitle: "Participation Terms and Race Rules",
     sections: [
       {
@@ -12,7 +12,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "The 70K Antalya Termessos Ultra, run as part of Antalya Canyon Ultra, is a top-level ultra-marathon trail race approximately 70 km long with 2037m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 15 hours 45 minutes (time limit: 23:45). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
+            text: "The 77K Antalya Termessos Ultra, run as part of Antalya Canyon Ultra, is a top-level ultra-marathon trail race approximately 77 km long with 2382m+ of climbing. The race starts from the start area at 08:00 on 14 November 2026. Under the principle of partial self-sufficiency, participants must complete the course within 15 hours 45 minutes (time limit: 23:45). Partial self-sufficiency means participants carry the equipment that allows them to continue running safely in the nature and terrain conditions they may encounter.",
           },
         ],
       },
@@ -22,7 +22,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "All athletes taking part in the 70K Antalya Termessos Ultra must hold either a valid medical certificate issued within the last 6 months (stating they are fit to practice athletics, running or mountaineering) or a valid (non-expired) athlete licence issued by the Athletics, Triathlon, Mountaineering, Orienteering or Cycling federations, and must present it during kit distribution. The race is open to all participants aged 18 and over.",
+            text: "All athletes taking part in the 77K Antalya Termessos Ultra must hold either a valid medical certificate issued within the last 6 months (stating they are fit to practice athletics, running or mountaineering) or a valid (non-expired) athlete licence issued by the Athletics, Triathlon, Mountaineering, Orienteering or Cycling federations, and must present it during kit distribution. The race is open to all participants aged 18 and over.",
           },
         ],
       },
@@ -50,7 +50,7 @@ export const ROUTE_RULES_EN: Record<RaceSlug, RouteRules> = {
         content: [
           {
             type: "paragraph",
-            text: "Participants must collect their race packages containing bib number, timing chips and materials from the 'Race Office' during the announced official hours. Medical certificate/licence checks and mandatory equipment checks are carried out in full during kit collection. 70K Antalya Termessos Ultra athletes are entitled to hand in a mid-course support bag (drop bag). Drop bags will be collected on the morning of 14 November between 06:00 and 07:20.",
+            text: "Participants must collect their race packages containing bib number, timing chips and materials from the 'Race Office' during the announced official hours. Medical certificate/licence checks and mandatory equipment checks are carried out in full during kit collection. 77K Antalya Termessos Ultra athletes are entitled to hand in a mid-course support bag (drop bag). Drop bags will be collected on the morning of 14 November between 06:00 and 07:20.",
           },
         ],
       },

@@ -12,7 +12,7 @@
     "course22": "22K Forest Trail",
     "course36": "36K Alageyik Trail",
     "course45": "45K Antalya Goat Ultra",
-    "course70": "70K Antalya Termessos Ultra",
+    "course70": "77K Antalya Termessos Ultra",
     "courseKids": "Çocuk Koşusu",
     "info": "YARIŞ BİLGİSİ",
     "raceInfo": "Yarış Bilgisi",
@@ -40,7 +40,7 @@
     "sectionLabel": "§ 01 · ETKİNLİK",
     "title": "ANTALYA CANYON TRAIL",
     "locationLabel": "EST. 2026 · ANTALYA · TÜRKİYE",
-    "p1": "70K, 45K, 36K, 22K, 13K ve 7K etaplarıyla düzenlenecek olan Antalya Canyon Ultra, her seviyeden yerli ve yabancı sporcuyu Antalya'nın eşsiz doğasında buluşturuyor.",
+    "p1": "77K, 45K, 36K, 22K, 13K ve 7K etaplarıyla düzenlenecek olan Antalya Canyon Ultra, her seviyeden yerli ve yabancı sporcuyu Antalya'nın eşsiz doğasında buluşturuyor.",
     "p2": "Parkurlar; Güver Uçurumu, Güver Kanyonu, Kapuz Kanyonu, Karaman Çayı, Cennet Vadisi ve Doyran Göleti çevresindeki büyüleyici doğal güzelliklerden geçerken, sporculara teknik ve unutulmaz bir trail deneyimi sunuyor. Koşucular, Likya Yolu'nun tarihi patikalarında ilerleyerek Doyran Manastırı ve Neapolis Antik Kenti çevresindeki kültürel mirası keşfetme fırsatı bulacak. Beydağları'nın etkileyici manzarası eşliğinde gerçekleşecek bu özel organizasyon; doğa, tarih ve macerayı aynı parkurda bir araya getiriyor. Likya patikaları, antik kalıntılar ve Torosların derin kanyonları arasında uzanan bu parkurlar; yalnızca doğaseverleri değil, yıllar boyunca Yeşilçam'ın efsane sahnelerine ev sahipliği yapan benzersiz bir coğrafyayı da keşfe çıkarıyor. Antalya Canyon Ultra, sporcuları Güver Uçurumu'ndan Kapuz Kanyonu'na uzanan unutulmaz bir maceranın parçası olmaya davet ediyor.",
     "statDistance": "MESAFE",
     "statElevation": "YÜKSELTİ",
@@ -59,7 +59,7 @@
     "antalya-termessos-ultra": {
       "name": "Antalya Termessos Ultra",
       "tagline": "Ultra mesafe — gerçek ultra deneyim",
-      "description": "Yaklaşık 70 km uzunluğu ve 2037 m yükseklik kazanımı olan Antalya Termessos Ultra; %15 paths, %84 tracks ve %1 roads'tan oluşmaktadır."
+      "description": "Yaklaşık 77 km uzunluğu ve 2382 m yükseklik kazanımı olan Antalya Termessos Ultra; %15 paths, %84 tracks ve %1 roads'tan oluşmaktadır."
     },
     "antalya-goat-ultra": {
       "name": "Antalya Goat Ultra",
@@ -102,7 +102,7 @@
     "mapNote": "Parkurun tamamını yükselti ve arazi detaylarıyla keşfedin — Trace de Trail ile.",
     "mapUpdatingNote": "Parkur güncelleniyor — yeni harita yakında burada.",
     "mapUpdatingTitle": "Parkur haritası güncelleniyor",
-    "mapUpdatingBody": "70K parkurunun güncel haritası hazırlanıyor. Yeni rota ve GPX dosyası kısa süre içinde bu sayfada yayınlanacak.",
+    "mapUpdatingBody": "77K parkurunun güncel haritası hazırlanıyor. Yeni rota ve GPX dosyası kısa süre içinde bu sayfada yayınlanacak.",
     "axisElevation": "YÜKSELTİ · M",
     "axisDistance": "MESAFE · KM",
     "courseTitle": "Parkur",

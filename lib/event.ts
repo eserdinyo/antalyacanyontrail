@@ -74,8 +74,8 @@ export type Race = {
   itraPoints?: 1 | 2 | 3;
   /* UTMB Index race category — set only for courses that count towards the
      UTMB Index. Closed union: one badge asset exists per category in
-     public/logos/ (utmb-20k.svg, utmb-50k.svg). */
-  utmbCategory?: "20K" | "50K";
+     public/logos/ (utmb-20k.svg, utmb-50k.svg, utmb-100k.svg). */
+  utmbCategory?: "20K" | "50K" | "100K";
   /* TAF (kosu.taf.org.tr) registration page for this course */
   /* aid stations in course order, START first and FINISH last */
   checkpoints?: Checkpoint[];
@@ -94,7 +94,7 @@ const CANYON_MARATHON_PROFILE = [
   0.201, 0.202, 1, 0.567, 0.61, 0.415, 0.346, 0.273,
 ];
 
-// Values measured from the Garmin GPX: 70K Termessos Ultra — 75.4 km, ~2335 m gain (194–1063 m).
+// Values measured from the Garmin GPX: 77K Termessos Ultra — 75.4 km, ~2335 m gain (194–1063 m).
 const TERMESSOS_PROFILE = [
   0.128, 0.04, 0.109, 0.025, 0.142, 0.096, 0, 0.41,
   0.609, 1, 0.487, 0.028, 0.371, 0.282, 0.183, 0.126,
@@ -156,7 +156,7 @@ const GUVER_CP_PROFILE_M = [
   296,
 ];
 
-// 70K Termessos Ultra — act70-termessos-ultra.gpx (75.45 km) onto 70 km.
+// 77K Termessos Ultra — act70-termessos-ultra.gpx (75.45 km) onto 77.59 km.
 const TERMESSOS_CP_PROFILE_M = [
   298, 287, 286, 280, 272, 270, 265, 284, 278, 284, 285, 287, 294, 292, 228, 215, 219, 203,
   249, 311, 254, 200, 252, 238, 272, 240, 280, 249, 219, 195, 456, 534, 377, 461, 524, 510,
@@ -187,13 +187,13 @@ export const RACES: Race[] = [
   {
     code: "ACT70",
     slug: "antalya-termessos-ultra",
-    distanceKm: 70,
-    elevationM: 2037,
+    // Official UTMB figures: 77.59 km, 2382 m D+ / D-, UTMB Index 100K.
+    distanceKm: 77,
+    elevationM: 2382,
     itraPoints: 3,
-    utmbCategory: "50K",
-    // From the organiser's station sheet (70K, extended to 70 km for planning;
-    // the 64.97–70 km section assumes +100 m D+). Figures will be updated once
-    // ITRA confirms.
+    utmbCategory: "100K",
+    // Stations from the organiser's station sheet; FINISH carries the
+    // official UTMB distance and elevation.
     checkpoints: [
       { code: "START", km: 0, ascentM: 0, descentM: 0, services: [] },
       { code: "CP1", name: "Köpek Çiftliği", km: 8.61, ascentM: 133, descentM: 152, services: ["water", "food", "medical"] },
@@ -203,7 +203,7 @@ export const RACES: Race[] = [
       { code: "CP5", name: "Alabalık-2", km: 45.53, ascentM: 1381, descentM: 1465, services: ["water", "food", "medical", "dropBag"] },
       { code: "CP6", name: "Alageyik", km: 51.12, ascentM: 1745, descentM: 1471, services: ["water", "food", "medical"] },
       { code: "CP7", name: "Düzlerçamı", km: 57.37, ascentM: 1837, descentM: 1794, services: ["water", "food", "medical"] },
-      { code: "FINISH", km: 70, ascentM: 2037, descentM: 2039, services: [] },
+      { code: "FINISH", km: 77.59, ascentM: 2382, descentM: 2382, services: [] },
     ],
     checkpointProfileM: TERMESSOS_CP_PROFILE_M,
     color: "ember-deep",

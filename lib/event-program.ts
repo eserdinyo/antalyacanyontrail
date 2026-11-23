@@ -58,7 +58,7 @@ const tr: EventProgramContent = {
           title: "Kit dağıtımı & zorunlu malzeme kontrolü",
         },
         { time: "14.00–20.00", title: "Çocuk koşusu kit dağıtımı" },
-        { time: "18.00", title: "Teknik toplantı", races: "70K" },
+        { time: "18.00", title: "Teknik toplantı", races: "77K" },
         { time: "18.30", title: "Teknik toplantı", races: "45K" },
         { time: "19.00", title: "Teknik toplantı", races: "36K · 22K" },
         { time: "19.30", title: "Bilgilendirme", races: "13.5K · 7K" },
@@ -74,11 +74,11 @@ const tr: EventProgramContent = {
         {
           time: "06.00–07.15",
           title: "Kit dağıtımı",
-          races: "70K · 45K · 36K · 22K",
+          races: "77K · 45K · 36K · 22K",
         },
         { time: "06.00–07.20", title: "Drop Bag teslimi" },
         { time: "07.30", title: "Start seremonisi" },
-        { time: "08.00", races: "70K · 45K · 36K · 22K", start: true },
+        { time: "08.00", races: "77K · 45K · 36K · 22K", start: true },
         {
           time: "10.00–20.00",
           title: "Expo & kit dağıtımı",
@@ -89,7 +89,7 @@ const tr: EventProgramContent = {
         { race: "22K", time: "14.00" },
         { race: "36K", time: "17.00" },
         { race: "45K", time: "20.00" },
-        { race: "70K", time: "23.45" },
+        { race: "77K", time: "23.45" },
       ],
     },
     {
@@ -134,7 +134,7 @@ const en: EventProgramContent = {
         { time: "14:00–20:00", title: "Expo area", location: true },
         { time: "14:00–20:00", title: "Kit pickup & mandatory gear check" },
         { time: "14:00–20:00", title: "Kids run kit pickup" },
-        { time: "18:00", title: "Technical briefing", races: "70K" },
+        { time: "18:00", title: "Technical briefing", races: "77K" },
         { time: "18:30", title: "Technical briefing", races: "45K" },
         { time: "19:00", title: "Technical briefing", races: "36K · 22K" },
         { time: "19:30", title: "Briefing", races: "13.5K · 7K" },
@@ -150,11 +150,11 @@ const en: EventProgramContent = {
         {
           time: "06:00–07:15",
           title: "Kit pickup",
-          races: "70K · 45K · 36K · 22K",
+          races: "77K · 45K · 36K · 22K",
         },
         { time: "06:00–07:20", title: "Drop bag handover" },
         { time: "07:30", title: "Start ceremony" },
-        { time: "08:00", races: "70K · 45K · 36K · 22K", start: true },
+        { time: "08:00", races: "77K · 45K · 36K · 22K", start: true },
         {
           time: "10:00–20:00",
           title: "Expo & kit pickup",
@@ -165,7 +165,7 @@ const en: EventProgramContent = {
         { race: "22K", time: "14:00" },
         { race: "36K", time: "17:00" },
         { race: "45K", time: "20:00" },
-        { race: "70K", time: "23:45" },
+        { race: "77K", time: "23:45" },
       ],
     },
     {

@@ -16,7 +16,7 @@ type RaceResults = {
 const RESULTS: RaceResults[] = [
   {
     slug: "70k",
-    distance: "70K",
+    distance: "77K",
     name: "Termessos Ultra",
     day: "saturday",
   },
